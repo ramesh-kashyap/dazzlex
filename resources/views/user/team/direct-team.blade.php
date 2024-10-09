@@ -36,8 +36,13 @@
 <div class="account-tabs">
     <div class="account-tabs-white">
         <a href="#" onclick="return false;" data-tab="list" class="blocs3-tabs active">
+        <a href="#" onclick="return false;" data-tab="list" class="blocs3-tabs active">
             <b>Referral list</b>
         </a>
+        <a href="#" onclick="return false;" data-tab="statistic" class="blocs3-tabs">
+            <b>Statistics</b>
+        </a>
+       
         <a href="#" onclick="return false;" data-tab="statistic" class="blocs3-tabs">
             <b>Statistics</b>
         </a>
@@ -48,12 +53,10 @@
 
 
             <div class="account-tab tab-statistic">
-            <div class="account-tab tab-statistic">
             <div class="account-form account-form--2" style="margin-bottom: 0px;">
             <div class="caption caption--border" style="padding-bottom: 0px;">Statistics</div>
                                 <div class="account-notification" style="margin-top:20px; margin-bottom:0px">
                     <div class="i"><img src="{{asset('')}}assets/theme/images/netmi/upline-check.svg?v=3.22.1726217824" alt=""></div>
-                     <div class="m">Your Upline: <b class="c1" style="color:#fff">{{ Auth::user()->username }}</b></div>
                      <div class="m">Your Upline: <b class="c1" style="color:#fff">{{ Auth::user()->username }}</b></div>
                      <div class="d">
                      <div class="upline-contacts">
@@ -80,8 +83,6 @@
                             </form>
                                                         <div class="ref-box">
                                 <div class="status">
-                                    <div><span class="icons netmiicon-crown refIconStatus-starter"></span> <span class="ref-title">{{ $total_team }}</span><span class="ref-subtitle">Level Team</span></div>
-                                    <div><span class="icons netmiicon-partners"></span> <span class="ref-title">{{ $user_direct }}</span> <span class="ref-subtitle">Referral Team</span></div>
                                     <div><span class="icons netmiicon-crown refIconStatus-starter"></span> <span class="ref-title">{{ $total_team }}</span><span class="ref-subtitle">Level Team</span></div>
                                     <div><span class="icons netmiicon-partners"></span> <span class="ref-title">{{ $user_direct }}</span> <span class="ref-subtitle">Referral Team</span></div>
                                 </div>
@@ -156,7 +157,6 @@
             </div>
 
             <div class="account-tab tab-list active">
-            <div class="account-tab tab-list active">
 
                                 <div class="account-form account-form--2">
                 <div class="caption caption--border">Referral list</div>
@@ -174,32 +174,9 @@
                 <option value="2" {{ (request()->input('selected_level') == 2) ? 'selected' : '' }}>Level 2</option>
                 <option value="3" {{ (request()->input('selected_level') == 3) ? 'selected' : '' }}>Level 3</option>
             </select>
-               <select id="filter_level" class="js-select SumoUnder">
-                <option value="1" {{ (request()->input('selected_level') == 1) ? 'selected' : '' }}>Level 1</option>
-                <option value="2" {{ (request()->input('selected_level') == 2) ? 'selected' : '' }}>Level 2</option>
-                <option value="3" {{ (request()->input('selected_level') == 3) ? 'selected' : '' }}>Level 3</option>
-            </select>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-$(document).ready(function() {
-    $('#filter_level').change(function() {
-        var selectedLevel = $(this).val();
-        console.log(selectedLevel);
-        // Redirect to the referral team route with the selected level as a query parameter
-        window.location.href = '{{ route("user.referral-team") }}?selected_level=' + selectedLevel;
-    });
-});
-
-$(document).ready(function() {
-    $('#search-ref').on('keyup', function() {
-        var value = $(this).val().toLowerCase();
-        
-        $('#table_refs tbody tr').filter(function() {
-            $(this).toggle($(this).find('a.filter_ref').text().toLowerCase().indexOf(value) > -1);
-        });
-    });
 $(document).ready(function() {
     $('#filter_level').change(function() {
         var selectedLevel = $(this).val();
@@ -232,10 +209,7 @@ $(document).ready(function() {
                 <div class="g-right">
                     <label>Search</label>
                     <input type="text" class="inp inp-0" id="search-ref" placeholder="Username">
-                    <label>Search</label>
-                    <input type="text" class="inp inp-0" id="search-ref" placeholder="Username">
                 </div>
-                
                 
                 </div>
                 <h3 id="h3_referals" class="ref-users-filtre" style="margin-top: 10px">
