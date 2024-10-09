@@ -126,12 +126,12 @@
                 </div>
                 <div class="date">Main balance</div>
             </div>
-            <div class="head balance-right is-bonus">
+            <!-- <div class="head balance-right is-bonus">
                     <img src="{{asset('')}}assets/theme/images/netmi/bonus-wallet.svg?v=3.22.1726217824" alt="">
                 <div class="author balance_ndp">0.00 $
                 </div>
                 <div class="date">Premium balance</div>
-            </div>
+            </div> -->
             <div class="cls"></div>
         </div>
 
@@ -139,7 +139,7 @@
 
     <div class="b b--1">
         <button type="submit" class="btn btn-b" style="outline: none; color:#fff; text-decoration: none"
-           id="btn_add_new_deposit">Start Staking</button>
+           id="btn_add_new_deposit">Deposit</button>
     </div>
    </div>
 
