@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 87.796 47.7" width="87.796" height="47.7" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient xmlns="http://www.w3.org/2000/svg" id="grad2" x1="3%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0" style="stop-color:#dbbbe4;stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#ffffff;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient xmlns="http://www.w3.org/2000/svg" id="grad1" x1="3%" y1="80%" x2="100%" y2="0%">
+      <stop offset="0" style="stop-color:#954b9b;stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#7272ba;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <path d="M45.6 47.7H29.4L14.9 21.1s.3 5.2.3 8.6v18H0V0h16.9l13.8 26.6s-.3-5.2-.3-8.6V0h15.2v47.7zm83.6-35.5H118v35.5h-15.6V12.2H91.1V0h38.1v12.2zM189 47.7h-15.3l-.6-27.3-6.2 27.3h-13.5l-6.2-27.3-.6 27.3h-15.3L134.1 0h20l6 25.9L166.2 0h20l2.8 47.7zm21.1 0h-15.6V0h15.6v47.7z" fill="url(#grad2)"/>
+  <path d="M52.5 0h33.9v12.4H52.5zm.4 35.2h33.9v12.4H52.9zm34.4-11.3L76.9 13.4v4.2h-24v12.5h24v4.3z" fill="url(#grad1)"/>
+</svg>

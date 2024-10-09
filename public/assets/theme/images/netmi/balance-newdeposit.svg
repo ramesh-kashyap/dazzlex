@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#8e88a4" xmlns="http://www.w3.org/2000/svg">
+  <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+  <g id="SVGRepo_iconCarrier">
+    <path d="M16 6C16 4.11438 16 3.17157 15.4142 2.58579C14.8284 2 13.8856 2 12 2C10.1144 2 9.17157 2 8.58579 2.58579C8 3.17157 8 4.11438 8 6" stroke="#aa72ce" stroke-width="1.6799999999999997"/>
+  </g>
+  <g id="g-1" stroke-width="0" transform="matrix(1, 0, 0, 1, 0.266195, 2.125148)"/>
+  <g id="g-2" stroke-linecap="round" stroke-linejoin="round" transform="matrix(1, 0, 0, 1, 0.266195, 2.125148)"/>
+  <g id="g-3" transform="matrix(1, 0, 0, 1, 0.266195, 2.125148)">
+    <path d="M9 15L15 9" stroke="#8e88a4" stroke-width="1.56" stroke-linecap="round"/>
+    <path d="M15.5 14.5C15.5 15.0523 15.0523 15.5 14.5 15.5C13.9477 15.5 13.5 15.0523 13.5 14.5C13.5 13.9477 13.9477 13.5 14.5 13.5C15.0523 13.5 15.5 13.9477 15.5 14.5Z" fill="#8e88a4"/>
+    <path d="M10.5 9.5C10.5 10.0523 10.0523 10.5 9.5 10.5C8.94772 10.5 8.5 10.0523 8.5 9.5C8.5 8.94772 8.94772 8.5 9.5 8.5C10.0523 8.5 10.5 8.94772 10.5 9.5Z" fill="#8e88a4"/>
+  </g>
+  <g id="g-4" stroke-width="0" transform="matrix(1, 0, 0, 1, 2.311055, 1.610853)"/>
+  <g id="g-5" stroke-linecap="round" stroke-linejoin="round" transform="matrix(1, 0, 0, 1, 2.311055, 1.610853)"/>
+  <g id="g-6" transform="matrix(1, 0, 0, 1, 0.008502, 0.026868)">
+    <path d="M2 14C2 10.2288 2 8.34315 3.17157 7.17157C4.34315 6 6.22876 6 10 6H14C17.7712 6 19.6569 6 20.8284 7.17157C22 8.34315 22 10.2288 22 14C22 17.7712 22 19.6569 20.8284 20.8284C19.6569 22 17.7712 22 14 22H10C6.22876 22 4.34315 22 3.17157 20.8284C2 19.6569 2 17.7712 2 14Z" stroke="#8e88a4" stroke-width="1.6799999999999997"/>
+  </g>
+</svg>

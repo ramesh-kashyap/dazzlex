@@ -1,0 +1,6533 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,400&amp;display=swap');
+
+@font-face {
+	font-family: "flaticon";
+	src: url("https://cdn.netmi.org/assets/tpl/fonts/flaticon.ttf?b9d2573b6da9a6b6827a95665f2e8155") format("truetype"),
+	url("https://cdn.netmi.org/assets/tpl/fonts/flaticon.woff?b9d2573b6da9a6b6827a95665f2e8155") format("woff"),
+	url("https://cdn.netmi.org/assets/tpl/fonts/flaticon.woff2?b9d2573b6da9a6b6827a95665f2e8155") format("woff2"),
+	url("https://cdn.netmi.org/assets/tpl/fonts/flaticon.eot?b9d2573b6da9a6b6827a95665f2e8155#iefix") format("embedded-opentype"),
+	url("https://cdn.netmi.org/assets/tpl/fonts/flaticon.svg?b9d2573b6da9a6b6827a95665f2e8155#flaticon") format("svg");
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before {
+	font-family: flaticon !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-soc-fb:before {
+  content: "\f103";
+}
+.flaticon-soc-yt:before {
+  content: "\f104";
+}
+.flaticon-soc-tw:before {
+  content: "\f105";
+}
+.flaticon-soc-wa:before {
+  content: "\f106";
+}
+.flaticon-soc-sk:before {
+  content: "\f107";
+}
+.flaticon-soc-vb:before {
+  content: "\f108";
+}
+.flaticon-soc-me:before {
+  content: "\f109";
+}
+.flaticon-thumbs-up:before {
+  content: "\f10a";
+}
+.flaticon-thumbs-down:before {
+  content: "\f10b";
+}
+.flaticon-email:before {
+  content: "\f10c";
+}
+.flaticon-soc-tg:before {
+  content: "\f10d";
+}
+.flaticon-arr-back:before {
+  content: "\f10e";
+}
+.flaticon-arr-next:before {
+  content: "\f10f";
+}
+.flaticon-arr-down:before {
+  content: "\f110";
+}
+.flaticon-arr-up:before {
+  content: "\f111";
+}
+.flaticon-arr-refresh:before {
+  content: "\f112";
+}
+.flaticon-arr-reload:before {
+  content: "\f113";
+}
+.flaticon-arr-next-fast:before {
+  content: "\f114";
+}
+.flaticon-arr-back-fast:before {
+  content: "\f115";
+}
+.flaticon-user:before {
+  content: "\f116";
+}
+.flaticon-settings:before {
+  content: "\f117";
+}
+.flaticon-shield:before {
+  content: "\f118";
+}
+.flaticon-filter:before {
+  content: "\f119";
+}
+.flaticon-speech-bubble:before {
+  content: "\f11a";
+}
+.flaticon-remove:before {
+  content: "\f11b";
+}
+.flaticon-eye:before {
+  content: "\f11c";
+}
+.flaticon-briefcase:before {
+  content: "\f11d";
+}
+.flaticon-inbox:before {
+  content: "\f11e";
+}
+.flaticon-camera:before {
+  content: "\f11f";
+}
+.flaticon-umbrella:before {
+  content: "\f120";
+}
+.flaticon-crypto-btc:before {
+  content: "\f121";
+}
+.flaticon-crypto-eth:before {
+  content: "\f122";
+}
+.flaticon-crypto-ltc:before {
+  content: "\f123";
+}
+.flaticon-deposit:before {
+  content: "\f124";
+}
+.flaticon-withdrawal:before {
+  content: "\f125";
+}
+.flaticon-sign-help:before {
+  content: "\f126";
+}
+.flaticon-crown:before {
+  content: "\f127";
+}
+.flaticon-users:before {
+  content: "\f128";
+}
+.flaticon-profit:before {
+  content: "\f129";
+}
+.flaticon-affiliate-people:before {
+  content: "\f12a";
+}
+.flaticon-timeline-end:before {
+  content: "\f12b";
+}
+.flaticon-timeline-start:before {
+  content: "\f12c";
+}
+.flaticon-close:before {
+  content: "\f12d";
+}
+.flaticon-log-out:before {
+  content: "\f12e";
+}
+.flaticon-bell:before {
+  content: "\f12f";
+}
+.flaticon-copy:before {
+  content: "\f130";
+}
+.flaticon-status-1:before {
+  content: "\f131";
+}
+.flaticon-status-2:before {
+  content: "\f132";
+}
+.flaticon-status-0:before {
+  content: "\f133";
+}
+.flaticon-create:before {
+  content: "\f134";
+}
+.flaticon-invest-done:before {
+  content: "\f135";
+}
+.flaticon-nav-button:before {
+  content: "\f136";
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+html {
+	font-size: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+body {
+	line-height: 1;
+	font: 16px/28px 'Rubik', sans-serif;
+	-webkit-backface-visibility: hidden;
+	color: #9093ab;
+	font-weight: normal;
+	background: #0c071a;
+	overflow-x: hidden;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+.netmi-wrapper {
+	width: 100%;
+	min-width: 320px;
+	position: relative;
+}
+.netmi-inner {
+	padding: 0 30px;
+	max-width: 1440px;
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.netmi-clr {
+	clear: both;
+	font-size: 0px;
+	height: 0px;
+	display: block;
+}
+b, strong {
+	font-weight: 700;
+}
+u {
+	text-decoration: underline;
+}
+i, em {
+  font-weight: 200;
+}
+
+.netmi-text-left 		{ text-align: left; }
+.netmi-text-right 	{ text-align: right; }
+.netmi-text-center 	{ text-align: center; }
+.netmi-text-light		{ font-weight: 100; }
+.netmi-text-normal 	{ font-weight: 400; }
+.netmi-text-bold 		{ font-weight: 700; }
+.netmi-text-uppercase { text-transform: uppercase; }
+.netmi-text-12 	    { font-size: 12px; }
+.netmi-text-13 	   { font-size: 13px; }
+.netmi-text-14 	   { font-size: 14px; }
+.netmi-text-15 	   { font-size: 15px; }
+
+
+.netmi-eas:hover {
+transition: all ease-in 0.netmi-1s;
+}
+.netmi-eas {
+transition: all ease-out 0.netmi-2s;
+}
+.netmi-pointer:hover {
+	cursor: pointer;
+}
+::-moz-selection {
+  color: #fff;
+  background: #f69327;
+  background: #3a99d8;
+  text-shadow: none;
+}
+::selection {
+  color: #fff;
+  background: #f69327;
+  background: #3a99d8;
+  text-shadow: none;
+}
+::-moz-selection {
+  color: #fff;
+  background: #f69327;
+  background: #3a99d8;
+  text-shadow: none;
+}
+::-webkit-input-placeholder {
+  color: #9093ab;
+  font-weight: normal !important;
+  opacity: 1;
+  -webkit-transition: opacity 0.netmi-22s ease-in-out;
+  transition: opacity 0.netmi-22s ease-in-out;
+}
+:-moz-placeholder {
+  color: #9093ab;
+  font-weight: normal !important;
+  opacity: 1;
+  -moz-transition: opacity 0.netmi-22s ease-in-out;
+  transition: opacity 0.netmi-22s ease-in-out;
+}
+::-moz-placeholder {
+  color: #9093ab;
+  font-weight: normal !important;
+  opacity: 1;
+  -moz-transition: opacity 0.netmi-22s ease-in-out;
+  transition: opacity 0.netmi-22s ease-in-out;
+}
+:-ms-input-placeholder {  
+  color: #9093ab !important;
+  font-weight: normal !important;
+  -ms-transition: opacity 0.netmi-22s ease-in-out;
+  transition: opacity 0.netmi-22s ease-in-out;
+}
+:hover::-webkit-input-placeholder {
+  opacity: 1;
+  font-weight: normal !important;
+  -webkit-transition: opacity 0.netmi-22s ease-in-out;
+  transition: opacity 0.netmi-22s ease-in-out;
+}
+:hover:-moz-placeholder {
+  opacity: 1;
+  font-weight: normal !important;
+  -moz-transition: opacity 0.netmi-22s ease-in-out;
+  transition: opacity 0.netmi-22s ease-in-out;
+}
+:hover::-moz-placeholder {
+  opacity: 1;
+  font-weight: normal !important;
+  -moz-transition: opacity 0.netmi-22s ease-in-out;
+  transition: opacity 0.netmi-22s ease-in-out;
+}
+:hover:-ms-input-placeholder {
+  font-weight: normal !important;
+  -ms-transition: opacity 0.netmi-22s ease-in-out;
+  transition: opacity 0.netmi-22s ease-in-out;
+}
+:focus::-webkit-input-placeholder {
+  opacity: 0;
+  font-weight: normal !important;
+
+  -webkit-transition: opacity 0.netmi-22s ease-in-out;
+  transition: opacity 0.netmi-22s ease-in-out;
+}
+:focus:-moz-placeholder {
+  opacity: 0;
+  font-weight: normal !important;
+  -moz-transition: opacity 0.netmi-22s ease-in-out;
+  transition: opacity 0.netmi-22s ease-in-out;
+}
+:focus::-moz-placeholder {
+  opacity: 0;
+  font-weight: normal !important;
+  -moz-transition: opacity 0.netmi-22s ease-in-out;
+  transition: opacity 0.netmi-22s ease-in-out;
+}
+:focus:-ms-input-placeholder {  
+  opacity: 0;
+  font-weight: normal !important;
+  -ms-transition: opacity 0.netmi-22s ease-in-out;
+  transition: opacity 0.netmi-22s ease-in-out;
+}
+::-ms-clear {
+	display: none;
+}
+h1, .netmi-h1 {
+	color: #fff;
+	font-size: 48px;
+	line-height: 56px;
+	font-weight: bold;
+}
+h2, .netmi-h2 {
+	color: #fff;
+	font-size: 40px;
+	line-height: 44px;
+	font-weight: bold;
+}
+h3, .netmi-h3 {
+	color: #fff;
+	font-size: 34px;
+	line-height: 38px;
+	font-weight: bold;
+}
+h4, .netmi-h4 {
+	color: #fff;
+	font-size: 30px;
+	line-height: 38px;
+	font-weight: bold;
+}
+h5, .netmi-h5 {
+	color: #fff;
+	font-size: 28px;
+	line-height: 30px;
+	font-weight: bold;
+}
+h6, .netmi-h6 {
+	color: #fff;
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: bold;
+}
+.netmi-account-h1 {
+  font-size: 30px;
+}
+.netmi-left 	{ float: left; }
+.netmi-right 	{ float: right; }
+
+a {
+	color: #aa72ce;
+}
+a:hover {
+	text-decoration: none;
+}
+
+/* Forms
+-----------------------------------------------------------------------------*/
+.netmi-radio, 
+.netmi-checkbox { position: absolute; left: -999em; }
+.netmi-label {
+	position: relative;
+	color: #1d1d1d;
+}
+.netmi-label:before { 
+	display: inline-block; 
+	position: relative; 
+	top:0.netmi-45em; 
+	left:-2px; 
+	content:''; 
+	width:25px; 
+	height:25px;
+	background-size: 50px;
+	background-image: url(.netmi-.netmi-/images/checkbox.html);
+}
+.netmi-label:hover {
+	cursor: pointer !important;
+}
+.netmi-checkbox + .netmi-label:before { background-position: 0 -25px;}
+.netmi-checkbox:checked + .netmi-label:before {background-position: 0 0 ; }
+.netmi-radio + .netmi-label:before { background-position: -25px -25px;}	 	
+.netmi-radio:checked + .netmi-label:before { background-position: -25px 0;}
+
+.netmi-checkbox:checked + .netmi-label,
+.netmi-radio:checked + .netmi-label {
+  font-weight: bold;
+}
+
+button, input, textarea {
+	outline: none;
+	resize: none;
+	-webkit-appearance: none;
+}
+.netmi-btn {
+	position: relative;
+	text-align: center;
+	font-size: 16px;
+	display: inline-block;
+	text-decoration: none;
+	height: 56px;
+	line-height: 52px;
+	padding: 0 40px;
+	min-width: 200px;
+	max-width: 100%;
+	outline: none;
+	resize: none;
+	border: none;
+	overflow: hidden;
+	-webkit-appearance: none;
+  transition: all ease-out 0.1s;
+	color: #fff;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+  font-family: Rubik;
+  font-weight: 500;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid rgba(170,114,206,0.12);
+}
+
+.netmi-btn.netmi-big 		{ height: 56px; line-height: 54px; font-size: 18px; }
+.netmi-btn.netmi-medium 	{ height: 52px; line-height: 48px; font-size: 17px; }
+.netmi-btn.netmi-small 		{ height: 42px; line-height: 40px; font-size: 15px; }
+
+.netmi-btn.netmi-purple		  { border-color: #aa72ce;}
+.netmi-btn.netmi-blue		  { border-color: #c264a4;}
+.netmi-btn.netmi-yellow		{ border-color: #e8d189; }
+
+.netmi-btn:hover 								  { cursor: pointer; box-shadow: 0 0 16px rgba(102, 34, 158, 0.235); }
+.netmi-btn:active, .netmi-btn:focus 		{ cursor: pointer; }
+.netmi-btn.netmi-purple:hover 						{ box-shadow: 0 0 16px rgba(166, 94, 229, 0.38);}
+.netmi-btn.netmi-purple:active, .netmi-btn.netmi-blue:focus 		{ cursor: pointer;}
+.netmi-btn.netmi-blue:hover 						{ box-shadow: 0 0 16px rgb(158 34 113 / 38%);   }
+.netmi-btn.netmi-blue:active, .netmi-btn.netmi-blue:focus 		{ cursor: pointer; }
+.netmi-btn.netmi-yellow:hover 					{ box-shadow: 0 0 16px rgb(157 158 34 / 38%);  }
+.netmi-btn.netmi-yellow:active, .netmi-btn.netmi-yellow:focus 	{ cursor: pointer;  }
+
+.netmi-btn:disabled,
+.netmi-btn.netmi-disabled { border: 2px solid rgba(170,114,206,0.12); cursor: not-allowed;}
+.netmi-btn.netmi-orange:disabled, 
+.netmi-btn.netmi-orange.netmi-disabled,
+.netmi-btn.netmi-green:disabled, 
+.netmi-btn.netmi-green.netmi-disabled,
+.netmi-btn.netmi-dark:disabled, 
+.netmi-btn.netmi-dark.netmi-disabled,
+.netmi-btn.netmi-ghost-1:disabled, 
+.netmi-btn.netmi-ghost-1.netmi-disabled,
+.netmi-btn.netmi-ghost-2:disabled, 
+.netmi-btn.netmi-ghost-2.netmi-disabled { background: transparent; border: 2px solid rgba(170,114,206,0.12); }
+
+.netmi-btn.netmi-gradient {
+  border: none;
+}
+.netmi-btn.netmi-gradient:after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 100%);
+  z-index: 2;
+  content: '';
+}
+
+.netmi-inp,
+.netmi-textarea {
+  height: 54px;
+  padding: 15px 20px;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  width: 100%;
+  position: relative;
+  font-size: 15px;
+  background: #090514;
+  border: 1px solid #362f4f;
+  color: #ffffff;
+ transition: all ease-out 0.1s;	
+ font-weight: bold;
+ font-family: Rubik; 
+}
+.netmi-textarea {
+  height: 120px;
+  font-weight: normal !important;
+  border-radius: 15px;
+}
+.netmi-inp.netmi-big 		  { height: 56px; font-size: 18px; }
+.netmi-inp.netmi-medium   { height: 48px; font-size: 17px; }
+.netmi-inp.netmi-small 		{ height: 42px; font-size: 15px; }
+.netmi-textarea.netmi-big     { font-size: 18px; }
+.netmi-textarea.netmi-small   { font-size: 15px; }
+
+.netmi-inp:hover,
+.netmi-textarea:hover {
+  border: 1px solid #9093ab;
+}
+.netmi-inp:focus,
+.netmi-textarea:focus {
+  border: 1px solid #D0CED9;
+  color: #fff;
+}
+.netmi-inp:-moz-read-only {
+  color: #D0CED9 !important;
+  cursor: not-allowed;
+}
+.netmi-inp:disabled,
+.netmi-inp:read-only {
+  color: #D0CED9 !important;
+  cursor: not-allowed;
+}
+.netmi-inp:focus:-moz-read-only {
+  color: #D0CED9 !important;
+  border: 1px solid #D0CED9 !important;
+  cursor: not-allowed;
+}
+.netmi-inp:focus:read-only,
+.netmi-inp:focus:disabled {
+  color: #D0CED9 !important;
+  border: 1px solid #D0CED9 !important;
+  cursor: not-allowed;
+}
+select {
+  width: 100%;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: inset 0 0 0 50px #090514;
+  -webkit-text-fill-color: #9093ab;
+}
+
+.netmi-loader {
+  background: rgba(255,255,255,0.9) url(https://cdn.netmi.org/assets/tpl/images/loader-blue.svg) no-repeat center center;
+  background-size: 36px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  display: none;
+  cursor: wait;
+}
+.netmi-loader.netmi-white {
+  background-image: url(https://cdn.netmi.org/assets/tpl/images/loader-white.svg);
+}
+
+.netmi-table {
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+  padding: 0px;
+  color: #9093ab;
+}
+.netmi-table tr {
+    background: #141329;
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border: none;
+    padding: 0px;
+}
+.netmi-table th {
+  background: #141329;
+  padding: 15px 25px;
+  text-align: left;
+  color: #a9acc7;
+  text-transform: UPPERCASE;
+    font-weight: 500;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(170,114,206,0.12);
+}
+.netmi-table td {
+  padding: 12px 25px;
+  text-align: left;
+  border-top: 1px solid rgba(170,114,206,0.12);
+}
+.netmi-table td strong {
+  color: #fff;
+}
+.netmi-table th.netmi-text-center,
+.netmi-table td.netmi-text-center {
+  text-align: center;
+}
+.netmi-table tr:nth-of-type(even) {
+    background: #141329;
+}
+.netmi-table thead {
+  font-weight: bold;
+}
+
+
+/* Security: Access control
+-----------------------------------------------------------------------------*/
+.netmi-access-control {
+  background: #fff;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.netmi-access-control h3 {
+  font-size: 28px;
+  line-height: 44px;
+}
+.netmi-access-control .netmi-icon {
+  vertical-align: middle;
+  display: inline-block;
+  margin: 2px 3px 0 0;
+  color: #3D88EE;
+}
+.netmi-access-control .netmi-in {
+  padding: 20px;
+    width: 740px;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.netmi-header {
+	height: auto;
+	background-size: auto 100%;
+	background-size: cover;
+	padding: 0px;
+	position: relative;
+  background: -webkit-gradient(linear,left top,left bottom,from(rgb(22 14 38 / 90%)),to(#0c071a));
+  background: -o-linear-gradient(top,rgb(22 14 38 / 90%) 0,#0c071a 100%);
+  background: linear-gradient(180deg,rgb(22 14 38 / 90%) 0,#0c071a 100%);
+}
+
+.netmi-header-top {
+  border-bottom: 1px solid #293440;
+	height: 50px;
+	font-size: 13px;
+	line-height: 16px;
+	color: #FEFEFE;
+	z-index: 3;
+	position: relative;
+}
+.netmi-header-middle {
+	height: 80px;
+	overflow: visible;
+	z-index: 999;
+  background: #0c071a;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid rgba(170,114,206,0.12);
+  margin-top: -1px;
+}
+.netmi-header-bottom {
+	position: relative;
+  background: url(../images/background/header-bg.jpg) no-repeat center;
+  background-size: cover;
+  padding-bottom: 200px;
+  padding-top: 100px;
+}
+.netmi-header-bottom:after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(22%,rgb(17 22 36)),to(rgb(19 25 38)));
+  background: -o-linear-gradient(top,rgb(17 22 36) 22%,rgb(19 25 38) 100%);
+  background: linear-gradient(180deg,rgb(17 22 36) 22%,rgb(19 25 38) 100%);
+  opacity: .9;
+}
+
+.netmi-header-page {
+	position: relative; 
+  background-size: cover;
+  height: 350px;
+}
+.netmi-header-page.staking {
+
+  position: relative; 
+  background-size: cover;
+}
+.netmi-header-page.affiliate {
+
+  position: relative; 
+  background-size: cover;
+}
+.netmi-header-page.faq {
+
+  position: relative; 
+  background-size: cover;
+}
+.netmi-header-page.about {
+
+  position: relative; 
+  background-size: cover;
+}
+.netmi-header-page.news {
+
+  position: relative; 
+  background-size: cover;
+}
+.netmi-header-page.contacts {
+
+  position: relative; 
+  background-size: cover;
+}
+.netmi-header-page.tasks {
+
+  position: relative; 
+  background-size: cover;
+}
+.netmi-header-page.how-it-works {
+
+  position: relative; 
+  background-size: cover;
+}
+.netmi-header-page.accelerator {
+
+  position: relative; 
+  background-size: cover;
+}
+.netmi-header-page:after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(66 56 88 / 90%)), to(#0c071a));
+  background: -o-linear-gradient(top, rgb(66 56 88 / 90%) 0, #0c071a 100%);
+  background: linear-gradient(180deg, rgb(66 56 88 / 90%) 0, #0c071a 100%);
+}
+
+.netmi-header .netmi-lang {
+	font-size: 14px;
+  color: #fff;
+  float: left;
+  font-weight: bold;
+	position: relative;
+	display: inline-block;
+	-webkit-touch-callout: none; 
+	-webkit-user-select: none; 
+	   -moz-user-select: none; 
+		-ms-user-select: none; 
+			user-select: none;
+  margin-top: 15px;
+  margin-left: 25px;
+  z-index: 1;
+  position: relative;
+}
+.netmi-header .netmi-lang .netmi-current {
+	padding: 0px 15px;
+	position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  line-height: 47px;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+}
+.netmi-header .netmi-lang img {
+	width: 19px;
+	vertical-align: middle;
+	margin: 0px 9px 0 0;
+  position: relative;
+}
+.netmi-header .netmi-lang .netmi-arr {
+	color: #8e88a4;
+	display: flex;
+	align-self: center;
+	margin-left: 5px;
+	width: 14px;
+	font-size: 14px;
+	text-align: center;
+}
+.netmi-header .netmi-lang .netmi-current:hover {
+	cursor: pointer;
+}
+.netmi-header .netmi-lang .netmi-current:hover .netmi-arr {
+	color: #fff;
+}
+.netmi-header .netmi-lang .netmi-dropdown {
+	position: absolute;
+	left: 0px;
+  z-index: 999;
+	display: none;
+	width: 100%;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  background: #141329;
+  padding-top: 5px;
+  margin-top: 10px;
+  border: 2px solid #362f4f;
+  box-shadow: 0 0 16px rgb(27 19 34 / 24%);
+}
+.netmi-header .netmi-lang.netmi-opened > .netmi-dropdown {
+	display: block;
+}
+.netmi-header .netmi-lang.netmi-opened .netmi-arr {
+	transform: rotate(180deg);
+}
+
+.netmi-header .netmi-lang .netmi-dropdown a {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px 2px 15px;
+  line-height: 28px;
+	position: relative;
+	display: flex;
+	align-self: center;
+	vertical-align: middle;
+}
+.netmi-header .netmi-lang .netmi-dropdown .netmi-arr {
+	display: inline-block;
+	width: 30px;
+	text-align: right;
+	float: right;
+	font-size: 14px;
+}
+.netmi-header .netmi-lang .netmi-dropdown a.netmi-active {
+	color: #8e88a4;
+	font-weight: bold;
+}
+.netmi-header .netmi-lang .netmi-dropdown a:hover {
+	color: #8e88a4;
+}
+
+
+
+
+.netmi-header .netmi-navigation {
+	font-size: 15px;
+  color: #fff;
+  float: left;
+  font-weight: bold;
+	position: relative;
+	display: inline-block;
+	-webkit-touch-callout: none; 
+	-webkit-user-select: none; 
+	   -moz-user-select: none; 
+		-ms-user-select: none; 
+			user-select: none;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 35px;
+}
+.netmi-header .netmi-navigation .netmi-current {
+	padding: 0px 20px;
+	position: relative;
+	display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(170,114,206,0.12);
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  height: 48px;
+  line-height: 46px;
+}
+.netmi-header .netmi-navigation .flaticon-nav-button {
+  font-size: 24px;
+  display: flex;
+  margin: 0px 9px 0 0;
+  color: #8e88a4;
+}
+.netmi-header .netmi-lnavigationng .netmi-arr {
+	color: #8e88a4;
+	display: flex;
+	align-self: center;
+	margin-left: 5px;
+	width: 14px;
+	font-size: 14px;
+	text-align: center;
+}
+.netmi-header .netmi-navigation .netmi-current:hover {
+	cursor: pointer;
+}
+.netmi-header .netmi-navigation .netmi-current:hover .netmi-arr {
+	color: #fff;
+}
+.netmi-header .netmi-navigation .netmi-current:hover .flaticon-nav-button {
+	color: #fff;
+}
+.netmi-header .netmi-navigation .netmi-dropdown {
+	position: absolute;
+	left: 0px;
+  z-index: 999;
+	display: none;
+	width: 100%;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  background: #141329;
+  border: 2px solid #362f4f;
+  margin-top: 10px;
+  width: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 0 16px rgb(27 19 34 / 24%);
+}
+.netmi-header .netmi-navigation.netmi-opened > .netmi-dropdown {
+	display: block;
+}
+.netmi-header .netmi-navigation.netmi-opened .netmi-arr {
+	transform: rotate(180deg);
+}
+.netmi-header .netmi-navigation.netmi-opened .flaticon-nav-button {
+	color: #fff;
+}
+.netmi-header .netmi-navigation.netmi-opened .netmi-current {
+	background: #1c112b;
+  border: 1px solid #1c112b;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+.netmi-header .netmi-navigation .netmi-dropdown a {
+	text-decoration: none;
+	color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: -1px;
+	display: block;
+	line-height: 22px;
+  padding: 7px 10px 15px 14px;
+	position: relative;
+	display: flex;
+	align-self: center;
+	vertical-align: middle;
+}
+.netmi-header .netmi-navigation .netmi-dropdown a.netmi-last {
+
+}
+.netmi-header .netmi-navigation .netmi-dropdown .netmi-arr {
+	display: inline-block;
+	width: 30px;
+	text-align: right;
+	float: right;
+	font-size: 14px;
+}
+.netmi-header .netmi-navigation .netmi-dropdown a.netmi-active {
+	color: #8e88a4;
+}
+.netmi-header .netmi-navigation .netmi-dropdown a:hover {
+	color: #8e88a4;
+}
+
+
+.netmi-header .netmi-header-top .netmi-links {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+  position: relative;
+  top: 3px;
+}
+.netmi-header .netmi-header-top .netmi-links li {
+	float: left;
+	margin-left: 30px;
+}
+.netmi-header .netmi-header-top .netmi-links a {
+	color: #fff;
+	text-decoration: none;
+}
+.netmi-header .netmi-header-top .netmi-links li.netmi-line {
+	background: #24242d;
+	width: 1px;
+	height: 16px;
+	padding: 0px;
+  margin-left: 10px;
+}
+.netmi-header .netmi-header-top .netmi-links li span {
+	top: 2px;
+	margin-right: 3px;
+	position: relative;
+}
+.netmi-header .netmi-header-top .netmi-links li i {
+	font-style: normal;
+	border-bottom: 1px dashed transparent;
+}
+.netmi-header .netmi-header-top .netmi-links li i:hover {
+	border-bottom: 1px dotted #fff;
+}
+.netmi-header .netmi-userbox {
+  float: right;
+  margin-top: 15px;
+  position: relative;
+}
+.netmi-header .netmi-userbox a {
+  display: inline-block;
+	color: #FFF;
+	text-decoration: none;
+  background: #141329;
+  border: 1px solid #141329;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  padding: 0px 25px;
+  height: 48px;
+  line-height: 46px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.netmi-header .netmi-userbox a:hover {
+  background: #1c112b;
+  border: 1px solid #1c112b;
+}
+.netmi-header .netmi-userbox a span {
+  margin-left: 5px;
+}
+
+.netmi-header .netmi-userbox img {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: -1px;
+}
+
+.netmi-header-middle .netmi-logo {
+	float: left;
+  position: relative;
+  top: 27px;
+}
+.netmi-header-middle .netmi-notifier {
+  float: right;
+  color: #fff;
+  display: none;
+}
+.netmi-header-middle .netmi-notifier a {
+  color: #fff;
+  text-decoration: none;
+  height: 50px;
+  width: 30px;
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+  padding: 18px 10px 0 0;
+  text-align: right;
+}
+.netmi-header-middle .netmi-notifier a .netmi-bubble {
+  font-weight: bold;
+  font-size: 10px;
+  color: #FEFEFE;
+  background: #3D88EE;
+  border-radius: 30px;
+  height: 19px;
+  min-width: 19px;
+  position: absolute;
+  right: 3px;
+  top: 10px;
+  text-align: center;
+  line-height: 16px;
+  border: 2px solid #1D3453;
+}
+.netmi-header-middle .netmi-notifier a .netmi-bubble.netmi-animate {
+  -webkit-animation: bubbleAnimation 1s linear infinite;
+  animation: bubbleAnimation 1s linear infinite;
+}
+@keyframes bubbleAnimation {
+  0%  {  background: #3D88EE; }
+  50%  {  background: #73a6ec; }
+  100%  { background: #3D88EE; }
+}
+@-webkit-keyframes bubbleAnimation {
+  0%  {  background: #3D88EE; }
+  50%  {  background: #73a6ec; }
+  100%  { background: #3D88EE; }
+}
+
+.netmi-header-middle .netmi-logo img {
+  width: 113px;
+}
+
+.netmi-header-middle .netmi-logo img.netmi-full-logo {
+  display: block;
+}
+.netmi-header-middle .netmi-logo img.netmi-mobile-logo {
+  display: none;
+}
+
+.netmi-header-middle .netmi-seperator {
+	height: 40px;
+	width: 1px;
+	float: left;
+	background: rgba(170,114,206,0.12);
+  margin: 20px 30px 0 20px
+}
+.netmi-header-middle .netmi-nav {
+	float: left;
+}
+.netmi-header-middle .netmi-nav li {
+	float: left;
+  margin-top: 15px;
+}
+.netmi-header-middle .netmi-nav li.netmi-mob-hidden {
+	display: none;
+}
+.netmi-header-middle .netmi-nav li .netmi-icon-bubble {
+  background: rgb(219 161 225 / 16%);
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  color: #b378da;
+  font-size: 10px;
+  text-align: center;
+  height: 20px;
+  min-width: 20px;
+  line-height: 21px;
+  font-weight: 700;
+  position: relative;
+  margin-left: 9px;
+  display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.netmi-header-middle .netmi-nav li a {
+	color: #fff;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+	text-decoration: none;
+	height: 48px;
+	line-height: 46px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+	position: relative;
+}
+.netmi-header-middle .netmi-nav li a img {
+  width: 23px;
+  height: 23px;
+  margin: 0px 8px 0 0;
+}
+
+.netmi-header-middle .netmi-nav li a img.main-menu {
+  width: 10px;
+  height: 10px;
+  margin: 0px 10px 0 0;
+}
+
+.netmi-header-middle .netmi-nav li a .netmi-flaticon-profit {
+  font-size: 17px;
+  top: 2px;
+  vertical-align: middle;
+  margin: 0px 9px 0 0;
+  position: relative;
+  color: #8e88a4;
+}
+
+.netmi-header-middle .netmi-nav li a:after {
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 3px;
+	border-radius: 5px;
+	background: transparent;
+	left: 50%;
+	top: 36px;
+	margin-left: -10px;
+transition: all ease-out 0.1s;
+}
+.netmi-header-middle .netmi-nav li a:hover:after {
+	background: #aa72cf;
+  transition: all ease-in 0.1s;
+}
+
+.netmi-header-middle .netmi-nav li.netmi-active a:after {
+	background: #313e4d;
+	cursor: default;
+}
+.netmi-header-middle .netmi-nav li.netmi-close {
+  position: absolute;
+  right: 15px;
+  top: 0px;
+  font-size: 43px;
+  width: 50px;
+  height: 50px;
+  text-align: right;
+  line-height: 24px;
+  z-index: 99;
+  color: #D0CED9;
+  display: none;
+}
+.netmi-header-middle .netmi-nav li.netmi-close:hover {
+  color: #aa72ce;
+  cursor: pointer;
+}
+.netmi-header-middle .netmi-nav-button {
+  color: #fff;
+  float: left;
+  display: none;
+  font-size: 34px;
+  height: 50px;
+  position: relative;
+  top: 17px;
+  right: -4px;
+}
+.netmi-header .netmi-welcome {
+	display: flex;
+	align-items: center;
+	padding: 120px 0 0 0;
+  position: relative;
+  z-index: 1;
+}
+.netmi-header .netmi-welcome h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 62px;
+  margin: 0px auto;
+  margin-bottom: 20px;
+}
+.netmi-header .netmi-welcome h2 {
+  font-weight: bold;
+  color: #fff;
+  background: -webkit-linear-gradient(#fff, #dbbbe4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 52px;
+    line-height: 58px;
+    margin: 0px auto;
+}
+.netmi-header .netmi-welcome .netmi-desc {
+	font-size: 20px;
+	line-height: 34px;
+	margin-bottom: 40px;
+	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  color: #a9acc7;
+}
+.netmi-header .netmi-welcome .netmi-buttons {
+	
+}
+.netmi-header .netmi-welcome .netmi-buttons .netmi-btn{
+	width: 240px;
+	margin: 0 10px 0 0;
+  font-weight: 500;
+}
+.netmi-header .netmi-welcome .netmi-left {
+	width: 60%;
+  float: unset;
+  margin: 0px auto;
+  text-align: center;
+}
+.netmi-header .netmi-welcome .netmi-right {
+	width: 40%;
+	text-align: right;
+}
+.netmi-header .netmi-welcome .netmi-right img {
+	height: 400px;
+	max-height: 100%;
+}
+
+.netmi-header-inner {
+  height: auto;
+}
+.netmi-header-inner:after {
+  display: none;
+}
+.netmi-header-inner .netmi-header-top {
+  position: relative;
+  z-index: 99;
+}
+.netmi-header-inner .netmi-lang.netmi-opened .netmi-current {
+  
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.netmi-content {
+  background: #0c071a;
+  padding-top: 60px;
+}
+
+
+/* Main page
+-----------------------------------------------------------------------------*/
+.netmi-main {
+	
+}
+.netmi-main .netmi-title {
+	padding: 0 0 40px 0;
+}
+.netmi-main .netmi-title span {
+	font-weight: normal;
+}
+.netmi-main .netmi-title .netmi-d {
+  font-size: 18px;
+  line-height: 30px;
+  color: #9093ab;
+  margin-top: 10px;
+}
+.netmi-main .netmi-title .netmi-d span {
+  background: #1f1e36;
+  color: #fff;
+  display: inline-block;
+  padding: 0px 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.netmi-main .netmi-features {
+	padding: 0 0 100px;
+  margin-top: -130px;
+  background: #0c071a;
+  border-bottom: 1px solid #2d2940;
+}
+@media screen and (max-width: 1024px) {
+  .netmi-main .netmi-features {
+    margin-top: -120px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .netmi-main .netmi-features {
+    margin-top: -100px;
+  }
+}
+.netmi-main .netmi-features .netmi-title {
+	padding: 0 0 60px 0;
+}
+.netmi-main .netmi-features .netmi-title h3{
+  color: #fff;
+}
+.netmi-main .netmi-features .netmi-title span {
+	font-weight: normal;
+  color: #fff;
+}
+.netmi-main .netmi-features .netmi-title .netmi-d {
+	font-size: 18px;
+  line-height: 30px;
+  color: #9093ab;
+  margin-top: 10px;
+}
+
+.netmi-main .netmi-features-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -180px;
+}
+.netmi-main .netmi-features-list .netmi-item {
+	width: 33.33%;
+	padding: 0 15px;
+}
+.netmi-main .netmi-features-list .netmi-item .netmi-in {
+	background: #1b1b20;
+	box-shadow: -15px 15px 30px rgba(49, 25, 68, 0.05);
+	border-radius: 15px;
+	overflow: hidden;
+	position: relative;
+  z-index: 1;
+}
+.netmi-main .netmi-features-list .netmi-item .netmi-icon {
+	width: 90px;
+	height: 55px;
+	color: #fd9b6b;
+	font-size: 26px;
+	text-align: center;
+	line-height: 74px;
+  top: 10px;
+}
+
+.netmi-main .netmi-features-list .netmi-item-mobile {
+	width: 100%;
+	display: none;
+}
+.netmi-main .netmi-features-list .netmi-item-mobile .netmi-in {
+	background: #1b1b20;
+	box-shadow: -15px 15px 30px rgba(49, 25, 68, 0.05);
+	border-radius: 15px;
+	overflow: hidden;
+	position: relative;
+}
+.netmi-main .netmi-features-list .netmi-item-mobile .netmi-icon {
+	width: 90px;
+	height: 55px;
+	color: #fd9b6b;
+	font-size: 26px;
+	text-align: center;
+	line-height: 74px;
+  top: 10px;
+}
+
+.netmi-main .netmi-features-list .netmi-item-title {
+	padding: 5px 30px 0 30px;
+	margin-bottom: 5px;
+  color: #fff;
+  font-size: 20px;
+}
+.netmi-main .netmi-features-list .netmi-item-desc {
+	padding: 0 30px 0 30px;
+	font-size: 16px;
+	line-height: 26px;
+	color: #9093ab;
+	margin-bottom: 20px;
+}
+.netmi-main .netmi-features-list .netmi-item-button {
+	padding: 0 0 20px 30px;
+}
+
+.netmi-main .netmi-features-stat {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.netmi-main .netmi-features-stat .netmi-item-text {
+	width: 30%;
+  border-right: 2px solid #141329;
+  padding-right: 20px;
+}
+.netmi-main .netmi-features-stat .netmi-item {
+	width: 25%;
+	position: relative;
+  text-align: center;
+  border: 1px solid #26253e;
+  padding: 20px 10px;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+
+.netmi-main .netmi-features-stat .netmi-item.netmi-bloc-1 {
+  margin-right: 20px
+}
+
+.netmi-main .netmi-features-stat .netmi-item.netmi-bloc-2 {
+  margin-right: 15px;
+  margin-left: 10px
+}
+
+.netmi-main .netmi-features-stat .netmi-item.netmi-bloc-3 {
+  margin-right: 10px;
+  margin-left: 15px
+}
+
+.netmi-main .netmi-features-stat .netmi-item.netmi-bloc-4 {
+  margin-left: 20px
+}
+
+.netmi-main .netmi-features-stat .netmi-item .netmi-icon {
+	color: #bdc1d4;
+	font-size: 28px;
+	margin-bottom: 5px;
+}
+
+.netmi-main .netmi-features-stat .netmi-item .netmi-icon img {
+  width: 52px;
+  height: 52px;
+  background: #26253e;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  padding: 10px;
+}
+
+.netmi-main .netmi-features-stat .netmi-item .netmi-percent {
+	position: absolute;
+	top: 0px;
+	right: 30px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	background: #2EB266;
+	height: 21px;
+	line-height: 21px;
+	border-radius: 4px;
+	text-align: center;
+	padding: 0 5px;
+}
+.netmi-main .netmi-features-stat .netmi-item .netmi-percent.netmi-negative {
+	background-color: #EF662C; 
+}
+.netmi-main .netmi-features-stat .netmi-item .netmi-number {
+	color: #fff;
+	font-size: 20px;
+	line-height: 30px;
+}
+.netmi-main .netmi-features-stat .netmi-item .netmi-number span{
+	font-weight: bold;
+	padding-right: 3px;
+	font-size: 22px;
+}
+.netmi-main .netmi-features-stat .netmi-item .netmi-desc {
+	font-size: 12px;
+  font-weight: 500;
+	color: #a9acc7;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+/* Main: tariffs */
+.netmi-main .netmi-tariffs {
+	padding: 60px 0 80px 0;
+	position: relative;
+	z-index: 3;
+  border-top: 1px solid rgba(170,114,206,0.12);
+}
+
+.netmi-main .netmi-tariffs:before {
+	top: auto;
+	bottom: -58px;
+	background-position: -50% bottom;
+	transform: rotate(180deg);
+}
+.netmi-main .netmi-tariffs .netmi-decor-r {
+	bottom: auto;
+	left: auto;
+	top: 0px;
+	right: 0px;
+	transform: rotate(90deg) rotateX(180deg);
+}
+.netmi-main .netmi-tariffs .netmi-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin: 0 0 0 -15px;
+	position: relative;
+	z-index: 3;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item {
+	width: 25%;
+	padding: 0 15px;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-in {
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(22%,#141329),to(#100b21));
+  background: -o-linear-gradient(top,#141329 22%,#100b21 100%);
+  background: linear-gradient(180deg,#141329 22%,#100b21 100%);
+	box-shadow: -15px 15px 30px rgba(49, 25, 68, 0.05);
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+	align-self: stretch;
+	overflow: hidden;
+	position: relative;
+	padding: 30px 30px 10px 30px;
+	position: relative;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item.netmi-popular .netmi-in .netmi-percent {
+	color: #e8d189;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-in .netmi-popular {
+	position: absolute;
+	contain: '';
+	width: 80px;
+	height: 80px;
+	top: 0px;
+	right: -3px;
+	z-index: 3;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-title {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 0px !important;
+  color: #ffffff;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-subtitle {
+	font-size: 16px;
+	line-height: 20px;
+	color: #9093ab;
+	text-align: center;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-seperator {
+	border-bottom: 1px dashed #362f4f;
+	margin: 20px 0;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-percent {
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	padding: 10px 0 0 0;
+	font-weight: bold;
+  color: #fff;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-percent b {
+	font-size: 48px;
+	line-height: 52px;
+  color: #fff;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-days {
+	font-size: 16px;
+	line-height: 22px;
+	color: #9093ab;
+	text-align: center;
+  font-weight: 500;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-button {
+	padding: 20px 0 25px 0;
+	text-align: center;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-button .netmi-btn {
+	width: 240px;
+	max-width: 96%;
+	min-width: 120px;
+	padding: 0 10px !important;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-specs {
+	
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-spec {
+	font-size: 15px;
+	line-height: 20px;
+	padding: 5px 0;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-help {
+	color: #8e88a4;
+	font-size: 12px;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-help:hover {
+	color: #aa72ce;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-spec .netmi-left {
+	color: #9093ab;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-spec .netmi-right {
+	color: #ffffff;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-calculator {
+	
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-calculator .netmi-t {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	color: #9093ab;
+  margin-bottom: 10px;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-calculator .netmi-left {
+	color: #9093ab;
+	font-size: 14px;
+	line-height: 20px;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-calculator .netmi-left b {
+	color: #ffffff;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-calculator .netmi-right {
+	color: #9093ab;
+	font-size: 14px;
+	line-height: 20px;
+  text-align: right;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-calculator .netmi-right b {
+	color: #aa72ce;
+}
+.netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-calculator .netmi-progress {
+	margin: 10px 0 0 0;
+}
+
+/* Main: about */
+.netmi-main .netmi-about {
+  padding: 100px 0 0 0;
+  margin-bottom: 80px;
+  position: relative;
+  background: #141329;
+  background: -moz-linear-gradient(left, #141329 10%, #1c112a 95%);
+  background: -webkit-linear-gradient(left, #141329 10%, #1c112a 95%);
+  background: linear-gradient(to right, #141329 10%, #1c112a 95%);
+  border-bottom: 1px solid #2d2940;
+}
+.netmi-main .netmi-about .netmi-inner {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 2
+}
+.netmi-main .netmi-about .netmi-image {
+  width: 35%;
+  text-align: center;
+}
+.netmi-main .netmi-about .netmi-image img {
+  width: 100%;
+  margin-top: -30px;
+}
+.netmi-main .netmi-about .netmi-desc {
+  width: 65%;
+  padding-right: 30px;
+  padding-bottom: 90px;
+}
+.netmi-main .netmi-about .netmi-desc h3 {
+  padding-bottom: 30px;
+}
+.netmi-main .netmi-about .netmi-desc h3 span {
+  font-weight: normal
+}
+.netmi-main .netmi-about .netmi-buttons {
+  padding-top: 25px;
+  margin-right: 20px;
+}
+.netmi-main .netmi-about .netmi-buttons .netmi-btn {
+  margin-right: 5px;
+}
+.netmi-main .netmi-about .netmi-buttons .netmi-btn .netmi-youtube {
+  color: #EF662C;
+  font-size: 22px;
+  top: 2px;
+  margin-right: 2px;
+  position: relative;
+  vertical-align: middle;
+}
+.netmi-main .netmi-about:after {
+  top: auto;
+  left: auto;
+  right: 0px;
+  bottom: 0px;
+  background-position: left 80px;
+}
+
+/* Main: affiliate */
+.netmi-main .netmi-affiliate {
+  border-top: 1px solid rgba(170,114,206,0.12);
+  padding: 60px 0 80px 0;
+  position: relative;
+}
+.netmi-main .netmi-affiliate h3 {
+  padding: 0px;
+  color: #fff;
+}
+.netmi-main .netmi-affiliate .netmi-inner {
+  position: relative;
+  z-index: 2;
+}
+.netmi-main .netmi-affiliate .netmi-textbox {
+  font-size: 18px;
+  line-height: 30px;
+  color: #9093ab;
+  margin-top: 10px;
+}
+.netmi-main .netmi-affiliate .netmi-textbox span { 
+  background: #26253e;
+  color: #fff;
+  display: inline-block;
+  padding: 0px 5px;
+  border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 105px;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row.netmi-starter {
+  border: 2px solid #362f4f;
+  border-radius: 16px;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row.netmi-silver {
+  border: 2px solid #8e88a4;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row.netmi-gold {
+  border: 2px solid #e8d189;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row.netmi-sapphire {
+  border: 2px solid #227f9e;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row.netmi-rubin {
+  border: 2px solid #bf467a;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-c {
+  padding: 42px 0 0 0;
+  height: 100%;
+  width: 100%;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-col {
+  color: #c6c1d7;
+  font-size: 14px;
+  background: #0c071a;
+  width: 20%;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-col .netmi-nb {
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-col .netmi-nd {
+  text-align: center;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-col .netmi-level {
+  font-weight: 500;
+  color: #9093ab;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-col:nth-child(odd) {
+  background: #141329;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-col:nth-child(1) {
+  background: #141329;
+  padding: 20px;
+  font-size: 12px;
+  line-height: 19px;
+  text-align: left;
+  border-radius: 15px 0px 0px 15px;
+  -moz-border-radius: 15px 0px 0px 15px;
+  -webkit-border-radius: 15px 0px 0px 15px;
+  width: 550px;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-col:nth-child(1) .netmi-t {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 0 0 0 0;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-col:nth-child(1) .netmi-d {
+  color: #D0CED9;
+}
+
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row-vip {
+  margin-top: 20px;
+}
+
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row-vip .netmi-col {
+  background: #0c071a;
+  position: relative;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row-vip .netmi-col:nth-child(odd) {
+  background: #141329;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row-vip .netmi-col:nth-child(1) {
+  background: #141329;
+  border-radius: 15px 0px 0px 15px;
+  -moz-border-radius: 15px 0px 0px 15px;
+  -webkit-border-radius: 15px 0px 0px 15px;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row-vip .netmi-col:nth-child(1) .netmi-d {
+  color: #D0CED9;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row-vip .netmi-col:nth-child(1) .netmi-d b {
+background: #0c071a;
+color: #ffffff; 
+display: inline-block;
+padding: 0px 5px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row-vip .netmi-col:nth-child(1) .netmi-t {
+  color: #fff;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row-vip .netmi-icon {
+  color: #8e88a4;
+  font-size: 15px;
+  margin-left: 3px;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-col:last-child {
+  border-radius: 0px 15px 15px 0px;
+  -moz-border-radius: 0px 15px 15px 0px;
+  -webkit-border-radius: 0px 15px 15px 0px;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row-vip .netmi-col:last-child {
+  border-radius: 0px 15px 15px 0px;
+  -moz-border-radius: 0px 15px 15px 0px;
+  -webkit-border-radius: 0px 15px 15px 0px;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-percent {
+  position: absolute;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 12px;
+  background: #1f1e36;
+  color: #fff;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 3px 5px;
+  right: 12px;
+  top: 12px;
+  z-index: 2;
+}
+
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-level-m {
+  position: absolute;
+  font-size: 12px;
+  line-height: 14px;
+  color: #9093ab;
+  display: inline-block;
+  left: 20px;
+  z-index: 2;
+  display: none;
+  text-transform: uppercase;
+}
+
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row-title {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0px;
+  height: 40px;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row-title .netmi-col {
+  background: transparent !important;
+  color: #fff;
+  padding: 0px;
+}
+
+/* Main: deposits */
+.netmi-main .netmi-finance {
+  padding: 100px 0;
+}
+.netmi-main .netmi-finance .netmi-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.netmi-main .netmi-finance .netmi-deposits {
+  width: 50%;
+  padding: 0 25px 0 0;
+}
+.netmi-main .netmi-finance .netmi-withdrawals {
+  width: 50%;
+  padding: 100px 0 0 25px;
+}
+.netmi-main .netmi-finance h3 {
+  position: relative;
+  z-index: 3;
+}
+.netmi-main .netmi-finance h3 span {
+  font-weight: normal;
+}
+.netmi-main .netmi-finance .netmi-desc {
+  color: #7D7C83;
+  padding-bottom: 20px;
+  position: relative;
+  z-index: 3;
+}
+.netmi-main .netmi-finance .netmi-list {
+  position: relative;
+}
+.netmi-main .netmi-finance .netmi-list .netmi-item {
+  background: #FEFEFE;
+  box-shadow: -15px 10px 30px rgba(49, 25, 68, 0.07);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px 24px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
+}
+.netmi-main .netmi-finance .netmi-list .netmi-item .netmi-userpic {
+  width: 60px;
+  height: 60px;
+}
+.netmi-main .netmi-finance .netmi-list .netmi-item .netmi-userpic img {
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+}
+.netmi-main .netmi-finance .netmi-list .netmi-item .netmi-name-date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 0 0 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 0px 10px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+}
+.netmi-main .netmi-finance .netmi-list .netmi-item .netmi-name-date span {
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: normal;
+  color: #D0CED9;
+}
+.netmi-main .netmi-finance .netmi-list .netmi-item .netmi-arrow {
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  padding: 2px 0px 0px 0px;
+  color: #EFEFF4;
+  font-size: 52px;
+  width: 80px;
+}
+.netmi-main .netmi-finance .netmi-list .netmi-item .netmi-arrow span {
+  margin: 0 -19px;
+}
+.netmi-main .netmi-finance .netmi-list .netmi-item .netmi-arrow span:nth-child(2) {
+    opacity: 0.5;
+}
+.netmi-main .netmi-finance .netmi-list .netmi-item .netmi-arrow span:nth-child(3) {
+  opacity: 0.2;
+}
+.netmi-main .netmi-finance .netmi-list .netmi-item .netmi-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 10px 0px 0px 0px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  min-width: 80px;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: bold;
+  color: #E6903E;
+}
+.netmi-main .netmi-finance .netmi-list .netmi-item .netmi-price span {
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: normal;
+  color: #D0CED9;
+  margin: 3px 0 0 0;
+}
+.netmi-main .netmi-finance .netmi-list .netmi-item .netmi-method {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;
+  width: 40px;
+  height: 40px;
+  margin: 10px 0 0 10px;
+  padding: 0 0 0 5px;
+}
+.netmi-main .netmi-finance .netmi-list .netmi-item .netmi-method img {
+  height: 36px;
+}
+.netmi-main .netmi-finance .netmi-list:after{
+  background: #FEFEFE;
+  box-shadow: 0px 30px 30px -20px rgba(49, 25, 68, 0.15);
+  position: absolute;
+  content: '';
+  height: 50px;
+  width: calc(100% + 60px);
+  top: -40px;
+  left: -30px;
+  z-index: 2;
+}
+.netmi-main .netmi-finance .netmi-list:before {
+  background: #FEFEFE;
+  box-shadow: 0px -30px 40px -20px rgba(49, 25, 68, 0.15);
+  position: absolute;
+  content: '';
+  height: 50px;
+  width: calc(100% + 40px);
+  bottom: -40px;
+  left: -30px;
+  z-index: 2;
+}
+
+
+/* Main: timeline */
+.netmi-main .netmi-timeline {
+  position: relative;
+  background: #141a2a;
+}
+.netmi-main .netmi-timeline:before {
+  left: auto;
+  bottom: auto;
+  top: 0px;
+  right: 0px;
+  transform: rotate(180deg);
+}
+.netmi-main .netmi-timeline .netmi-inner {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+.netmi-main .netmi-timeline h3 span {
+  font-weight: normal;
+}
+.netmi-main .netmi-timeline .netmi-desc {
+  font-size: 18px;
+  line-height: 30px;
+  color: #9093ab;
+  margin-top: 10px;
+}
+.netmi-main .netmi-timeline-area {
+  
+}
+.netmi-main .netmi-timeline-area .netmi-in {
+  display: flex;
+  position: relative;
+}
+
+.netmi-main .netmi-timeline-area .netmi-in:after,
+.netmi-main .netmi-timeline-area .netmi-in:before {
+  position: absolute;
+  content: '';
+  top: 217px;
+  left: 0px;
+  width: 100%;
+  height: 10px;
+  background: #141329;
+  border-radius: 20px;
+  z-index: 1;
+}
+.netmi-main .netmi-timeline-area .netmi-in:before {
+  width: 30%;
+  background: #9151a0;
+  background: -moz-linear-gradient(left, rgba(145,81,160,1) 0%, rgba(117,111,183,1) 50%);
+  background: -webkit-linear-gradient(left, rgba(145,81,160,1) 0%, rgba(117,111,183,1) 50%);
+  background: linear-gradient(to right, rgba(145,81,160,1) 0%, rgba(117,111,183,1) 50%);
+  filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#9151a0', endColorstr='#756fb7',GradientType=1 )";
+  z-index: 2;
+}
+
+.netmi-main .netmi-timeline-area .netmi-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;  
+  z-index: 3;
+  width: 20%;
+}
+.netmi-main .netmi-timeline-area .netmi-item .netmi-desc {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #9093ab;
+  order: 1;
+  padding: 0px;
+  margin-top: 2px;
+}
+.netmi-main .netmi-timeline-area .netmi-item .netmi-desc b {
+  display: block;
+  margin-bottom: 10px;
+}
+.netmi-main .netmi-timeline-area .netmi-item .netmi-desc b span {
+  margin-right: 5px;
+  color: #aa72cf;
+  position: relative;
+  top: 2px;
+}
+.netmi-main .netmi-timeline-area .netmi-item .netmi-dots {
+  border-right: 2px dotted #5b5a68;
+  height: 40px;
+  order: 2;
+  width: 1px;
+  justify-content: center;
+  margin: 3px auto;
+}
+.netmi-main .netmi-timeline-area .netmi-item .netmi-pointer {
+  order: 3;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  background: #8e88a4;
+  border: 3px solid #141a2a;
+  margin: 0 auto;
+  position: relative;
+  z-index: 3;
+}
+.netmi-main .netmi-timeline-area .netmi-item .netmi-year {
+  color: #777587;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  position: relative;
+  top: 8px;
+  order: 4;
+}
+.netmi-main .netmi-timeline-area .netmi-item.netmi-passed .netmi-year,
+.netmi-main .netmi-timeline-area .netmi-item.netmi-current .netmi-year {
+  color: #D0CED9;
+  font-weight: bold;
+}
+.netmi-main .netmi-timeline-area .netmi-item.netmi-passed .netmi-desc,
+.netmi-main .netmi-timeline-area .netmi-item.netmi-current .netmi-desc {
+  color: #D0CED9;
+}
+.netmi-main .netmi-timeline-area .netmi-item.netmi-reverse .netmi-desc {
+  order: 4;
+}
+.netmi-main .netmi-timeline-area .netmi-item.netmi-reverse .netmi-dots {
+  order: 3;
+}
+.netmi-main .netmi-timeline-area .netmi-item.netmi-reverse .netmi-pointer {
+  order: 2;
+  top: 3px;
+  margin-bottom: 3px;
+}
+.netmi-main .netmi-timeline-area .netmi-item.netmi-reverse .netmi-year {
+  order: 1;
+  margin-top: 170px;
+  top: -8px;
+}
+.netmi-main .netmi-timeline-area .netmi-item.netmi-passed .netmi-pointer,
+.netmi-main .netmi-timeline-area .netmi-item.netmi-current .netmi-pointer {
+  width: 30px;
+  height: 30px;
+  background: #8162ad;
+background: -moz-linear-gradient(top, rgba(129,98,173,1) 0%, rgba(143,82,160,1) 50%);
+background: -webkit-linear-gradient(top, rgba(129,98,173,1) 0%, rgba(143,82,160,1) 50%);
+background: linear-gradient(to bottom, rgba(129,98,173,1) 0%, rgba(143,82,160,1) 50%);
+filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#8162ad', endColorstr='#8f52a0',GradientType=0 )";
+  border: 4px solid #141a2a;
+  margin-top: -2px;
+}
+.netmi-main .netmi-timeline-area .netmi-item.netmi-passed .netmi-pointer:before,
+.netmi-main .netmi-timeline-area .netmi-item.netmi-current .netmi-pointer:before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  background: #fff;
+  margin-top: -5px;
+  margin-left: -5px;
+  z-index: 4;
+}
+.netmi-main .netmi-timeline-area .netmi-item.netmi-current .netmi-pointer {
+  width: 40px;
+  height: 40px;
+  background: #6f67ad;
+  background: -moz-linear-gradient(top, rgba(111,103,173,1) 0%, rgba(147,77,157,1) 50%);
+  background: -webkit-linear-gradient(top, rgba(111,103,173,1) 0%, rgba(147,77,157,1) 50%);
+  background: linear-gradient(to bottom, rgba(111,103,173,1) 0%, rgba(147,77,157,1) 50%);
+  filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f67ad', endColorstr='#934d9d',GradientType=0 )";
+    border: 0px;
+  margin-top: -2px;
+}
+.netmi-main .netmi-timeline-area .netmi-item.netmi-current .netmi-pointer:before {
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+}
+.netmi-main .netmi-timeline .netmi-icon-start,
+.netmi-main .netmi-timeline .netmi-icon-end {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 182px;
+  left: 0px;
+  color: #9152a1;
+  font-size: 36px;
+}
+.netmi-main .netmi-timeline .netmi-icon-end {
+  color: #141329;
+  left: auto;
+  right: -10px;
+}
+
+/* Textboxes
+-----------------------------------------------------------------------------*/
+.netmi-textbox {
+  font-size: 20px;
+  line-height: 36px;
+}
+.netmi-textbox p {
+  padding-bottom: 20px;
+  color: #a9acc7;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.netmi-footer {
+  background: #100b21;
+  border-top: 1px solid rgba(170,114,206,0.1);
+}
+.netmi-footer .netmi-top {
+  padding: 30px 0 40px 0;
+  color: #B8B4D1;
+}
+.netmi-footer .netmi-top .netmi-l {
+  width: 30%;
+  float: left;
+}
+.netmi-footer .netmi-top .netmi-r {
+  width: 70%;
+  float: left;
+  padding-left: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.netmi-footer .netmi-top .netmi-l .netmi-info {
+  font-size: 14px;
+  line-height: 28px;
+  color: #9093ab;
+  padding: 30px 0;
+}
+.netmi-footer .netmi-top .netmi-l .netmi-social {
+  display: flex;
+  flex-direction: row;
+}
+.netmi-footer .netmi-top .netmi-l .netmi-social a {
+  text-decoration: none;
+  color: #fff;
+  border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: #1f1e36;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 10px;
+}
+.netmi-footer .netmi-top .netmi-l .netmi-social .netmi-tg {
+  position: relative;
+  font-size: 16px;
+}
+.netmi-footer .netmi-top .netmi-l .netmi-social a span {
+  position: relative;
+  top: 3px;
+}
+
+.netmi-footer .netmi-top .netmi-l .netmi-social a:hover {
+  color: #aa72ce;
+}
+.netmi-footer .netmi-top .netmi-r .netmi-list {
+}
+.netmi-footer .netmi-top .netmi-r .netmi-list .netmi-t {
+  color: #FEFEFE;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+.netmi-footer .netmi-top .netmi-r .netmi-list .netmi-t span {
+  font-weight: normal;
+}
+.netmi-footer .netmi-top .netmi-r .netmi-list ul {
+  
+}
+.netmi-footer .netmi-top .netmi-r .netmi-list ul li {
+  color: #B8B4D1;
+  padding-bottom: 8px;
+}
+.netmi-footer .netmi-top .netmi-r .netmi-list ul li a {
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 15px;
+  color: #D0CED9;
+  text-decoration: none;
+}
+.netmi-footer .netmi-top .netmi-r .netmi-list ul li a:hover {
+  color: #aa72ce;
+}
+.netmi-footer .netmi-bottom {
+  border-top: 1px solid rgba(170,114,206,0.1);
+  padding: 12px 0;
+  background: #100b21;
+}
+.netmi-footer .netmi-bottom .netmi-copyright {
+  float: left;
+  font-size: 11px;
+  line-height: 18px;
+  color: #D0CED9;
+}
+.netmi-footer .netmi-bottom .netmi-copyright a {
+  color: #E6903E;
+  text-decoration: none;
+}
+.netmi-footer .netmi-bottom .netmi-copyright a:hover {
+  text-decoration: underline;
+}
+.netmi-footer .netmi-bottom .netmi-payments {
+  float: right;
+}
+.netmi-footer .netmi-bottom .netmi-method {
+  height: 36px;
+  width: 36px;
+  border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: #141329;
+    padding: 8px;
+  float: left;
+  margin-left: 15px;
+}
+.netmi-footer .netmi-bottom .netmi-method img {
+  height: 100%;
+  width: 100%;
+}
+.netmi-footer .netmi-foo-logo {
+  width: 113px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+/* Popups
+-----------------------------------------------------------------------------*/
+.popup {
+  background: rgb(0 0 0 / 63%);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: none;
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);  
+}
+.popup-container {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  overflow-y: scroll; 
+}
+.popup .in {
+  position: relative;
+  align-self: center;
+  width: 460px;
+  max-width: 100%;
+  border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+  background: #0c071a;
+  box-shadow: -15px 30px 80px rgb(0 0 0 / 30%);
+  padding: 30px 35px;
+  z-index: 1001;
+  margin: 0px auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 2px solid #362f4f;
+}
+.popup .in .close {
+  color: #D0CED9;
+  font-size: 32px;
+  line-height: 32px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1002;
+ transition: all ease-out 0.1s;
+}
+.popup .in .close:hover {
+  cursor: pointer;
+  color: #aa72ce;
+ transition: all ease-in 0.1s;
+}
+.popup .in .title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 38px;
+  padding-bottom: 5px;
+  color: #ffffff;
+}
+.popup .in .subtitle {
+  font-size: 15px;
+  line-height: 22px;
+  color: #9093ab;
+}
+.popup .in .referred {
+  background: #141329; 
+  padding: 13px 10px 13px 20px; 
+  border-radius: 15px; 
+  -moz-border-radius: 15px; 
+  -webkit-border-radius: 15px; 
+  margin-top: 20px;
+  height: 55px;
+}
+.popup .in .referred span {
+  color:#aa72cf
+}
+.popup .in .referred span.flaticon-user {
+  font-size: 13px;
+  position: relative;
+  top: 2px;
+}
+.popup .in .c {
+  padding: 20px 0 0 0;
+}
+.popup .in .c .fld {
+  padding: 7px 0;
+}
+.popup .in .c .fld.fs .netmi-btn,
+.popup .in .c .fld.fs .netmi-inp {
+  width: 100%;
+}
+.popup .in .c .terms {
+  font-size: 14px;
+  line-height: 24px;
+  color: #9093ab;
+  padding: 20px 0 0 0;
+}
+.popup .in .c .terms a {
+  color: #D0CED9;
+}
+.popup .in .c .foo {
+  border-top: 1px dashed #362f4f;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.popup .in .c .foo.links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.popup .in .c .foo.links a {
+  color:#D0CED9;
+}
+
+.popup.popup-video .in {
+    width: 1024px;
+    padding: 20px 30px;
+}
+.popup.popup-video .popup-video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin-top: 10px;
+}
+.popup.popup-video video,
+.popup.popup-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* About us
+-----------------------------------------------------------------------------*/
+.netmi-about {
+  
+}
+.netmi-about-header {
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  padding: 20px 0 20px 0;
+  position: relative;
+  margin-top: 20px;
+  background: #141329;
+}
+
+.netmi-about-header h1 {
+  color: #fff;
+}
+
+.netmi-about-header .netmi-inner {
+  display: flex;
+  align-self: center;
+  vertical-align: middle;
+  align-items: center;
+}
+.netmi-about-header .netmi-desc {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  padding: 0px 0 30px 0;
+  position: relative;
+}
+
+.netmi-about-header .netmi-desc div {
+  color: #a9acc7;
+  font-weight: 500;
+}
+
+.netmi-about-header .netmi-desc div strong {
+  color: #aa72cf !important;
+  font-weight: 500;
+}
+
+.netmi-about-header .netmi-desc:before {
+  position: absolute;
+  top: -55px;
+  left: 0px;
+  content: "“";
+  font-weight: bold;
+  font-size: 240px;
+  line-height: 240px;
+  color: #26253e;
+  z-index: 1;
+}
+.netmi-about-header .netmi-desc div {
+  position: relative;
+  z-index: 2;
+}
+.netmi-about-header .netmi-founder {
+  font-size: 24px;
+  line-height: 18px;
+}
+.netmi-about-header .netmi-row-1 {
+  width: 80%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.netmi-about-header .netmi-row-2  {
+  width: 20%;
+}
+.netmi-about-header .netmi-row-2 img {
+  left: 0px;
+  position: relative;
+}
+.netmi-about-content {
+  padding: 40px 0 0 0;
+}
+.netmi-about-content .netmi-row {
+  display: flex;
+  align-self: center;
+  vertical-align: middle;
+}
+.netmi-about-content .netmi-col {
+  
+}
+.netmi-about-content .netmi-col-1 {
+  width: 25%;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+}
+.netmi-about-content .netmi-col-2 {
+  width: 100%;
+  color: #a9acc7;
+}
+.netmi-about-content .netmi-col-2 h3 {
+  margin-bottom: 20px;
+}
+.netmi-about-content .netmi-col-2 h5 {
+  margin-bottom: -20px;
+  line-height: 42px;
+  font-weight: 500;
+  color: #a9acc7;
+}
+.netmi-about-content .netmi-col-2 p {
+  font-size: 20px;
+  line-height: 34px;
+}
+.netmi-about-content .netmi-col-2 .netmi-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.netmi-about-content .netmi-col-2 .netmi-stats .netmi-s {
+  width: 33%;
+  padding: 25px 0;
+}
+.netmi-about-content .netmi-col-2 .netmi-stats .netmi-s .netmi-number {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+}
+.netmi-about-content .netmi-col-2 .netmi-stats .netmi-s .netmi-desc {
+  font-size: 24px;
+  line-height: 29px;
+  color: #7D7C83;
+}
+.netmi-about-content .netmi-timeline {
+  padding: 0px 0 20px 0;
+}
+.netmi-about-content .netmi-timeline .netmi-t {
+  display: flex;
+  align-self: center;
+  vertical-align: middle;
+  padding: 10px 0;
+}
+.netmi-about-content .netmi-timeline .netmi-t .netmi-year {
+  font-size: 22px;
+  line-height: 38px;
+  color: #9093ab;
+  width: 20%;
+  position: relative;
+  top: 35px;
+  font-weight: bold;
+}
+.netmi-about-content .netmi-timeline .netmi-t .netmi-desc {
+  color: #9093ab;
+  width: 80%;
+}
+.netmi-about-content .netmi-timeline .netmi-t .netmi-desc h6 {
+  color: #9093ab;
+}
+.netmi-about-content .netmi-timeline .netmi-t.netmi-passed .netmi-year {
+  color: #fff;
+}
+.netmi-about-content .netmi-timeline .netmi-t.netmi-passed .netmi-desc {
+  color: #D0CED9;
+}
+.netmi-about-content .netmi-timeline .netmi-t.netmi-passed .netmi-desc h6 {
+  color: #fff;
+}
+.netmi-about-content .netmi-timeline .netmi-t.netmi-current .netmi-year {
+  color: #aa72cf;
+  font-weight: bold;
+}
+.netmi-about-content .netmi-timeline .netmi-t.netmi-current .netmi-desc {
+  color: #D0CED9;
+}
+.netmi-about-content .netmi-timeline .netmi-t.netmi-current .netmi-desc h6 {
+  color: #ffffff;
+}
+
+
+.netmi-hiw {
+  
+}
+.netmi-hiw-header {
+  display: flex;
+  align-self: center;
+  vertical-align: middle;
+}
+
+.netmi-hiw-header h1 {
+  color: #fff;
+}
+
+.netmi-hiw-header h1 span {
+    font-weight: normal;
+  }
+
+.netmi-hiw-header .netmi-desc {
+  font-size: 20px;
+  line-height: 34px;
+  padding-bottom: 25px;
+  position: relative;
+  color: #a9acc7;
+  border-bottom: 1px solid rgba(170,114,206,0.12);
+}
+.netmi-hiw-header .netmi-desc div {
+  position: relative;
+  z-index: 2;
+}
+.netmi-hiw-header .netmi-subdesc {
+  font-size: 20px;
+  line-height: 34px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: #a9acc7;
+}
+.netmi-hiw-header .netmi-buttons .netmi-link {
+  position: relative;
+  top: -23px;
+  margin-left: 20px;
+  color: #fff;
+}
+.netmi-hiw-header .netmi-row-1 {
+  width: 50%;
+  padding-right: 15px;
+}
+.netmi-hiw-header .netmi-row-2 {
+  width: 50%;
+  margin-bottom: -300px;
+  text-align: right;
+}
+.netmi-hiw-header .netmi-row-2 img {
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  margin-top: -210px;
+  max-width: 650px; 
+}
+
+.netmi-hiw-header .netmi-row-3 {
+  width: 30%;
+  padding-right: 15px;
+}
+.netmi-hiw-header .netmi-row-4 {
+  width: 70%;
+  padding-left: 15px;
+}
+
+.netmi-hiw-header .netmi-row-3 img {
+  border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+  border: 2px solid #26253e;
+}
+
+.netmi-hiw-content {
+  padding: 50px 0 0 0;
+}
+.netmi-hiw-content .netmi-row {
+  display: flex;
+  align-self: center;
+  vertical-align: middle;
+  margin-bottom: 50px;
+  border-bottom: 1px dashed #2e2f4c;
+}
+.netmi-hiw-content .netmi-col {
+  
+}
+.netmi-hiw-content .netmi-col-1 {
+  width: 25%;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+}
+.netmi-hiw-content .netmi-col-1 .netmi-text-purple {
+  color: #aa72cf;
+}
+.netmi-hiw-content .netmi-col-2 {
+  width: 75%;
+}
+.netmi-hiw-content .netmi-col-2 img {
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border: 2px solid #26253e;
+}
+.netmi-hiw-content .netmi-col-2 h5 {
+  margin-top: 20px;
+}
+.netmi-hiw-content .netmi-col-2 p {
+  font-size: 18px;
+  line-height: 34px;
+  padding: 0 0 20px 0;
+}
+
+
+/* Static
+-----------------------------------------------------------------------------*/
+.netmi-static {
+  padding-bottom: 70px;
+  margin-top: -200px;
+  z-index: 2;
+  position: relative;
+}
+.netmi-static .netmi-page-box{
+
+}
+
+.netmi-static h1 {
+  padding: 0 0 50px 0;
+}
+.netmi-static h1 span {
+  font-weight: normal;
+}
+
+.netmi-static .netmi-faq-nav {
+  font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+  line-height: 34px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(170,114,206,0.12);
+}
+.netmi-static .netmi-faq-nav a {
+  color: #a9acc7;
+  text-decoration: none;
+  border: 2px solid #362f4f;
+  margin-right: 20px;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  padding: 7px 30px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.netmi-static .netmi-faq-nav a:hover {
+  
+}
+.netmi-static .netmi-faq-nav a.netmi-active {
+  color: #fff;
+  border: 2px solid #aa72ce;
+  cursor: default;
+}
+.netmi-static .netmi-faq-content {
+  
+}
+.netmi-static .netmi-faq-content .netmi-section {
+  display: none;
+}
+.netmi-static .netmi-faq-content .netmi-section.netmi-active {
+  display: block;
+}
+.netmi-static .netmi-faq-content .netmi-row {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px dashed #362f4f;
+}
+.netmi-static .netmi-faq-content .netmi-row:last-child {
+  border-bottom: none;
+}
+.netmi-static .netmi-faq-content .netmi-row .netmi-t {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.netmi-static .netmi-faq-content .netmi-row .netmi-d {
+  font-size: 16px;
+  line-height: 28px;
+  color: #9093ab;
+}
+.netmi-static .netmi-faq-content .netmi-row p {
+  margin-bottom: 20px;
+}
+.netmi-static .netmi-faq-content .netmi-row p strong{
+  color: #fff;
+  font-weight: 500;
+}
+.netmi-static .netmi-faq-content .netmi-row p:last-child {
+  margin-bottom: 0px;
+}
+.netmi-static .netmi-faq-question {
+  padding: 50px 0;
+  text-align: center;
+  position: relative;
+}
+.netmi-static .netmi-faq-question .netmi-btn {
+  width: 240px;
+  max-width: 100%;
+  margin: 30px 0 0 0;
+}
+.netmi-static .netmi-faq-question:after {
+  top: auto;
+  left: auto;
+  right: 0px;
+  bottom: 0px;
+  background-position: left 80px;
+}
+
+.netmi-static p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 28px;
+}
+.netmi-static .netmi-infobox {
+  padding: 15px 25px;
+  background: #141329;
+  border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+  margin-bottom: 40px;
+}
+.netmi-static h4,
+.netmi-static h5 {
+  margin: 40px 0 20px 0;
+}
+.netmi-static h6 {
+  margin: 40px 0 10px 0;
+}
+.netmi-static h3.netmi-first,
+.netmi-static h4.netmi-first,
+.netmi-static h5.netmi-first,
+.netmi-static h6.netmi-first {
+  margin-top: 0px !important;
+}
+.netmi-static h6.netmi-form {
+  margin-top: 0px !important;
+  margin-bottom: 25px;
+}
+
+.netmi-static ol, 
+.netmi-static ul {
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.netmi-static ol li,
+.netmi-static ul li {
+  list-style: disc;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.netmi-static ul li {
+  list-style: decimal;
+}
+.netmi-static blockquote {
+  color: #7d7c83;
+  padding: 5px 0 5px 23px;
+  border-left: 2px dotted #d0ced9;
+  margin-bottom: 25px
+}
+.netmi-static h2,
+.netmi-static h3,
+.netmi-static h4,
+.netmi-static h5 {
+  
+}
+.netmi-error-page {
+  text-align: center;
+  padding: 180px 0;
+}
+.netmi-error-page h1 {
+  font-size: 72px;
+  line-height: 72px;
+  padding-bottom: 20px;
+  color: #8959a6;
+}
+.netmi-error-page .netmi-buttons {
+  padding: 30px 0 0 0;
+}
+.netmi-error-page .netmi-buttons .netmi-btn {
+  font-size: 15px;
+  min-width: 170px;
+  padding: 0 20px;
+  margin: 3px;
+}
+
+/* Contacts
+-----------------------------------------------------------------------------*/
+.netmi-contact-rows {
+  display: flex;
+  align-self: center;
+  vertical-align: middle;
+}
+.netmi-contact-rows .netmi-col-1 {
+  width: 60%;
+  padding-right: 15px;
+}
+.netmi-contact-rows .netmi-col {
+  width: 40%;
+  padding: 0 15px;
+}
+.netmi-contact-rows .netmi-col:first-child {
+  padding-left: 0px;
+}
+.netmi-contact-rows .netmi-col:last-child {
+  padding-right: 0px;
+}
+.netmi-contact-rows .netmi-contacts-big {
+  font-size: 18px;
+  line-height: 32px;
+  color: #a9acc7;
+}
+.netmi-contact-rows .netmi-contacts-silver {
+  font-size: 18px;
+  line-height: 32px;
+  color: #a9acc7;
+  margin-bottom: 40px;
+}
+.netmi-contact-rows .netmi-contacts-line {
+  border: 1px dashed #293440;
+  margin: 20px 0;
+}
+.netmi-contact-rows .netmi-contacts-social {
+  
+}
+.netmi-contact-rows .netmi-contacts-social a {
+  text-decoration: none;
+  float: left;
+}
+.netmi-contact-rows .netmi-contacts-social a span {
+  text-decoration: none;
+  background: #D0CED9;
+  border-radius: 100px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 35px;
+  color: #fff;
+  font-size: 20px;
+  margin-right: 5px;
+}
+.netmi-contact-rows .netmi-contacts-social a.netmi-fb span {  }
+.netmi-contact-rows .netmi-contacts-social a.netmi-tw span { font-size: 18px; padding-top: 1px; }
+.netmi-contact-rows .netmi-contacts-social a.netmi-tg span { font-size: 16px; }
+.netmi-contact-rows .netmi-contacts-social a.netmi-vk span { padding-top:1px; }
+.netmi-contact-rows .netmi-contacts-social a.netmi-fb:hover span { background-color: #1877f2; }
+.netmi-contact-rows .netmi-contacts-social a.netmi-tw:hover span { background-color: #41abe1; }
+.netmi-contact-rows .netmi-contacts-social a.netmi-tg:hover span { background-color: #34ACE0; }
+.netmi-contact-rows .netmi-contacts-social a.netmi-vk:hover span { background-color: #2787f5; }
+
+.netmi-contact-rows .netmi-contacts-small {
+  font-size: 14px;
+  line-height: 24px;
+}
+.netmi-contact-rows .netmi-contacts-small li {
+  margin-bottom: 8px;
+}
+.netmi-contact-rows .netmi-contacts-small .netmi-r {
+  padding-left: 30px;
+}
+.netmi-contact-rows .netmi-contacts-form {
+  position: relative;
+}
+.netmi-contact-rows .netmi-contacts-form .netmi-fld {
+  margin-bottom: 10px;
+}
+.netmi-contact-rows .netmi-contacts-form .netmi-success {
+  background: #EFEFF4;
+  padding: 18px 25px;
+  border-radius: 6px;
+  line-height: 24px;
+}
+.netmi-contact-rows .netmi-contacts-form .netmi-success h5 {
+  font-size: 20px;
+  line-height: 24px;
+  padding: 0 0 5px 0;
+  margin: 0px;
+}
+
+
+.netmi-important-notice {
+  background: #EF662C;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 15px;
+  line-height: 22px;
+}
+.netmi-important-notice .netmi-icon {
+  vertical-align: middle;
+  margin: 0 3px 0 0;
+  position: relative;
+  display: inline-block;
+}
+.netmi-important-notice a {
+  color: #fff;
+}
+
+
+/*==============================
+	Post
+==============================*/
+.netmi-news-page {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+  margin-top: -14px;
+}
+
+.netmi-post-list {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+
+.netmi-post {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: #141329;
+  overflow: hidden;
+  margin: 12px;
+}
+.netmi-post a {
+  text-decoration: none;
+}
+.netmi-post__img {
+  display: block;
+  width: 100%;
+  position: relative;
+  padding: 20px 20px 0;
+  border-radius: 18px;
+}
+.netmi-post__img img {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  transition: opacity 0.5s ease;
+  border-radius: 16px;
+}
+.netmi-post__img:hover img {
+  opacity: 0.7;
+}
+.netmi-post__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+}
+.netmi-post__category {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 26px;
+  min-width: 70px;
+  width: auto;
+  color: #fff;
+  font-size: 12px;
+  background-color: transparent;
+  border: 2px solid #aa72ce;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 0 15px;
+  font-weight: 400;
+}
+.netmi-post__category span {
+  display: flex;
+  margin-right: 9px;
+}
+.netmi-post__category:hover {
+  color: #fff;
+  box-shadow: 0 0 12px rgba(170,114,206,0.14);
+}
+.netmi-post__title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  height: 64px;
+  font-size: 22px;
+  line-height: 32px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 0;
+  width: 100%;
+}
+.netmi-post__title a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.netmi-post__title a:hover {
+  color: #aa72ce;
+}
+.netmi-post__meta {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 20px;
+}
+.netmi-post__date {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 15px;
+  line-height: 20px;
+  color: #dedede;
+}
+.netmi-post__date svg {
+  fill: #aa72ce;
+  width: 16px;
+  height: auto;
+  margin-right: 5px;
+}
+.netmi-post__views {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+  color: #dedede;
+}
+.netmi-post__views svg {
+  fill: #aa72ce;
+  width: 17px;
+  height: auto;
+  margin-right: 5px;
+}
+.netmi-post--big .netmi-post__img,
+.netmi-post--big-slide .netmi-post__img {
+  padding: 0;
+}
+.netmi-post--big .netmi-post__img:before,
+.netmi-post--big-slide .netmi-post__img:before {
+  content: '';
+  position: absolute;
+  display: block;
+  z-index: 2;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%);
+}
+.netmi-post--big .netmi-post__img img,
+.netmi-post--big-slide .netmi-post__img img {
+  border-radius: 0;
+}
+@media screen and (max-width: 1024px) {
+  .netmi-news-page {
+    margin-top: -24px;
+}
+  .netmi-post-list {
+    flex: 0 0 auto;
+    width: 50%; 
+  }
+  .netmi-post {
+    margin-top: 24px;
+  }
+  .netmi-post--big .netmi-post__content,
+  .netmi-post--big-slide .netmi-post__content {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+  .netmi-post--big .netmi-post__img,
+  .netmi-post--big-slide .netmi-post__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 320px;
+    cursor: default;
+  }
+  .netmi-post--big .netmi-post__img img,
+  .netmi-post--big-slide .netmi-post__img img {
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .netmi-post--big .netmi-post__title,
+  .netmi-post--big-slide .netmi-post__title {
+    padding-right: 30%;
+    font-size: 24px;
+    height: auto;
+    max-height: 72px;
+  }
+  .netmi-post--big:hover .netmi-post__img img,
+  .netmi-post--big-slide:hover .netmi-post__img img {
+    opacity: 0.7;
+  }
+  .netmi-post--big-slide .netmi-post__title {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .netmi-post-list {
+    flex: 0 0 auto;
+    width: 100%; 
+  }
+}
+
+/* Pagination
+-----------------------------------------------------------------------------*/
+.netmi-pagination {
+  text-align: right;
+  margin: 40px 0 0 0;
+}
+.netmi-pagination a {
+  text-align: center;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  border-radius: 40px;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  text-decoration: none;
+  color: #1d1d1d;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0 1px;
+ transition: all ease-out 0.2s;
+}
+.netmi-pagination .netmi-dot {
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  border-radius: 40px;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  text-align: center;
+  display: inline-block;
+  color: #7D7C83; 
+}
+.netmi-pagination a:hover {
+  background-color: #EFEFF4;
+  color: #3D88EE;
+ transition: all ease-in 0.1s;
+}
+.netmi-pagination a.netmi-active {
+  background: transparent;
+  color: #D0CED9;
+}
+.netmi-pagination a.netmi-arr {
+  font-size: 16px;
+}
+.netmi-pagination a.netmi-arr span {
+  line-height: 20px;
+}
+
+/* qTIP
+-----------------------------------------------------------------------------*/
+.qtip{position:absolute;left:-28000px;top:-28000px;display:none;max-width:280px;min-width:50px;font-size:12px !important;line-height:16px;direction:ltr;box-shadow:none;padding:0}.qtip-content{position:relative;padding:6px 8px;overflow:hidden;text-align:left;word-wrap:break-word}.qtip-titlebar{position:relative;padding:5px 35px 5px 10px;overflow:hidden;border-width:0 0 1px;font-weight:bold}.qtip-titlebar + .qtip-content{border-top-width:0 !important}.qtip-close{position:absolute;right:-9px;top:-9px;z-index:11;cursor:pointer;outline:medium none;border:1px solid transparent}.qtip-titlebar .qtip-close{right:4px;top:50%;margin-top:-9px}* html .qtip-titlebar .qtip-close{top:16px}.qtip-titlebar .ui-icon,.qtip-icon .ui-icon{display:block;text-indent:-1000em;direction:ltr}.qtip-icon,.qtip-icon .ui-icon{border-radius:3px;text-decoration:none}.qtip-icon .ui-icon{width:18px;height:14px;line-height:14px;text-align:center;text-indent:0;font:normal bold 10px/16px;color:inherit;background:transparent none no-repeat -100em -100em}.qtip-default{background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.9);border-radius:4px;color:#fff}.qtip-default .qtip-titlebar{background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.9)}.qtip-default .qtip-icon{border-color:rgb(0,0,0);background:rgb(0,0,0);background:rgba(0,0,0,0.9);color:#fff}.qtip-default .qtip-titlebar .qtip-close{border-color:rgb(0,0,0);border-color:rgba(0,0,0,0.9);color:#111}#qtip-overlay{position:fixed;left:0;top:0;width:100%;height:100%}
+[data-tooltip]:not(.plan-close):hover {
+	cursor: help;
+}
+
+/**
+
+-----------------------------------------------------------------------------*/
+.irs {
+  position: relative;
+  display: block;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
+.irs-line {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  outline: none !important;
+}
+.irs-bar {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 0;
+}
+.irs-shadow {
+  position: absolute;
+  display: none;
+  left: 0;
+  width: 0;
+}
+.irs-handle {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  cursor: default;
+  z-index: 1;
+}
+.irs-handle.type_last {
+  z-index: 2;
+}
+.irs-min,
+.irs-max {
+  position: absolute;
+  display: block;
+  cursor: default;
+}
+.irs-min {
+  left: 0;
+}
+.irs-max {
+  right: 0;
+}
+.irs-from,
+.irs-to,
+.irs-single {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  cursor: default;
+  white-space: nowrap;
+}
+.irs-grid {
+  position: absolute;
+  display: none;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+}
+.irs-with-grid .irs-grid {
+  display: block;
+}
+.irs-grid-pol {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 8px;
+  background: #000;
+}
+.irs-grid-pol.small {
+  height: 4px;
+}
+.irs-grid-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 9px;
+  line-height: 9px;
+  padding: 0 3px;
+  color: #000;
+}
+.irs-disable-mask {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: -1%;
+  width: 102%;
+  height: 100%;
+  cursor: default;
+  background: rgba(0, 0, 0, 0);
+  z-index: 2;
+}
+.lt-ie9 .irs-disable-mask {
+  background: #000;
+  filter: alpha(opacity=0);
+  cursor: not-allowed;
+}
+.irs-disabled {
+  opacity: 0.4;
+}
+.irs-hidden-input {
+  position: absolute !important;
+  display: block !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden;
+  outline: none !important;
+  z-index: -9999 !important;
+  background: none !important;
+  border-style: solid !important;
+  border-color: transparent !important;
+}
+.irs--flat {
+  height: 40px;
+}
+.irs--flat.irs-with-grid {
+  height: 60px;
+}
+.irs--flat .irs-line {
+  top: 25px;
+  height: 12px;
+  background-color: #e1e4e9;
+  border-radius: 4px;
+}
+.irs--flat .irs-bar {
+  top: 25px;
+  height: 12px;
+  background-color: #ed5565;
+}
+.irs--flat .irs-bar--single {
+  border-radius: 4px 0 0 4px;
+}
+.irs--flat .irs-shadow {
+  height: 1px;
+  bottom: 16px;
+  background-color: #e1e4e9;
+}
+.irs--flat .irs-handle {
+  top: 22px;
+  width: 16px;
+  height: 18px;
+  background-color: transparent;
+}
+.irs--flat .irs-handle > i:first-child {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  margin-left: -1px;
+  background-color: #da4453;
+}
+.irs--flat .irs-handle.state_hover > i:first-child,
+.irs--flat .irs-handle:hover > i:first-child {
+  background-color: #a43540;
+}
+.irs--flat .irs-min,
+.irs--flat .irs-max {
+  top: 0;
+  padding: 1px 3px;
+  color: #999;
+  font-size: 10px;
+  line-height: 1.333;
+  text-shadow: none;
+  background-color: #e1e4e9;
+  border-radius: 4px;
+}
+.irs--flat .irs-from,
+.irs--flat .irs-to,
+.irs--flat .irs-single {
+  color: white;
+  font-size: 10px;
+  line-height: 1.333;
+  text-shadow: none;
+  padding: 1px 5px;
+  background-color: #ed5565;
+  border-radius: 4px;
+}
+.irs--flat .irs-from:before,
+.irs--flat .irs-to:before,
+.irs--flat .irs-single:before {
+  position: absolute;
+  display: block;
+  content: "";
+  bottom: -6px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -3px;
+  overflow: hidden;
+  border: 3px solid transparent;
+  border-top-color: #ed5565;
+}
+.irs--flat .irs-grid-pol {
+  background-color: #e1e4e9;
+}
+.irs--flat .irs-grid-text {
+  color: #999;
+}
+.irs--big {
+  height: 40px;
+  top: -22px;
+}
+.irs--big.irs-with-grid {
+  height: 70px;
+}
+.irs--big .irs-line {
+  top: 33px;
+  height: 12px;
+  background-color: #1f1e36;
+  border-radius: 12px;
+}
+.irs--big .irs-bar {
+  top: 33px;
+  height: 12px;
+  background: #42355b;
+}
+.irs--big .irs-bar--single {
+  border-radius: 12px 0 0 12px;
+}
+.irs--big .irs-shadow {
+  height: 1px;
+  bottom: 16px;
+  background-color: rgba(66, 139, 202, 0.5);
+}
+.irs--big .irs-handle {
+  top: 27px;
+  width: 24px;
+  height: 24px;
+  background: #aa72cf;
+  border-radius: 30px;
+}
+.irs--big .irs-handle.state_hover,
+.irs--big .irs-handle:hover {
+  cursor: pointer;
+	transform: scale(1.05);
+  box-shadow: 0 0 16px rgba(166, 94, 229, 0.38); 
+}
+.irs--big .irs-handle:before {
+	position: absolute;
+	contain: '';
+	top: 50%;
+	left: 50%;
+	width: 6px;
+	height: 6px;
+	margin-top: -3px;
+	margin-left: -3px;
+	background: #fff;
+	border-radius: 10px;
+	z-index: 3;
+}
+.irs--big .irs-min,
+.irs--big .irs-max {
+  top: 0;
+  padding: 1px 5px;
+  color: white;
+  text-shadow: none;
+  background-color: #9f9f9f;
+  border-radius: 3px;
+}
+.irs--big .irs-from,
+.irs--big .irs-to,
+.irs--big .irs-single {
+  color: white;
+  text-shadow: none;
+  padding: 1px 5px;
+  background-color: #428bca;
+  background: linear-gradient(to bottom, #428bca 0%, #3071a9 100%);
+  border-radius: 3px;
+}
+.irs--big .irs-grid-pol {
+  background-color: #428bca;
+}
+.irs--big .irs-grid-text {
+  color: #428bca;
+}
+.irs--modern {
+  height: 55px;
+}
+.irs--modern.irs-with-grid {
+  height: 55px;
+}
+.irs--modern .irs-line {
+  top: 25px;
+  height: 5px;
+  background-color: #d1d6e0;
+  background: linear-gradient(to bottom, #e0e4ea 0%, #d1d6e0 100%);
+  border: 1px solid #a3adc1;
+  border-bottom-width: 0;
+  border-radius: 5px;
+}
+.irs--modern .irs-bar {
+  top: 25px;
+  height: 5px;
+  background: #20b426;
+  background: linear-gradient(to bottom, #20b426 0%, #18891d 100%);
+}
+.irs--modern .irs-bar--single {
+  border-radius: 5px 0 0 5px;
+}
+.irs--modern .irs-shadow {
+  height: 1px;
+  bottom: 21px;
+  background-color: rgba(209, 214, 224, 0.5);
+}
+.irs--modern .irs-handle {
+  top: 37px;
+  width: 12px;
+  height: 13px;
+  border: 1px solid #a3adc1;
+  border-top-width: 0;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 3px 3px;
+}
+.irs--modern .irs-handle > i:nth-child(1) {
+  position: absolute;
+  display: block;
+  top: -4px;
+  left: 1px;
+  width: 6px;
+  height: 6px;
+  border: 1px solid #a3adc1;
+  background: white;
+  transform: rotate(45deg);
+}
+.irs--modern .irs-handle > i:nth-child(2) {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 12px;
+  background: #e9e6e6;
+  background: linear-gradient(to bottom, white 0%, #e9e6e6 100%);
+  border-radius: 0 0 3px 3px;
+}
+.irs--modern .irs-handle > i:nth-child(3) {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  top: 3px;
+  left: 3px;
+  width: 4px;
+  height: 5px;
+  border-left: 1px solid #a3adc1;
+  border-right: 1px solid #a3adc1;
+}
+.irs--modern .irs-handle.state_hover,
+.irs--modern .irs-handle:hover {
+  border-color: #7685a2;
+  background: #c3c7cd;
+  background: linear-gradient(to bottom, #ffffff 0%, #919ba5 30%, #ffffff 100%);
+}
+.irs--modern .irs-handle.state_hover > i:nth-child(1),
+.irs--modern .irs-handle:hover > i:nth-child(1) {
+  border-color: #7685a2;
+}
+.irs--modern .irs-handle.state_hover > i:nth-child(3),
+.irs--modern .irs-handle:hover > i:nth-child(3) {
+  border-color: #48536a;
+}
+.irs--modern .irs-min,
+.irs--modern .irs-max {
+  top: 0;
+  font-size: 10px;
+  line-height: 1.333;
+  text-shadow: none;
+  padding: 1px 5px;
+  color: white;
+  background-color: #d1d6e0;
+  border-radius: 5px;
+}
+.irs--modern .irs-from,
+.irs--modern .irs-to,
+.irs--modern .irs-single {
+  font-size: 10px;
+  line-height: 1.333;
+  text-shadow: none;
+  padding: 1px 5px;
+  background-color: #20b426;
+  color: white;
+  border-radius: 5px;
+}
+.irs--modern .irs-from:before,
+.irs--modern .irs-to:before,
+.irs--modern .irs-single:before {
+  position: absolute;
+  display: block;
+  content: "";
+  bottom: -6px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -3px;
+  overflow: hidden;
+  border: 3px solid transparent;
+  border-top-color: #20b426;
+}
+.irs--modern .irs-grid {
+  height: 25px;
+}
+.irs--modern .irs-grid-pol {
+  background-color: #dedede;
+}
+.irs--modern .irs-grid-text {
+  color: silver;
+  font-size: 13px;
+}
+.irs--sharp {
+  height: 50px;
+  font-size: 12px;
+  line-height: 1;
+}
+.irs--sharp.irs-with-grid {
+  height: 57px;
+}
+.irs--sharp .irs-line {
+  top: 30px;
+  height: 2px;
+  background-color: black;
+  border-radius: 2px;
+}
+.irs--sharp .irs-bar {
+  top: 30px;
+  height: 2px;
+  background-color: #ee22fa;
+}
+.irs--sharp .irs-bar--single {
+  border-radius: 2px 0 0 2px;
+}
+.irs--sharp .irs-shadow {
+  height: 1px;
+  bottom: 21px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.irs--sharp .irs-handle {
+  top: 25px;
+  width: 10px;
+  height: 10px;
+  background-color: #a804b2;
+}
+.irs--sharp .irs-handle > i:first-child {
+  position: absolute;
+  display: block;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-top-color: #a804b2;
+}
+.irs--sharp .irs-handle.state_hover,
+.irs--sharp .irs-handle:hover {
+  background-color: black;
+}
+.irs--sharp .irs-handle.state_hover > i:first-child,
+.irs--sharp .irs-handle:hover > i:first-child {
+  border-top-color: black;
+}
+.irs--sharp .irs-min,
+.irs--sharp .irs-max {
+  color: white;
+  font-size: 14px;
+  line-height: 1;
+  top: 0;
+  padding: 3px 4px;
+  opacity: 0.4;
+  background-color: #a804b2;
+  border-radius: 2px;
+}
+.irs--sharp .irs-from,
+.irs--sharp .irs-to,
+.irs--sharp .irs-single {
+  font-size: 14px;
+  line-height: 1;
+  text-shadow: none;
+  padding: 3px 4px;
+  background-color: #a804b2;
+  color: white;
+  border-radius: 2px;
+}
+.irs--sharp .irs-from:before,
+.irs--sharp .irs-to:before,
+.irs--sharp .irs-single:before {
+  position: absolute;
+  display: block;
+  content: "";
+  bottom: -6px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -3px;
+  overflow: hidden;
+  border: 3px solid transparent;
+  border-top-color: #a804b2;
+}
+.irs--sharp .irs-grid {
+  height: 25px;
+}
+.irs--sharp .irs-grid-pol {
+  background-color: #dedede;
+}
+.irs--sharp .irs-grid-text {
+  color: silver;
+  font-size: 13px;
+}
+.irs--round {
+  height: 50px;
+}
+.irs--round.irs-with-grid {
+  height: 65px;
+}
+.irs--round .irs-line {
+  top: 36px;
+  height: 4px;
+  background-color: #dee4ec;
+  border-radius: 4px;
+}
+.irs--round .irs-bar {
+  top: 36px;
+  height: 4px;
+  background-color: #006cfa;
+}
+.irs--round .irs-bar--single {
+  border-radius: 4px 0 0 4px;
+}
+.irs--round .irs-shadow {
+  height: 4px;
+  bottom: 21px;
+  background-color: rgba(222, 228, 236, 0.5);
+}
+.irs--round .irs-handle {
+  top: 26px;
+  width: 24px;
+  height: 24px;
+  border: 4px solid #006cfa;
+  background-color: white;
+  border-radius: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 255, 0.3);
+}
+.irs--round .irs-handle.state_hover,
+.irs--round .irs-handle:hover {
+  background-color: #f0f6ff;
+}
+.irs--round .irs-min,
+.irs--round .irs-max {
+  color: #333;
+  font-size: 14px;
+  line-height: 1;
+  top: 0;
+  padding: 3px 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.irs--round .irs-from,
+.irs--round .irs-to,
+.irs--round .irs-single {
+  font-size: 14px;
+  line-height: 1;
+  text-shadow: none;
+  padding: 3px 5px;
+  background-color: #006cfa;
+  color: white;
+  border-radius: 4px;
+}
+.irs--round .irs-from:before,
+.irs--round .irs-to:before,
+.irs--round .irs-single:before {
+  position: absolute;
+  display: block;
+  content: "";
+  bottom: -6px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -3px;
+  overflow: hidden;
+  border: 3px solid transparent;
+  border-top-color: #006cfa;
+}
+.irs--round .irs-grid {
+  height: 25px;
+}
+.irs--round .irs-grid-pol {
+  background-color: #dedede;
+}
+.irs--round .irs-grid-text {
+  color: silver;
+  font-size: 13px;
+}
+.irs--square {
+  height: 50px;
+}
+.irs--square.irs-with-grid {
+  height: 60px;
+}
+.irs--square .irs-line {
+  top: 31px;
+  height: 4px;
+  background-color: #dedede;
+}
+.irs--square .irs-bar {
+  top: 31px;
+  height: 4px;
+  background-color: black;
+}
+.irs--square .irs-shadow {
+  height: 2px;
+  bottom: 21px;
+  background-color: #dedede;
+}
+.irs--square .irs-handle {
+  top: 25px;
+  width: 16px;
+  height: 16px;
+  border: 3px solid black;
+  background-color: white;
+  transform: rotate(45deg);
+}
+.irs--square .irs-handle.state_hover,
+.irs--square .irs-handle:hover {
+  background-color: #f0f6ff;
+}
+.irs--square .irs-min,
+.irs--square .irs-max {
+  color: #333;
+  font-size: 14px;
+  line-height: 1;
+  top: 0;
+  padding: 3px 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.irs--square .irs-from,
+.irs--square .irs-to,
+.irs--square .irs-single {
+  font-size: 14px;
+  line-height: 1;
+  text-shadow: none;
+  padding: 3px 5px;
+  background-color: black;
+  color: white;
+}
+.irs--square .irs-grid {
+  height: 25px;
+}
+.irs--square .irs-grid-pol {
+  background-color: #dedede;
+}
+.irs--square .irs-grid-text {
+  color: silver;
+  font-size: 11px;
+}
+
+/* Chosen v1.8.7 */
+.chosen-container{position:relative;display:inline-block;vertical-align:middle;font-size:14px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.chosen-container *{box-sizing:border-box}.chosen-container .chosen-drop{position:absolute;top:100%;z-index:1010;width:100%;border:1px solid #fff;border-top:0;background:#fff;box-shadow:0px 0px 40px 0px rgba(28, 45, 58, 0.2);-moz-box-shadow:0px 0px 40px 0px rgba(28, 45, 58, 0.2);-webkit-box-shadow:0px 0px 40px 0px rgba(28, 45, 58, 0.2);clip:rect(0, 0, 0, 0)}.chosen-container.chosen-with-drop .chosen-drop{clip:auto;border-radius:20px;width:100%;left:0%;padding:5px 0 0 0;}.chosen-container a{cursor:pointer}.chosen-container .search-choice .group-name,.chosen-container .chosen-single .group-name{margin-right:4px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-weight:normal;color:#021627}.chosen-container .search-choice .group-name:after,.chosen-container .chosen-single .group-name:after{content:":";padding-left:2px;vertical-align:top}.chosen-container-single .chosen-single{position:relative;display:block;overflow:hidden;padding:10px 0 0 25px;height:48px;border: 1px solid #D0CED9;border-radius:50px;font-size:16px;background:#fff;background-clip:padding-box;color:#444;text-decoration:none;white-space:nowrap;line-height:26px;border-radius:50px;}.chosen-container-single .chosen-default{color:#999}.chosen-container-single .chosen-single span{display:block;overflow:hidden;margin-right:26px;text-overflow:ellipsis;white-space:nowrap}.chosen-container-single .chosen-single-with-deselect span{margin-right:38px}.chosen-container-single .chosen-single abbr{position:absolute;top:6px;right:26px;display:block;width:12px;height:12px;font-size:1px}.chosen-container-single .chosen-single abbr:hover{background-position:-42px -10px}.chosen-container-single.chosen-disabled .chosen-single abbr:hover{background-position:-42px -10px}.chosen-container-single .chosen-single div{position:absolute;top:17px;right:5px;display:block;width:30px;height:100%}.chosen-container-single .chosen-single div b{display:block;width:100%;height:100%;background:url("../images/chosen-sprite%402x.html") 0px 0px no-repeat;background-size:30px 10px;margin-top:1px;width:15px;height:10px}.chosen-container-single .chosen-search{position:relative;z-index:1010;margin:0;padding:10px;white-space:nowrap}.chosen-container-single .chosen-search input[type="text"]{margin:1px 0;padding:0px 20px 0px 15px;width:100%;height:auto;outline:0;border:1px solid #f2f3f8;border:1px solid #e9ebf4;height:38px;border-radius:50px;-moz-border-radius:50px;-webkit-border-radius:50px;font-size:1em;line-height:normal}.chosen-container-single .chosen-drop{margin-top:-1px;border-radius:0 0 4px 4px;background-clip:padding-box}.chosen-container-single.chosen-container-single-nosearch .chosen-search{position:absolute;clip:rect(0, 0, 0, 0)}.chosen-container .chosen-results{color:#444;position:relative;overflow-x:hidden;overflow-y:auto;margin:0 4px 4px 0;padding:0 0 0 4px;max-height:240px;-webkit-overflow-scrolling:touch}.chosen-container .chosen-results li{display:none;margin:0;padding:13px 15px;list-style:none;line-height:15px;word-wrap:break-word;-webkit-touch-callout:none;border-radius:20px;}.chosen-container .chosen-results li.active-result{display:list-item;cursor:pointer}.chosen-container .chosen-results li.disabled-result{display:list-item;color:#ccc;cursor:default}.chosen-container .chosen-results li.highlighted{background:#3D88EE;font-weight:bold;color:#fff}.chosen-container .chosen-results li.no-results{color:#777;display:list-item;background:#f4f4f4}.chosen-container .chosen-results li.group-result{display:list-item;font-weight:bold;cursor:default}.chosen-container .chosen-results li.group-option{padding-left:15px}.chosen-container .chosen-results li em{font-style:normal;text-decoration:underline}.chosen-container-multi .chosen-choices{position:relative;overflow:hidden;margin:0;padding:0 5px;width:100%;height:auto;border:1px solid #aaa;background-color:#fff;background-image:linear-gradient(#eee 1%, #fff 15%);cursor:text}.chosen-container-multi .chosen-choices li{float:left;list-style:none}.chosen-container-multi .chosen-choices li.search-field{margin:0;padding:0;white-space:nowrap}.chosen-container-multi .chosen-choices li.search-field input[type="text"]{margin:1px 0;padding:0;height:25px;outline:0;border:0 !important;background:transparent !important;box-shadow:none;color:#999;font-size:100%;font-family:sans-serif;line-height:normal;border-radius:0;width:25px}.chosen-container-multi .chosen-choices li.search-choice{position:relative;margin:3px 5px 3px 0;padding:3px 20px 3px 5px;border:1px solid #aaa;max-width:100%;border-radius:3px;background-color:#eeeeee;background-image:linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);background-size:100% 19px;background-repeat:repeat-x;background-clip:padding-box;box-shadow:0 0 2px #fff inset, 0 1px 0 rgba(0, 0, 0, 0.05);color:#333;line-height:13px;cursor:default}.chosen-container-multi .chosen-choices li.search-choice span{word-wrap:break-word}.chosen-container-multi .chosen-choices li.search-choice .search-choice-close{position:absolute;top:4px;right:3px;display:block;width:12px;height:12px;font-size:1px}.chosen-container-multi .chosen-choices li.search-choice-disabled{padding-right:5px;border:1px solid #ccc;background-color:#e4e4e4;background-image:linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);color:#666}.chosen-container-multi .chosen-choices li.search-choice-focus{background:#d4d4d4;border-color:#3D88EE;}.chosen-container-multi .chosen-results{margin:0;padding:0}.chosen-container-multi .chosen-drop .result-selected{display:list-item;color:#ccc;cursor:default}.chosen-container-active.chosen-with-drop .chosen-single{background:#3D88EE;color:#fff;border-color: #3D88EE;}.chosen-container-active.chosen-with-drop .chosen-single div{border-left:none;background:transparent}.chosen-container-active.chosen-with-drop .chosen-single div b{background-position:-15px 0px}.chosen-container-active .chosen-choices{border:1px solid #3D88EE;box-shadow:0 0 5px rgba(0, 0, 0, 0.3)}.chosen-container-active .chosen-choices li.search-field input[type="text"]{color:#222 !important}.chosen-disabled{opacity:0.5 !important;cursor:default}.chosen-disabled .chosen-single{cursor:default}.chosen-disabled .chosen-choices .search-choice .search-choice-close{cursor:default}.chosen-rtl{text-align:right}.chosen-rtl .chosen-single{overflow:visible;padding:0 8px 0 0}.chosen-rtl .chosen-single span{margin-right:0;margin-left:26px;direction:rtl}.chosen-rtl .chosen-single-with-deselect span{margin-left:38px}.chosen-rtl .chosen-single div{right:auto;left:3px}.chosen-rtl .chosen-single abbr{right:auto;left:26px}.chosen-rtl .chosen-choices li{float:right}.chosen-rtl .chosen-choices li.search-field input[type="text"]{direction:rtl}.chosen-rtl .chosen-choices li.search-choice{margin:3px 5px 3px 0;padding:3px 5px 3px 19px}.chosen-rtl .chosen-choices li.search-choice .search-choice-close{right:auto;left:4px}.chosen-rtl.chosen-container-single .chosen-results{margin:0 0 4px 4px;padding:0 4px 0 0}.chosen-rtl .chosen-results li.group-option{padding-right:15px;padding-left:0}.chosen-rtl.chosen-container-active.chosen-with-drop .chosen-single div{border-right:none}.chosen-rtl .chosen-search input[type="text"]{padding:4px 5px 4px 20px;direction:rtl}.chosen-rtl.chosen-container-single .chosen-single div b{background-position:6px 2px}.chosen-rtl.chosen-container-single.chosen-with-drop .chosen-single div b{background-position:-12px 2px}.chosen-single:hover{cursor: pointer}
+
+
+
+
+/* Responsive
+-----------------------------------------------------------------------------*/
+
+
+@media screen and (max-width: 1280px) {
+  .netmi-main .netmi-features-stat .netmi-item-text {
+    width: 100%;
+    border-right: unset;
+    border-bottom: 2px solid #141329;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    display: inline;
+  }
+
+ .netmi-main .netmi-tariffs .netmi-list {
+    flex-wrap: wrap;
+    margin: 0px;
+}
+ .netmi-main .netmi-tariffs .netmi-list .netmi-item {
+    width: 50%;
+    margin: 0 0 50px 0;
+  }
+  .netmi-about-header .netmi-desc {
+    font-size: 26px;
+    line-height: 36px;
+    padding: 30px 0 30px 0;
+  }
+  .netmi-about-header .netmi-desc:before {
+    font-size: 160px;
+    line-height: 160px;
+    top: -10px;
+  }
+  .netmi-about-content .netmi-col-2 .netmi-stats .netmi-s .netmi-desc,
+  .netmi-about-content .netmi-timeline .netmi-t .netmi-desc {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .netmi-hiw-header .netmi-row-3 {
+    width: 40%;
+  }
+  .netmi-hiw-header .netmi-row-4 {
+    width: 60%;
+  }
+  
+  .netmi-static .netmi-faq-question {
+    padding: 30px 0;
+    padding-top: 20px;
+  }
+  .netmi-static .netmi-faq-question:before,
+  .netmi-static .netmi-faq-question:after {
+    display: none;
+  }
+  .netmi-news-box h3 {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 10px 20px;
+  }
+  .netmi-news-box .netmi-date {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 20px 20px 20px;
+  }
+  .netmi-news-box-list h4 {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0 0 20px 0;
+  }
+  .netmi-news-box-list .netmi-nbl {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  .netmi-news-box-list .netmi-nbl a {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .netmi-news-box-list .netmi-nbl .netmi-date {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .netmi-contact-rows .netmi-contacts-big {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .netmi-contact-rows .netmi-contacts-silver {
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .netmi-header-page {
+    height: 300px;
+  }
+  .netmi-header {
+    height: auto;
+  }
+  .netmi-header:after {
+    display: none;
+  }
+ .netmi-inner {
+   padding-left: 20px !important;
+   padding-right: 20px !important;
+   margin-left: 0px !important;
+ }
+  .netmi-header-middle {
+    overflow: visible;
+    z-index: 20;
+  }
+
+  .netmi-header-middle {
+    height: 70px;
+  }
+  .netmi-header-middle .netmi-seperator {
+    display: none;
+  }
+  .netmi-header-middle .netmi-logo {
+    z-index: 1;
+    top: 22px;
+  }
+  .netmi-header-top {
+    height: 40px;
+    font-size: 12px;
+    line-height: 15px;
+    z-index: 30;
+    position: relative;
+  }
+  .netmi-header-top .netmi-inner {
+    height: 40px;
+  }
+
+  .netmi-header .netmi-lang {
+    margin-top: 13px;
+    margin-left: 15px;
+    font-size: 13px;
+  }
+
+  .netmi-header .netmi-lang .netmi-current {
+    height: 42px;
+    line-height: 41px;
+  }
+
+  .netmi-header .netmi-lang img {
+    width: 17px;
+    position: relative;
+}
+
+.netmi-header .netmi-navigation {
+    font-size: 14px;
+    margin-top: 13px;
+    margin-left: 15px;
+}
+
+.netmi-header .netmi-navigation .netmi-current {
+  height: 42px;
+  line-height: 41px;
+}
+
+
+.netmi-header-middle .netmi-nav li {
+  margin-top: 13px;
+}
+
+.netmi-header-middle .netmi-nav li a {
+  height: 42px;
+  line-height: 41px;
+  font-size: 14px;
+}
+
+  .netmi-header .netmi-userbox {
+    margin-top: 13px;
+  }
+
+  .netmi-header .netmi-userbox a {
+    height: 42px;
+    line-height: 41px;
+    padding: 0px 20px;
+  }
+  .netmi-header .netmi-userbox .netmi-logged img {
+    width: 22px;
+    height: 22px;
+    border: 0px;
+  }
+
+  .netmi-header .netmi-header-top .netmi-links li.netmi-line {
+    height: 14px;
+  }
+  .netmi-header .netmi-lang .netmi-dropdown {
+    top: 40px;
+    z-index: 9;
+  }
+
+  .netmi-header .netmi-header-top .netmi-links {
+    padding-left: 0px;
+  }
+  .netmi-header .netmi-welcome {
+    width: 100%;
+    padding-top: 80px;
+    
+  }
+  .netmi-header .netmi-welcome .netmi-left {
+    float: none;
+    width: 75%;
+    padding: 0px;
+  }
+  .netmi-header .netmi-welcome .netmi-right {
+    display: none;
+  }
+
+  .netmi-header-middle .netmi-logo img {
+    width: 45px;
+  }
+
+  .netmi-header-middle .netmi-logo img.netmi-full-logo {
+    display: none;
+  }
+  .netmi-header-middle .netmi-logo img.netmi-mobile-logo {
+    display: block;
+  }
+
+.netmi-header> .netmi-map {
+  max-width: 600px;
+  width: 98%;
+}
+  
+  h1, .netmi-h1 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  h2, .netmi-h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  h3, .netmi-h3 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  h4, .netmi-h4 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  h5, .netmi-h5 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  h6, .netmi-h6 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .netmi-header .netmi-welcome .netmi-desc {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .netmi-header .netmi-welcome .netmi-buttons .netmi-btn{
+    width: 200px;
+    min-width: 200px;
+    max-width: 98%;
+    margin: 0 5px 0 0;
+    padding: 0px;
+  }
+
+
+  
+  .netmi-main .netmi-title {
+    padding: 0 0 50px 0;
+  }
+  .netmi-main .netmi-title .netmi-d {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .netmi-main .netmi-features-list .netmi-item {
+    
+  }
+  .netmi-main .netmi-features-list .netmi-item-mobile {
+    display: block;
+    text-align: center;
+    z-index: 1;
+  }
+  .netmi-main .netmi-features-list .netmi-item-mobile .netmi-in {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .netmi-main .netmi-features-list .netmi-item-title {
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+
+  .netmi-main .netmi-features-list .netmi-item-desc {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+  .netmi-main .netmi-features-list .netmi-item-title i {
+    color: #fd9b6b;
+    position: relative;
+    margin-right: 10px;
+    top: 3px;
+  }
+  .netmi-main .netmi-features-stat .netmi-item .netmi-icon img {
+    width: 48px;
+    height: 48px;
+  }
+  .netmi-main .netmi-features-stat .netmi-item .netmi-number {
+    font-size: 18px;
+  }
+
+   .netmi-main .netmi-features-stat .netmi-item .netmi-number span {
+    font-size: 18px;
+  }
+  .netmi-main .netmi-features .netmi-title {
+    padding: 0 0 40px 0;
+}
+  .netmi-main .netmi-features .netmi-title .netmi-d {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.netmi-main .netmi-features-stat .netmi-item .netmi-desc {
+     font-size: 12px;
+     line-height: 16px;
+}
+
+  .netmi-main .netmi-tariffs {
+    width: 100%;
+    padding: 50px 0;
+  }
+  .netmi-main .netmi-tariffs:after,
+  .netmi-main .netmi-tariffs:before {
+    display: none;
+  }
+ 
+  .netmi-main .netmi-about {
+    padding: 80px 0 0 0;
+  }
+  .netmi-main .netmi-about .netmi-image {
+    width: 67%;
+    margin-top: 40px;
+  }
+  .netmi-main .netmi-about .netmi-desc {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+  .netmi-main .netmi-about .netmi-buttons {
+    margin-right: 0px;
+}
+  .netmi-main .netmi-affiliate {
+    padding: 50px 0;
+    overflow: hidden;
+  }
+  .netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-col .netmi-nb {
+    font-size: 16px;
+    position: relative;
+    top: -2px;
+}
+  .netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-col .netmi-level {
+    font-size: 12px;
+}
+.netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-percent {
+    font-size: 10px;
+}
+
+  .netmi-textbox {
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-c {
+    padding-top: 45px;
+  }
+  .netmi-main .netmi-finance {
+    padding: 70px 0;
+  }
+  .netmi-main .netmi-finance .netmi-inner {
+    display: block;
+  }
+  .netmi-main .netmi-finance .netmi-deposits {
+    width: 100%;
+    padding: 0px;
+  }
+  .netmi-main .netmi-finance .netmi-withdrawals {
+    width: 100%;
+    padding: 50px 0 0 0;
+  }
+  .netmi-main .netmi-news:after, .netmi-main .netmi-news:before,
+  .netmi-main .netmi-news:after, .netmi-main .netmi-news:after {
+    display: none;
+  }
+  .netmi-main .netmi-news .netmi-desc {
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 10px;
+  }
+  .netmi-main .netmi-news .netmi-single {
+    display: none;
+  }
+  .netmi-main .netmi-news .netmi-list {
+    width: 100%;
+    padding: 0px;
+  }
+  .netmi-main .netmi-news .netmi-inner {
+    padding: 70px 0;
+  }
+  .netmi-main .netmi-timeline-area .netmi-item {
+    padding: 0;
+}
+.netmi-main .netmi-timeline .netmi-inner {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.netmi-main .netmi-timeline-area .netmi-item .netmi-desc {
+  font-size: 12px;
+  line-height: 18px;
+}
+.netmi-main .netmi-timeline:after, .netmi-main .netmi-timeline:before {
+  display: none;
+ }
+ .netmi-main .netmi-timeline .netmi-desc {
+  font-size: 16px;
+  line-height: 26px;
+}
+  .netmi-footer .netmi-top .netmi-l {
+    float: none;
+    width: 100%;
+  }
+  .netmi-footer .netmi-top .netmi-r {
+    float: none;
+    width: 100%;
+    padding: 30px 0 0 0;
+  }
+
+  .netmi-footer .netmi-top .netmi-r .netmi-list .netmi-t {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+  .netmi-footer .netmi-top .netmi-l .netmi-info {
+    padding: 0 0 20px 0;
+  }
+
+  .netmi-footer .netmi-bottom .netmi-method {
+    margin-left: 10px;
+  }
+  .netmi-footer .netmi-foo-logo {
+    width: 95px;
+
+  }
+  .netmi-main .netmi-about:before,
+  .netmi-main .netmi-about:after {
+    display: none;
+  }
+  
+  .netmi-about-header .netmi-desc {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 20px 0 20px 0;
+  }
+  .netmi-about-header .netmi-desc:before {
+    font-size: 120px;
+    line-height: 120px;
+    top: 0px;
+  }
+  .netmi-about-header .netmi-row-1 {
+    width: 85%;
+    padding-right: 30px;
+  }
+  .netmi-about-header .netmi-row-2  {
+    width: 15%;
+  }
+  .netmi-about-header {
+    padding: 30px 0 20px 0;
+  }
+  .netmi-about-header .netmi-founder {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .netmi-about-content .netmi-col-1 {
+    display: none;
+  }
+  .netmi-about-content .netmi-col-2 {
+    width: 100%;
+  }
+  .netmi-about-content h3 {
+    line-height: 40px;
+  }
+  .netmi-hiw-header {
+    display: block;
+  }
+  .netmi-hiw-header .netmi-row-1 {
+    width: 100%;
+    padding: 0 0 30px 0;
+  }
+  .netmi-hiw-header .netmi-row-2 {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: -50px;
+    text-align: left;
+  }
+  .netmi-hiw-header .netmi-row-2 img {
+    width: 520px;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-left: -20px;
+  }
+  .netmi-hiw-header .netmi-row-3 {
+    width: 100%;
+    padding: 0 0 20px 0;
+  }
+  .netmi-hiw-header .netmi-row-4 {
+    width: 100%;
+    padding: 0px;
+  }
+  .netmi-hiw-header .netmi-row-3 img {
+    width: 480px;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  .netmi-hiw-header .netmi-subdesc {
+    padding-top: 0px;
+  }
+  .netmi-hiw-content .netmi-row {
+    display: block;
+  }
+  .netmi-hiw-content .netmi-col-1 {
+    width: 100%;
+    padding-bottom: 20px;
+    color: #D0CED9;
+  }
+  .netmi-hiw-content .netmi-col-1 .netmi-text-green {
+    color: #D0CED9;
+  }
+  .netmi-hiw-content .netmi-col-2 {
+    width: 100%;
+  }
+  .netmi-static .netmi-faq-nav {
+    font-size: 14px;
+  }
+  .netmi-static .netmi-faq-nav a {
+    margin-right: 15px;
+    padding: 3px 25px;
+    margin-bottom: 15px;
+  }
+  .netmi-static {
+    padding-bottom: 50px;
+    margin-top: -180px;
+  }
+  .netmi-static h1 {
+    padding-bottom: 30px;
+  }
+
+  .netmi-static p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .netmi-static ul li {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 10px;
+  }
+  .netmi-static .netmi-infobox {
+    padding: 15px 25px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .netmi-static h4,
+  .netmi-static h5 {
+    margin: 40px 0 20px 0;
+  }
+  .netmi-static h6 {
+    margin: 40px 0 10px 0;
+  }
+  .netmi-static ol {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 40px;
+  }
+  .netmi-static ol li {
+    list-style: disc;
+    margin-left: 30px;
+  }
+  .netmi-static h6.netmi-form {
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 28px;
+}
+  .netmi-contact-rows {
+    display: block;
+  }
+  .netmi-contact-rows .netmi-col {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .netmi-contact-rows .netmi-col-1 {
+    width: 100%;
+    padding-right: 0px;
+    margin-bottom: 30px;
+}
+  .netmi-contact-rows .netmi-contacts-line {
+    display: none;
+  }
+  .netmi-contact-rows .netmi-contacts-form {
+    width: 640px;
+    max-width: 100%;
+    padding: 20px 0 0 0;
+  }
+  .netmi-news-rows .netmi-col {
+    width: 50%;
+    padding: 15px;
+  }
+  .netmi-news-rows .netmi-col-2 {
+    display: none;
+  }
+  
+  .netmi-news-inner .netmi-row-inner-1 {
+    display: none;
+  }
+  .netmi-news-inner .netmi-row-inner-2 {
+    width: 100%;
+  }
+  .netmi-news-inner h1 {
+    padding-bottom: 10px;
+  }
+  .netmi-news-inner .netmi-breadcrumbs {
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .netmi-news-inner .netmi-news-inner-latest-row {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+  .netmi-news-inner .netmi-news-inner-latest-row a {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .netmi-account {
+    padding: 30px 0;
+  }
+  .netmi-account-rows .netmi-row-nav-button {
+    display: block;
+  }
+  .netmi-account-rows {
+    display: block;
+    align-self: center;
+    vertical-align: middle;
+    padding: 0;
+  }
+  .netmi-account-rows .netmi-row-nav {
+    width: 100%;
+    padding: 30px 10px 15px 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #F7F7F8;
+    display: none;
+  }
+  .netmi-account-rows .netmi-row-nav.netmi-opened {
+    padding:0px;
+    display: block;
+  }
+  .netmi-account-rows .netmi-row-nav.netmi-noborder {
+    border: 0px;
+  }
+  .netmi-account-rows .netmi-row-nav a {
+    padding: 10px 30px 10px 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 28px;
+    width: 100%;
+    display: block;
+  }
+  .netmi-account-rows .netmi-row-nav a .netmi-bubble {
+    position: relative;
+    right: auto;
+    top:-2px;
+    margin: 0 0 0 2px;
+    line-height: 18px;
+    display: inline-block;
+  }
+  .netmi-account-rows .netmi-row-nav a .netmi-icon {
+    width: 25px;
+    margin-left: 15px;
+  }
+  .netmi-account-rows .netmi-row-content {
+    width: 100%;
+  }
+  .netmi-account .netmi-two-rows {
+    display: block;
+    margin-bottom: 60px;
+  }
+  .netmi-account .netmi-two-rows .netmi-r1 {
+    width: 100%;
+    padding-right: 0px;
+    margin-bottom: 40px;
+  }
+  .netmi-account .netmi-two-rows .netmi-r2 {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .netmi-account .netmi-box-vip {
+    margin-bottom: 40px;
+  }
+  .netmi-account .netmi-box-stats .netmi-bs .netmi-icon {
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 5px;
+  }
+  .netmi-account .netmi-box-stats .netmi-bs .netmi-number {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .netmi-account .netmi-box-stats .netmi-bs .netmi-number span {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .netmi-account .netmi-box-stats .netmi-bs .netmi-desc {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .netmi-account .netmi-box-referrals {
+    display: block;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 0px;
+  }
+  .netmi-account .netmi-box-referrals .netmi-r1 {
+    width: 100%;
+    padding: 0 0 20px 0;
+    margin: 0 0 20px 0;
+    border-bottom: 1px dotted #EFEFF4;
+  }
+  .netmi-account .netmi-box-referrals .netmi-r2 {
+    width: 100%;
+    padding: 0px;
+  }
+  
+  .netmi-account .netmi-box-referrals .netmi-input-wrapper {
+    margin-left: -25px;
+    margin-right: -25px;
+    border-radius: 0px;
+  }
+  .netmi-account .netmi-box-referrals .netmi-rdesc, .netmi-account .netmi-box-referrals .netmi-rdesc,
+  .netmi-account .netmi-box-referrals .netmi-rdesc, .netmi-account .netmi-box-referrals .netmi-rdesc2 {
+    line-height: 20px;
+  }
+  .netmi-account .netmi-box-balances .netmi-balances-list .netmi-l {
+    width: 50%;
+    padding: 10px;
+  }
+  .netmi-account .netmi-box-balances .netmi-balances-list .netmi-l:nth-child(3n) {
+    padding-right: 10px; 
+  }
+  .netmi-account .netmi-box-balances .netmi-balances-list .netmi-l:nth-child(3n+1) {
+    padding-left: 10px;
+  }
+  .netmi-account .netmi-box-balances .netmi-balances-list .netmi-l:nth-child(2n) {
+    padding-right: 0px;
+  }
+  .netmi-account .netmi-box-balances .netmi-balances-list .netmi-l:nth-child(2n+1) {
+    padding-left: 0px;
+  }
+  .netmi-account .netmi-box-deposits .netmi-deposit {
+    width: 50%;
+    padding: 0 20px 20px 20px;
+  }
+  .netmi-account .netmi-box-deposits .netmi-deposit:nth-child(1n) {
+    padding-left: 0px;
+  }
+  .netmi-account .netmi-box-deposits .netmi-deposit:nth-child(2n) {
+    padding-right: 0px;
+  }
+  .netmi-account .netmi-box-deposits .netmi-deposit:nth-child(3n) {
+    padding-right: 20px;
+  }
+  .netmi-header-middle .netmi-notifier {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .netmi-about-content .netmi-col-2 .netmi-stats .netmi-s {
+    width: 50%;
+  }
+  .netmi-about-header .netmi-desc {
+    font-size: 20px;
+    line-height: 32px;
+    padding: 5px 0 20px 0;
+}
+.netmi-about-content .netmi-col-2 h5 {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 500;
+}
+.netmi-about-header .netmi-desc:before {
+  top: -15px;
+}
+  .netmi-about-content .netmi-col-2 p {
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .netmi-account .netmi-box-stats {
+    flex-wrap: wrap;
+  }
+  .netmi-account .netmi-box-stats .netmi-bs {
+    width: 50%;
+    border: none;
+    padding: 0 0 30px 0;
+  }
+  .netmi-account .netmi-box-notify .netmi-line {
+    padding: 15px 20px 12px 20px !important;
+  }
+  .netmi-account .netmi-box-notify .netmi-line .netmi-new {
+    display: none !important;
+  }
+  .netmi-account .netmi-box-notify .netmi-line .netmi-date {
+    display: block;
+    position: relative;
+    top: auto;
+    right: auto;
+    text-align: left;
+    font-size: 12px;
+    line-height: 20px;
+    display: block;
+    padding: 12px 0 0 0;
+  }
+  .netmi-account .netmi-box-settings {
+    font-size: 14px;
+  }
+
+  .netmi-main .netmi-features-stat {
+    flex-wrap: wrap;
+    margin-bottom: -15px;
+  }
+  .netmi-main .netmi-features-stat .netmi-item {
+    width: 47%;
+    margin: 0px;
+  
+  }
+  
+  .netmi-main .netmi-features-stat .netmi-item.netmi-bloc-1 {
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .netmi-main .netmi-features-stat .netmi-item.netmi-bloc-2 {
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .netmi-main .netmi-features-stat .netmi-item.netmi-bloc-3 {
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+  
+  .netmi-main .netmi-features-stat .netmi-item.netmi-bloc-4 {
+    margin-left: 10px
+  }
+  
+  .netmi-main .netmi-timeline-area .netmi-in {
+    display: block;
+  }
+
+  .netmi-main .netmi-timeline-area .netmi-in:after, .netmi-main .netmi-timeline-area .netmi-in:before {
+  position: absolute;
+  content: '';
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 10px;
+  border-radius: 20px;
+  z-index: 1;
+  transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+      left: 50%;
+  }
+  .netmi-main .netmi-timeline-area {
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+
+  .netmi-main .netmi-timeline-area .netmi-item {
+    display: block;
+    width: 100%;
+    background: #141a2a;
+    border: 2px solid #141329;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    max-width: 500px;
+    margin: 0px auto;
+  }
+  .netmi-main .netmi-timeline-area .netmi-item .netmi-dots {
+ 
+    height: 10px;
+  }
+  .netmi-main .netmi-timeline-area .netmi-item.netmi-reverse {
+    margin-top: 70px;
+    margin-bottom: 60px;
+  }
+  .netmi-main .netmi-timeline-area .netmi-item.netmi-reverse .netmi-year {
+    margin-top: 20px;
+  }
+  .netmi-main .netmi-timeline-area .netmi-item .netmi-desc {
+    font-size: 14px;
+  }
+  .netmi-main .netmi-timeline-area .netmi-in:after, .netmi-main .netmi-timeline-area .netmi-in:before {
+    width: 900px;
+    top: 570px; 
+  }
+  .netmi-main .netmi-timeline .netmi-icon-start,
+  .netmi-main .netmi-timeline .netmi-icon-end {
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 760px) {
+  .netmi-header .netmi-header-top .netmi-links {
+    display: none;
+  }
+  .netmi-header .netmi-welcome .netmi-left {
+    width: 100%;
+  }
+  .netmi-header .netmi-navigation {
+    display: none;
+  }
+  .netmi-header .netmi-userbox {
+   margin-right: 20px;
+  }
+.netmi-header-middle .netmi-nav {
+  float: none;
+  position: absolute;
+  background: #0c071a;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  padding: 50px 0 55px 0;
+  box-shadow: -15px 15px 30px rgb(49 25 68 / 5%);
+  display: none;
+  border-bottom: 1px solid #26253e;
+}
+.netmi-header-middle .netmi-nav.netmi-opened {
+  display: block;
+}
+ .netmi-header-middle .netmi-nav-button {
+   display: block;
+   float: right;
+ }
+ .netmi-header-middle .netmi-nav-button:hover {
+   cursor: pointer;
+   color: #F7F7F7;
+ }
+.netmi-header-middle .netmi-nav li {
+  float: none;
+  color: #fff;
+  height: auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.netmi-header-middle .netmi-nav li.netmi-mob-hidden {
+	display: block;
+}
+ .netmi-header-middle .netmi-nav li a {
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  font-weight: 500 !important;
+ }
+ .netmi-header-middle .netmi-nav li a.netmi-earn {
+  max-width: 230px;
+  height: 55px;
+  margin-top: 10px;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border: 2px solid #aa72cf;
+  margin-right: 23px;
+  margin-left: 23px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+ }
+ .netmi-header-middle .netmi-nav li a.netmi-main-menu {
+  max-width: 230px;
+  font-weight: normal;
+  font-size: 16px;
+  margin-bottom: -1px;
+ }
+ .netmi-header-middle .netmi-nav li a.netmi-main-menu.netmi-first {
+  margin-top: 40px;
+  border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+ }
+ .netmi-header-middle .netmi-nav li a.netmi-main-menu.netmi-last {
+  border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  -webkit-border-radius: 0 0 10px 10px;
+  padding-bottom: 10px;
+  position: relative;
+ }
+ .netmi-header-middle .netmi-nav li a:after {
+   display: none;
+ }
+ .netmi-header-middle .netmi-nav li a:hover {
+   color: #8e88a4;
+ }
+ .netmi-header-middle .netmi-nav li.netmi-active a {
+   color: #8e88a4;
+ }
+ .netmi-header-middle .netmi-nav li.netmi-active:hover {
+   padding-left: 0px;
+   cursor: default;
+ }
+ .netmi-header-middle .netmi-nav li.netmi-active:hover a {
+   cursor: default;
+ }
+ .netmi-header-middle .netmi-nav li.netmi-close {
+   display: inline-block;
+ }
+
+  .netmi-main .netmi-features-list {
+    display: block;
+}
+.netmi-main .netmi-about .netmi-inner {
+  display: block;
+} 
+.netmi-main .netmi-about .netmi-image {
+  width: 80%;
+  margin: 0px auto;
+  padding-bottom: 60px;
+}
+.netmi-main .netmi-about .netmi-desc {
+  padding-right: 0px;
+  padding-bottom: 60px;
+}
+.netmi-main .netmi-about .netmi-buttons {
+  float: none;
+}
+.netmi-main .netmi-features-list .netmi-item {
+  width: 100%;
+}
+.netmi-main .netmi-features-list .netmi-item .netmi-in {
+    margin-top: -27px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+  .netmi-main .netmi-features-list .netmi-item .netmi-icon {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    color: #27272e;
+    font-size: 63px;
+    line-height: 50px;
+    right: 30px;
+    z-index: -1;
+    top: 30px;
+  }
+  .netmi-main .netmi-features-list .netmi-item-title {
+    padding-top: 18px;
+}
+
+
+  .netmi-main .netmi-tariffs .netmi-list .netmi-item {
+    width: 100%;
+    margin: 0 0 40px 0;
+    padding: 0px;
+  }
+
+  .netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row.netmi-row-title {
+    display: none;
+  }
+  .netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-col {
+    font-size: 14px;
+    width: 100%;
+  }
+  .netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-col:nth-child(1) {
+    border-radius: 15px 15px 0px 0px;
+    -moz-border-radius: 15px 15px 0px 0px;
+    -webkit-border-radius: 15px 15px 0px 0px;
+    width: 100%;
+  }
+  .netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-col:last-child {
+    border-radius: 0px 0px 15px 15px;
+    -moz-border-radius: 0px 0px 15px 15px;
+    -webkit-border-radius: 0px 0px 15px 15px;
+  }
+  .netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-col.netmi-last {
+    border-radius: 0px 0px 15px 15px;
+    -moz-border-radius: 0px 0px 15px 15px;
+    -webkit-border-radius: 0px 0px 15px 15px;
+    display: block;
+  }
+  .netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-col.netmi-empty {
+    display: none;
+  }
+  .netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row-vip {
+    margin: 20px 0 0 0;
+  }
+  .netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-c {
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  .netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-level-m {
+    display: block;
+  }
+
+  .netmi-main .netmi-affiliate .netmi-affiliate-table .netmi-row .netmi-percent {
+    top: 18px;
+    right: 20px;
+    display: block;
+    color: #d0ced9;
+  }
+  .netmi-main .netmi-affiliate .netmi-decor-l, 
+  .netmi-main .netmi-affiliate .netmi-decor-r {
+    display: none;
+  }
+
+  .netmi-textbox,
+  .netmi-main .netmi-affiliate .netmi-textbox {
+    font-size: 18px;
+    line-height: 34px;
+  }
+
+  .netmi-footer .netmi-top .netmi-l .netmi-info {
+    padding: 0 0 20px 0;
+  }
+  .netmi-footer .netmi-bottom .netmi-copyright {
+    width: 100%;
+    float: none;
+  }
+  .netmi-footer .netmi-bottom .netmi-payments {
+    width: 100%;
+    float: none;
+    padding: 0 0 10px 0;
+  }
+  .netmi-footer .netmi-bottom .netmi-payments .netmi-method {
+    margin: 15px 15px 0 0;
+  }
+  .popup.popup-video .in {
+    width: 100%;
+    padding: 15px 20px;
+  }
+  .netmi-account .netmi-box-settings .netmi-fields .netmi-field.netmi-f1 {
+    padding-right: 0px;
+    width: 100%;
+  }
+  .netmi-account .netmi-box-settings .netmi-fields .netmi-field.netmi-f2 {
+    padding-left: 0px;
+    width: 100%;
+  }
+  .netmi-account .netmi-box-settings .netmi-fields-seperator {
+    border: 0px;
+    margin: 20px 0;
+  }
+  .netmi-account .netmi-inp {
+    font-size: 14px;
+  }
+  .netmi-account .netmi-box-settings .netmi-fields .netmi-field {
+    padding-bottom: 10px;
+  }
+  .netmi-account .netmi-box-settings .netmi-rdesc {
+    padding: 5px 0 20px 0;
+    line-height: 22px;
+    font-size: 13px;
+  }
+  .netmi-account .netmi-box-deposits .netmi-deposit {
+    width: 100%;
+    padding: 0 0 20px 0;
+    display: block;
+  }
+  .netmi-account .netmi-box-deposits .netmi-deposit:nth-child(1n), 
+  .netmi-account .netmi-box-deposits .netmi-deposit:nth-child(2n), 
+  .netmi-account .netmi-box-deposits .netmi-deposit:nth-child(3n) {
+    padding: 0 0 20px 0;
+  }
+  .netmi-account .netmi-box-newdeposit .netmi-rfields {
+    width: 100%;
+    float: none;
+    padding: 0 0 20px 0;
+  }
+  .netmi-account .netmi-box-newdeposit .netmi-rform {
+    width: 100%;
+    float: none;
+    box-shadow: none;
+    border-radius: 0px;
+  }
+  .netmi-account .netmi-box-newdeposit .netmi-rform .netmi-line {
+    padding: 3px 0;
+  }
+  .netmi-account .netmi-box-newdeposit .netmi-rform .netmi-foo {
+    border-radius: 10px;
+  }
+  .netmi-account .netmi-box-newdeposit .netmi-rform .netmi-line-dots {
+    margin: 10px 0px;
+  }
+  
+  .netmi-account .netmi-box-table .netmi-filters {
+    background: #efefef;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 20px;
+    background: linear-gradient(360deg, #F7F7F8 0%, rgba(255, 255, 255, 0) 100%);
+  }
+  .netmi-account .netmi-box-table .netmi-filters .netmi-row {
+    width: 100% !important;
+    padding-right: 10px;
+  }
+  .netmi-account .netmi-box-table .netmi-filters .netmi-row {
+    
+  }
+  .netmi-account .netmi-box-table .netmi-filters .netmi-row .netmi-select {
+    width: 100%;
+    height: 36px;
+  }
+  .netmi-account .netmi-box-table .netmi-filters .netmi-row-150 {
+    width: 50% !important;
+  }
+  .netmi-account .netmi-box-table .netmi-filters .netmi-row-100 {
+    width: 50% !important;
+  }
+  .netmi-account .netmi-box-table .netmi-filters .netmi-btn {
+    margin: 10px 0 0 0;
+  }
+  
+  .netmi-pagination {
+    text-align: center;
+  }
+  .netmi-pagination a {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 15px;
+    margin: 0 1px;
+  }
+  .netmi-pagination .netmi-dot {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+  }
+  .netmi-pagination a.netmi-arr {
+    display: none;
+  }
+  .netmi-table td,
+  .netmi-table th {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 620px) {
+.netmi-header .netmi-welcome h2 {
+  max-width: 330px;
+}
+.netmi-about-header {
+  padding: 20px 0 20px 0;
+}
+.netmi-about-header .netmi-desc {
+  font-size: 18px;
+  line-height: 28px;
+  padding: 15px 0px 5px 0px;
+}
+.netmi-about-content .netmi-col-2 h5 {
+  font-size: 18px;
+  line-height: 28px;
+}
+.netmi-about-header .netmi-row-2 {
+    width: 80%;
+}
+.netmi-about-header .netmi-row-1 {
+  width: 100%;
+  padding: 0px
+}
+.netmi-about-header .netmi-inner {
+  display: block;
+}
+}
+
+@media screen and (max-width: 480px) {
+  .netmi-hiw-header .netmi-desc {
+    font-size: 18px;
+    line-height: 34px;
+}
+.netmi-hiw-header .netmi-subdesc {
+  font-size: 18px;
+    line-height: 34px;
+}
+.netmi-about-content .netmi-col-2 p {
+  font-size: 18px;
+  line-height: 34px;
+}
+.netmi-hiw-content {
+  padding: 40px 0 0 0;
+}
+  .netmi-rfields .netmi-line {
+    position: relative;
+  }
+  .netmi-rfields .netmi-line .netmi-select {
+    border: none;
+    height: 42px;
+    background: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+    font-size: 15px;
+    left: 20px;
+    z-index: 2;
+    position: relative;
+    outline: none;
+    resize: none;
+    -webkit-appearance: none;
+  }
+  .netmi-rfields .netmi-select-holder {
+    position: absolute;
+    width: 100%;
+    height: 44px;
+    top: 28px;
+    left: 0px;
+    
+    padding: 15px 20px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    width: 100%;
+    background: transparent;
+    border: 1px solid #D0CED9;
+    z-index: 1;
+  }
+  .netmi-rfields .netmi-select-holder:after {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -10px;
+    content: "\f110";
+    font-family: flaticon !important;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+  
+  h1, .netmi-h1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  h2, .netmi-h2 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  h3, .netmi-h3 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  h4, .netmi-h4 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  h5, .netmi-h5 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  h6, .netmi-h6 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .netmi-header .netmi-welcome h1 {
+    font-size: 42px;
+    line-height: 44px;
+  }
+
+  .netmi-header .netmi-welcome h2 {
+    font-size: 42px;
+    line-height: 48px;
+    margin-bottom: -10px;
+    max-width: 320px;
+  }
+
+ .netmi-header-middle .netmi-logo {
+   margin-left: 0px;
+}
+.netmi-header-middle .netmi-nav li.netmi-close {
+  right: 11px;
+}
+  .netmi-header .netmi-welcome .netmi-desc {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .netmi-header .netmi-welcome .netmi-buttons .netmi-btn {
+    width: 180px;
+    min-width: 160px;
+    max-width: auto;
+    margin: 0 5px 0 0;
+  }
+
+  .netmi-header .netmi-lang.netmi-opened > .netmi-dropdown {
+    display: block;
+    left: -10px;
+  }
+
+  .netmi-header .netmi-lang .netmi-dropdown a {
+    margin-right: -10px;
+  }
+  .netmi-header .netmi-userbox {
+    margin-top: 15px;
+ }
+  .netmi-header .netmi-userbox a {
+    height: 40px;
+    line-height: 39px;
+    padding: 0px 8px;
+ }
+  .netmi-header .netmi-userbox a span {
+    display: none;
+  }
+
+  .netmi-main .netmi-features-stat .netmi-item {
+    padding-bottom: 20px !important;
+  }
+  .netmi-main .netmi-features-stat .netmi-item .netmi-percent {
+    top: 0px;
+    right: 0px;
+  }
+
+  .netmi-main .netmi-about .netmi-buttons .netmi-btn {
+    width: 100%;
+    margin: 0;
+  }
+  .netmi-main .netmi-finance .netmi-list .netmi-item {
+    padding: 10px 20px !important;
+  }
+  .netmi-main .netmi-finance .netmi-list .netmi-item .netmi-arrow {
+    display: none;
+  }
+  .netmi-main .netmi-finance .netmi-list .netmi-item .netmi-userpic {
+    display: none;
+  }
+  .netmi-main .netmi-finance .netmi-list .netmi-item .netmi-name-date {
+    padding: 0px;
+    font-size: 14px;
+    margin-left: 0px;
+  }
+  .netmi-main .netmi-finance .netmi-list .netmi-item .netmi-name-date span {
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.5px;
+  }
+  .netmi-main .netmi-finance .netmi-list .netmi-item .netmi-price {
+    font-size: 16px;
+    line-height: 18px;
+    padding-top: 3px;
+  }
+  .netmi-main .netmi-finance .netmi-list .netmi-item .netmi-price span {
+    margin: 0px;
+  }
+  .netmi-main .netmi-finance .netmi-list .netmi-item .netmi-method {
+    display: none;
+  }
+  .netmi-main .netmi-finance .netmi-list:before,
+  .netmi-main .netmi-finance .netmi-list:after {
+    display: none;
+  }
+  .netmi-footer .netmi-bottom .netmi-copyright {
+    text-align: center;
+}
+  .netmi-footer .netmi-bottom .netmi-payments {
+    display: none;
+}
+  .netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-in {
+    padding: 20px 20px 10px 20px;
+  }
+  .netmi-main .netmi-news .netmi-list .netmi-item .netmi-date {
+    font-size: 14px;
+  }
+  .netmi-footer .netmi-top {
+    padding-bottom: 20px;
+  }
+  .netmi-footer .netmi-top .netmi-r {
+  }
+  .netmi-footer .netmi-top .netmi-r .netmi-list .netmi-t{
+    font-size: 14px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+  .netmi-footer .netmi-top .netmi-r .netmi-list ul li {
+    padding-bottom: 5px;
+}
+  .netmi-footer .netmi-top .netmi-r .netmi-list ul li a {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+  .netmi-footer .netmi-top .netmi-r .netmi-list {
+    margin-bottom: 20px;
+  }
+  .netmi-header .netmi-lang .netmi-current {
+    margin-left: -10px;
+  }
+  .popup .in {
+    padding: 25px;
+    width: 95%;
+  }
+  .popup .in .close {
+    top: 15px;
+    right: 15px;
+  }
+  .popup .in .title {
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 1px;
+  }
+  .popup .in .subtitle {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .popup .in .c .terms {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 15px 0 0 0;
+  }
+  .popup .in .c .foo {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .netmi-main .netmi-news .netmi-list .netmi-item {
+    padding: 10px 12px 10px 75px;
+    margin-bottom: 10px;
+    min-height: auto;
+  }
+  .netmi-main .netmi-news .netmi-list .netmi-item .netmi-image {
+    width: 50px;
+    height: 50px;
+    left: 12px;
+    margin-top: -25px;
+  }
+  .netmi-main .netmi-news .netmi-list .netmi-item .netmi-name {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 3px 0 0 0;
+  }
+  .netmi-main .netmi-news .netmi-list .netmi-item .netmi-date {
+    font-size: 12px;
+  }
+  .netmi-about-header .netmi-desc:before {
+    font-size: 90px;
+    line-height: 108px;
+  }
+  .netmi-about-header .netmi-founder {
+    font-size: 16px;
+    line-height: 16px;
+  }
+ .netmi-about-content .netmi-col-2 .netmi-stats .netmi-s .netmi-number {
+   font-size: 26px;
+   line-height: 30px;
+  }
+  .netmi-about-content .netmi-col-2 .netmi-stats .netmi-s .netmi-desc {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .netmi-about-content .netmi-timeline .netmi-t .netmi-desc {
+    font-size: 14px;
+    line-height: 22px;
+    width: 75%;
+  }
+  .netmi-about-content .netmi-timeline .netmi-t h6 {
+    padding-bottom: 5px;
+  }
+  .netmi-about-content .netmi-timeline .netmi-t .netmi-year {
+    font-size: 20px;
+    line-height: 34px;
+    width: 25%;
+    top: 25px;
+  }
+  .netmi-hiw-content .netmi-col-2 p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .netmi-static .netmi-faq-question {
+    padding: 50px 0;
+  }
+  .netmi-static .netmi-faq-content .netmi-row p {
+    margin-bottom: 15px;
+  }
+
+  .netmi-static .netmi-faq-content .netmi-row .netmi-t {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .netmi-static .netmi-infobox {
+    padding: 20px;
+  }
+  ol {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  .netmi-static h4,
+  .netmi-static h5 {
+    margin: 30px 0 20px 0;
+  }
+  .netmi-static h6 {
+    margin: 30px 0 10px 0;
+  }
+  .netmi-static ol li {
+    margin-left: 20px;
+  }
+  .netmi-news-rows .netmi-col {
+    width: 100%;
+    padding: 0 0 20px 0;
+  }
+  .netmi-account {
+    padding: 20px 0;
+  }
+  .netmi-account-rows .netmi-row-nav a {
+    padding: 0 30px 10px 0;
+  }
+  .netmi-account .netmi-box-vip {
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 0px;
+    padding-top: 30px;
+  }
+  .netmi-account h1 {
+    line-height: 28px;
+  }
+  .netmi-account h1 a {
+    font-size: 14px;
+    display: block;
+  }
+  .netmi-account .netmi-box-vip .netmi-t {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .netmi-account .netmi-box-vip .netmi-d {
+    font-size: 13px;
+  }
+  .netmi-account .netmi-rtitle {
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .netmi-account .netmi-rbalance {
+    right: 0px;
+    top: 0px;
+    font-size: 18px;
+  }
+  .netmi-account .netmi-chart-wrapper {
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 0px;
+  }
+  .netmi-account .netmi-box-stats {
+    margin-bottom: 40px;
+  }
+  .netmi-account .netmi-box-stats .netmi-bs {
+    width: 100%;
+    border-bottom: 1px dashed #EFEFF4;
+    margin-bottom: 30px;
+  }
+  .netmi-account .netmi-box-stats .netmi-bs:last-child {
+    border: 0px;
+  }
+  .netmi-account .netmi-box-notify .netmi-line {
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0px;
+    border: 0px;
+    padding: 10px 0 10px !important;
+    border-bottom: 1px solid #efefef;
+    background: #fff;
+  }
+  .netmi-account .netmi-box-notify .netmi-line.netmi-unread {
+    border: 0px;
+    border-bottom: 1px solid #efefef;
+    border-left: 6px solid #3D88EE;
+  }
+  .netmi-account .netmi-box-notify .netmi-line .netmi-date {
+    font-size: 11px;
+  }
+  .netmi-account .netmi-box-balances,
+  .netmi-account .netmi-box-withdrawal {
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 0px;
+  }
+  .netmi-account .netmi-box-balances .netmi-balances-list .netmi-l {
+    width: 100%;
+    display: block;
+    padding: 0 0 10px 0 !important;
+  }
+  .netmi-account .netmi-box-withdrawal .netmi-fields .netmi-field .netmi-btn {
+    width: 100%;
+  }
+  .netmi-account .netmi-box-withdrawal .netmi-fields .netmi-field {
+    padding-bottom: 20px;
+    width: 100%;
+    display: block
+  }
+  .netmi-account .netmi-box-withdrawal .netmi-fields .netmi-field.netmi-f1 {
+    padding-right: 0px;
+  }
+  .netmi-account .netmi-box-withdrawal .netmi-fields .netmi-field.netmi-f2 {
+    padding-left: 0px;
+  }
+  .netmi-account .netmi-box-newdeposit {
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 0px;
+  }
+  .netmi-account .netmi-box-notify-readall {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 380px) {
+
+.netmi-main .netmi-features-stat .netmi-item {
+  width: 100%;
+  margin: 0px;
+
+}
+
+.netmi-main .netmi-features-stat .netmi-item.netmi-bloc-1 {
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+
+.netmi-main .netmi-features-stat .netmi-item.netmi-bloc-2 {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.netmi-main .netmi-features-stat .netmi-item.netmi-bloc-3 {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.netmi-main .netmi-features-stat .netmi-item.netmi-bloc-4 {
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+}
+
+@media screen and (max-width: 430px) {
+  .netmi-hiw-header .netmi-buttons .netmi-btn {
+      width: 100%;
+  }
+  .netmi-hiw-header .netmi-buttons .netmi-link {
+      margin-left: 0px;
+      text-align: center;
+      color: #fff;
+      display: block;
+      margin-top: 25px;
+  }
+  }
+  
+  @media screen and (max-width: 420px) {
+  .netmi-header .netmi-welcome .netmi-buttons .netmi-btn {
+    width: 100%;
+    min-width: auto;
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .netmi-header .netmi-welcome h1, 
+  .netmi-header .netmi-welcome h2 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  .netmi-main .netmi-features-stat .netmi-item .netmi-number {
+    font-size: 16px;
+  }
+   .netmi-main .netmi-features-stat .netmi-item .netmi-number span {
+    font-size: 16px;
+  }
+
+  .netmi-footer .netmi-top .netmi-r .netmi-list ul li a {
+    font-size: 10px;
+    line-height: 15px;
+}
+.netmi-about-header .netmi-desc {
+  width: 90%;
+}
+
+}
+
+@media screen and (max-width: 340px) {
+  .netmi-about-content .netmi-col-2 .netmi-stats .netmi-s {
+    width: 100%;
+    padding-left: 20px;
+  }
+  .netmi-account .netmi-box-deposits {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .netmi-account .netmi-box-deposits .netmi-deposits .netmi-deposit {
+    padding-bottom: 5px;
+  }
+  .netmi-account .netmi-box-deposits .netmi-deposit .netmi-in {
+    border-radius: 0px;
+  }
+  .netmi-account .netmi-box-deposits .netmi-rtitle,
+  .netmi-account .netmi-box-deposits .netmi-rdesc {
+    padding-left: 20px;
+  }
+
+  .netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-subtitle,
+  .netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-days {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .netmi-main .netmi-tariffs .netmi-list .netmi-item .netmi-spec {
+    font-size: 14px;
+  }
+}
+
+.netmi-txt-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  display: inline-block;
+}
+
+.netmi-plan-close{
+	display: inline-block;
+	margin-left: 20px;
+	position: relative;
+	top: 4px;
+	height: 48px;
+	text-decoration: none;
+}
+.netmi-plan-close[data-tooltip]:hover{
+	cursor: hand !important;
+	text-decoration: none;
+}
+
+.netmi-ref-inviter{
+	padding: 0 0 20px;
+    margin-bottom: 35px;
+}   
+
+.captcha-box {
+	display: flex;
+}
+
+.captcha-row {
+	margin-left: 10px;
+  margin-top: -2px;
+  margin-bottom: -10px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.captcha-row img {
+	cursor: pointer !important;
+  border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+  margin-top: 5px;
+}
+
+.label-error-value {
+  color: #f77979 !important;
+  position: relative;
+  top: 10px;
+  line-height: 22px;
+}
+
+.label-success-value {
+  color: #83eda5 !important;
+  position: relative;
+  top: 10px;
+  line-height: 22px;
+}
+
+.netmi-loader-popup {
+    background: url(https://cdn.netmi.org/assets/tpl/images/popup-loader.svg) center center no-repeat #0c071ad4;
+    background-size: 50px;
+    z-index: 9;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    display: none;
+    width: -webkit-fill-available;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contact-error {
+  color: #ffffff;
+  background: #141329;
+  padding: 10px;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  line-height: 22px;
+  margin-bottom: 20px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.contact-error i {
+  font-size: 26px;
+  line-height: 26px;
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+  color: #f77979;
+  margin-left: 10px;
+}
+
+.contact-succes {
+  color: #94fbac;
+  background: rgb(7 255 62 / 16%);
+  padding: 10px;
+  border-radius: 12px;
+  line-height: 22px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.contact-succes i {
+  font-size: 26px;
+  line-height: 26px;
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+  color: #94fbac;
+  margin-left: 10px;
+}
+
+
+.boost-header {
+  position: relative;
+  z-index: 1;
+  height: 490px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  background: url(https://cdn.netmi.org/assets/tpl/img/bg-give-lb.svg) no-repeat left bottom -105px/174px auto,linear-gradient(90deg,#59c173,#a17fe0 51%,#5d26c1)
+}
+
+
+
+.boost-points {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 20px;
+  position: relative
+}
+
+.boost-points:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: #201330 url(https://cdn.netmi.org/assets/tpl/images/arr-double-right.svg) no-repeat 50%/18px 18px;
+  border-radius: 100px
+}
+
+.boost-points__up,.boost-points__your {
+  -ms-flex: 0 0 calc(50% - 10px);
+  flex: 0 0 calc(50% - 10px);
+  max-width: calc(50% - 10px);
+  height: 102px;
+  border-radius: 15px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+
+.boost-points__up strong,.boost-points__your strong {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1
+}
+
+.boost-points__up span,.boost-points__your span {
+  font-size: 16px;
+  line-height: 1;
+  color: #fff;
+}
+
+.boost-points__your {
+  background: rgb(134 100 163);
+  box-shadow: inset 0 10px 30px rgba(0,0,0,.05)
+}
+
+.boost-points__your img {
+  width: 50px;
+  margin-top: -10px;
+}
+
+.boost-points__your strong {
+  color: #121620
+}
+
+.boost-points__your span {
+  color: #fff
+}
+
+.boost-points__up {
+  background: rgb(96 168 229);
+  box-shadow: inset 0 10px 30px rgba(0,0,0,.05);
+  color: #fefefe
+}
+
+.boost-points__up img {
+  width: 50px;
+  margin-top: -10px;
+}
+
+
+.boost-contest .gw-contest__img {
+  width: 250px;
+  bottom: -64px;
+  right: 0
+}
+
+
+.gw-header {
+  background: url(https://cdn.netmi.org/assets/tpl/images/bg-ntm-lb.svg) no-repeat left bottom -105px / 174px auto, linear-gradient(94.07deg, #8664a2, #5c6f95);
+  border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+  height: 520px;
+  padding: 30px;
+}
+
+.gw-header-wrap {
+  padding-bottom: 50px;
+  overflow: hidden
+}
+
+.gw-header-body {
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+
+.gw-header__title {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 133%;
+  color: #fefefe
+}
+
+.gw-header__title span {
+  background: linear-gradient(90deg,#eef78c 26.79%,#10e063 44.8%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-emphasis-color: transparent
+}
+
+.gw-header__txt {
+  font-size: 18px;
+  line-height: 178%;
+  color: #ccccef;
+  margin-top: 10px
+}
+
+.gw-header__btn {
+  margin-top: 10px;
+  width: 240px;
+  height: 86px;
+  padding-top: 16px;
+  background: url(https://cdn.netmi.org/assets/tpl/img/bg-btn-stars.svg) no-repeat top/160px 86px
+}
+
+.gw-header__btn .btn {
+  border: 1px solid #eef0f3;
+  height: 48px;
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fefefe
+}
+
+.gw-header__btn .btn:hover {
+  color: #8686ea;
+  color: #121620;
+  background: #fff;
+  border-color: #fff
+}
+
+.gw-contest {
+  width: 100%;
+  height: 399px;
+  padding: 20px;
+  background: #141329;
+  box-shadow: 0 30px 20px rgba(30,29,70,.2);
+  border-radius: 20px;
+  position: relative;
+  z-index: 1
+}
+
+.gw-contest-col {
+  -ms-flex: 0 0 480px;
+  flex: 0 0 480px;
+  max-width: 480px;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative
+}
+
+.gw-contest-col:after {
+  content: "";
+  width: 800px;
+  height: 800px;
+  background: url(https://cdn.netmi.org/assets/tpl/images/bg-ntm-0.svg) no-repeat top -245px left/contain;
+  position: absolute;
+  top: -29px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+.gw-contest-info {
+  -ms-flex: 0 1 741px;
+  flex: 0 1 741px;
+  max-width: 741px;
+  padding-right: 30px
+}
+
+.gw-contest__top {
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  color: #727a8d
+}
+
+.gw-contest__timer {
+  height: 170px;
+  background: linear-gradient(96.59deg,#8675cf,#3a58a9);
+  border-radius: 15px;
+  margin-top: 20px;
+  position: relative;
+  padding: 40px 30px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center
+}
+
+.gw-contest__timer:after {
+  content: "";
+  background: #fefefe;
+  border-radius: 6px 0 0 0;
+  transform: rotate(45deg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -12px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.gw-contest__foot {
+  margin-top: 20px;
+  padding-top: 70px
+}
+
+.gw-contest__bank {
+  color: #121620
+}
+
+.gw-contest__bank strong {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #fff;
+}
+
+.gw-contest__bank span {
+  font-size: 18px;
+  line-height: 48px
+}
+
+.gw-contest__i {
+  font-size: 16px;
+  line-height: 18px;
+  color: #a9acc7;
+  display: -ms-flexbox;
+  display: flex
+}
+
+.gw-contest__i,.gw-contest__i p {
+  -ms-flex-align: center;
+  align-items: center
+}
+
+.gw-contest__i p {
+  display: -ms-inline-flexbox;
+  display: inline-flex
+}
+
+.gw-contest__i i {
+  font-size: 12px;
+  height: 18px;
+  color: #60cc80;
+  margin-left: 4px;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+.gw-contest__img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  bottom: -111px;
+  right: -25px;
+  z-index: 2
+}
+
+.gw-contest__img img {
+  width: 100%;
+  height: auto
+}
+
+@media screen and (max-width: 1120px) {
+
+  .gw-header-body {
+    display: block;
+  }
+
+  .gw-header {
+    height: 100%;
+  }
+
+  .gw-contest-info {
+    max-width: 100%;
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .gw-contest-col:after {
+    display: none;
+}
+
+.boost-contest .gw-contest__img {
+  width: 170px;
+  bottom: -90px;
+  right: 10px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+ 
+}
+
+@media screen and (max-width: 490px) {
+  .gw-header {
+    padding: 20px
+  }
+  .gw-header__txt {
+    font-size: 16px;
+    line-height: 30px;
+}
+  .boost-contest .gw-contest__img {
+    width: 128px;
+    right: 10px;
+}
+.boost-points__up span, .boost-points__your span {
+  font-size: 14px;
+}
+.gw-contest__foot {
+    margin-top: 20px;
+    padding-top: 70px;
+}
+.gw-contest__i {
+  font-size: 14px;
+}
+}

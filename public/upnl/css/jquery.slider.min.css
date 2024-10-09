@@ -1,0 +1,39 @@
+
+  .jslider .jslider-pointer { background: url(../images/icons/pointer.png) no-repeat 0 0; }
+
+  .jslider { display: block; width: 100%; height: 1em; position: relative; top: 0; font-family: Arial, sans-serif; }
+  .jslider table { width: 100%; border-collapse: collapse; border: 0; }
+  .jslider td, .jslider th { padding: 0; vertical-align: top; text-align: left; border: 0; }
+
+  .jslider table,
+  .jslider table tr,
+  .jslider table tr td { width: 100%; vertical-align: top; }
+
+  .jslider .jslider-bg { position: relative; border: 1px solid #333;height: 10px;border-radius: 2px;}
+  .jslider .jslider-bg i { height: 8px; position: absolute; font-size: 0; top: 0; background:#36424e;  }
+  .jslider .jslider-bg .l { width: 10%;  left: 0;  }
+  .jslider .jslider-bg .f { width: 80%; left: 10%; background-repeat: repeat-x; background-position: 0 -20px; }
+  .jslider .jslider-bg .r { width: 10%; left: 90%;  }
+  .jslider .jslider-bg .v { position: absolute; width: 60%; left: 20%; top: 0; height: 8px; background:#0390a9; }
+
+  .jslider .jslider-pointer {display:none; width: 9px; height: 19px; background-position: 0 0; z-index:10 !important; position: absolute; left: 20%; top: -4px; margin-left: -6px; cursor: pointer; cursor: hand; }
+
+  .jslider .jslider-pointer-to { display:block; left: 80%; }
+
+  .jslider .jslider-label { font-family: 'PT Sans' , sans-serif; font-size: 13px; line-height: 12px; color: white;  white-space: nowrap; position: absolute; top: 22px; left: 0px; display:block !important; opacity: 1 !important; }
+  .jslider .jslider-label-to { left: auto; right: 0; }
+
+  .jslider .jslider-value {  font-family: 'PT Sans' , sans-serif; display:none; font-size: 16px; white-space: nowrap;  position: absolute; top: -27px; left: 20%; background: transparent; line-height: 1.2;  }
+  .jslider .jslider-value-to { display:block; left: 80%; }
+
+  .jslider .jslider-label small,
+  .jslider .jslider-value small { position: relative; top: -0.4em; }
+
+  .jslider .jslider-scale { position: relative; top: -1px; }
+  .jslider .jslider-scale span { position: absolute; height: 5px; border-left: 1px solid #36424e; font-size: 0; }
+  .jslider .jslider-scale ins { font-size: 9px; text-decoration: none; position: absolute; left: 0px; top: 5px; color: #999; }
+
+  .jslider-single .jslider-pointer-to,
+  .jslider-single .jslider-value-to,
+  .jslider-single .jslider-bg .v,
+  .jslider-limitless .jslider-label { display: none; }

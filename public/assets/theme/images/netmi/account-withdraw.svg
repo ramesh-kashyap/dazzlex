@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+  <g id="SVGRepo_iconCarrier">
+    <path d="M22 10.5V12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2H13.5" stroke="#8e88a4" stroke-width="1.6799999999999997" stroke-linecap="round"/>
+    <path d="M7 14L9.29289 11.7071C9.68342 11.3166 10.3166 11.3166 10.7071 11.7071L12.2929 13.2929C12.6834 13.6834 13.3166 13.6834 13.7071 13.2929L17 10M17 10V12.5M17 10H14.5" stroke="#aa72ce" stroke-width="1.6799999999999997" stroke-linecap="round" stroke-linejoin="round"/>
+    <g id="g-1" stroke-width="0" transform="matrix(0.8992479443550111, 0, 0, 0.8721479773521424, 7.719427477540222, 0.8869177281749683)" style=""/>
+    <g id="g-2" stroke-linecap="round" stroke-linejoin="round" transform="matrix(0.8992479443550111, 0, 0, 0.8721479773521424, 7.719427477540222, 0.8869177281749683)" style=""/>
+    <g id="g-3" transform="matrix(0.8992479443550111, 0, 0, 0.8721479773521424, 7.719427477540222, 0.8869177281749683)" style="">
+      <path d="M 12.381 7.624 C 13.517 7.624 14.438 6.931 14.438 6.078 C 14.438 5.224 13.517 4.531 12.381 4.531 C 11.245 4.531 10.324 3.839 10.324 2.986 C 10.324 2.132 11.245 1.44 12.381 1.44 M 12.381 7.624 C 11.245 7.624 10.324 6.931 10.324 6.078 M 12.381 7.624 L 12.381 8.241 M 12.381 0.821 L 12.381 1.44 M 12.381 1.44 C 13.517 1.44 14.438 2.132 14.438 2.986" stroke="#aa72ce" stroke-width="1.6799999999999997" stroke-linecap="round" style="" transform="matrix(1, 0, 0, 1, -0.18214753180357945, -0.3362357260636699)"/>
+    </g>
+  </g>
+</svg>

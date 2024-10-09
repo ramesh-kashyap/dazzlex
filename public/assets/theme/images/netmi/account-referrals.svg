@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 32 32" width="32" height="32" fill="#000000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1{fill:none;stroke:#8e88a4;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;#8e88a4</style>
+  </defs>
+  <g id="SVGRepo_iconCarrier" transform="matrix(1, 0, 0, 1, -7.105427357601002e-15, -1.7763568394002505e-15)">
+    <defs>
+      <style>.cls-1{fill:none;stroke:#8e88a4;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;#8e88a4</style>
+    </defs>
+    <title/>
+    <g data-name="79-users" id="_79-users">
+      <path class="cls-1" d="M24,14a5,5,0,1,0-4-8"/>
+      <path class="cls-1" d="M25,24h6a7,7,0,0,0-7-7"/>
+      <path class="cls-1" d="M12,6a5,5,0,1,0-4,8"/>
+      <path class="cls-1" d="M8,17a7,7,0,0,0-7,7H7"/>
+    </g>
+  </g>
+  <g id="g-3" transform="matrix(1, 0, 0, 1, -0.09888000041247125, 0.48357900977134527)">
+    <title/>
+    <g data-name="79-users" id="g-4">
+      <circle class="cls-1" cx="16" cy="13" r="5" style="stroke: rgb(170, 114, 206);"/>
+      <path class="cls-1" d="M23,28A7,7,0,0,0,9,28Z" style="stroke: rgb(170, 114, 206);"/>
+    </g>
+  </g>
+</svg>

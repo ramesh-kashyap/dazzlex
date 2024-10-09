@@ -1,0 +1,12 @@
+[31-Mar-2024 09:44:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ad25dollar/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ad25dollar/public_html/config/cache.php on line 18
+[06-Jun-2024 01:51:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ad25dollar/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ad25dollar/public_html/config/cache.php on line 18
+[21-Aug-2024 02:41:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ad25dollar/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ad25dollar/public_html/config/database.php on line 18
