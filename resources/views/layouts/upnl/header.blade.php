@@ -270,7 +270,11 @@
 
             <div class="header-middle">
                 <div class="inner">
-                    <div class="nav-button"><span class="netmiicon-menu"></span></div>
+                    <div class="nav-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" width="40" height="40" style="font-size: 24px; display: flex; margin: 0px 9px 0 0; color: #8e88a4;width:17px">
+                        <rect width="100" height="20" fill="currentColor"></rect>
+                        <rect y="30" width="100" height="20" fill="currentColor"></rect>
+                        <rect y="60" width="100" height="20" fill="currentColor"></rect>
+                      </svg></div>
                     <div class="logo"><a href="https://netmi.org/en/">
                             <img src="{{ asset('') }}assets/logo.png" class="full-logo" alt="Netmi">
                             <img src="{{ asset('') }}assets/logo.png" class="mobile-logo" alt="Netmi">
@@ -280,7 +284,13 @@
                     <div class="seperator"></div>
                     <div class="navigation">
                         <span class="current">
-                            <span class="flaticon-menu"></span> Navigation
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" width="40" height="40" style="font-size: 24px; display: flex; margin: 0px 9px 0 0; color: #8e88a4;width:17px">
+                                <rect width="100" height="20" fill="currentColor"></rect>
+                                <rect y="30" width="100" height="20" fill="currentColor"></rect>
+                                <rect y="60" width="100" height="20" fill="currentColor"></rect>
+                              </svg>
+                              
+                               Navigation
                         </span>
                         <ul class="dropdown">
                             <li><a href="{{ route('Index') }}">Home</a></li>

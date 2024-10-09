@@ -30,8 +30,20 @@ class Team extends Controller
       // print_r($user->username);die();
         $my_level_team=$this->my_level_team_count($user->id);
       
+        $user_direct=User::where('sponsor',$user->id)->where('active_status','Active')->count();
 
+        $tolteam=$this->my_level_team_count($user->id);
 
+        $ids = [];
+foreach ($tolteam as $teamMembers) {
+    // Assuming each $teamMembers is an array containing IDs
+    $ids = array_merge($ids, $teamMembers); // Merge the IDs into the flat array
+}
+
+// Step 2: Use the flat array in whereIn
+$total_team = User::whereIn('id', (!empty($ids) ? $ids : []))
+    ->where('active_status', 'Active')
+    ->count();
 
 
       // print_r($ids);die;
@@ -75,6 +87,9 @@ class Team extends Controller
                     'limit' => $limit
                 ]);
 
+                $this->data['total_team'] =$total_team;
+                $this->data['user_direct'] =$user_direct;
+
         $this->data['direct_team'] =$notes;
         $this->data['search'] =$search;
        $this->data['max_lenght'] =$max_lenght;
@@ -82,7 +97,7 @@ class Team extends Controller
     $this->data['page'] = 'user.team.direct-team';
     return $this->dashboard_layout();
 
-    }
+    } 
 
     public function LevelTeam(Request $request)
     {
