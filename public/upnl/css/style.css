@@ -15,9 +15,9 @@
 	src: url("../fonts/flaticon/Flaticon.eot?v=5");
 	src: url("../fonts/flaticon/Flaticon.eot?v=5#iefix")
 			format("embedded-opentype"),
-		url("../fonts/flaticon/Flaticon.woff") format("woff"),
-		url("../fonts/flaticon/Flaticon.ttf") format("truetype"),
-		url("../fonts/flaticon/Flaticon.svg?") format("svg");
+		url("../fonts/flaticon/Flaticon.woff?v=5") format("woff"),
+		url("../fonts/flaticon/Flaticon.ttf?v=5") format("truetype"),
+		url("../fonts/flaticon/Flaticon.svg?v=5#Flaticon") format("svg");
 	font-weight: normal;
 	font-style: normal;
 }
