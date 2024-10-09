@@ -101,7 +101,7 @@ Route::post('/fundActivation', [App\Http\Controllers\UserPanel\Invest::class, 'f
 Route::get('/DepositHistory', [App\Http\Controllers\UserPanel\Invest::class, 'invest_list'])->name('user.DepositHistory');
 
 
-// end invest
+// end invest 
 
 // withdraw
 Route::get('/Withdraw', [App\Http\Controllers\UserPanel\WithdrawRequest::class, 'index'])->name('user.Withdraw');
