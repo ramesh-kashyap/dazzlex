@@ -28,6 +28,9 @@
                             <a style="outline: none;" data-tab="password">
                                 <strong>Security</strong>
                             </a>
+                             <a  style="outline: none;" data-tab="privacy">
+            <strong>Transaction Change Password</strong>
+        </a>
                          
                         </div>
                     </div>
@@ -695,8 +698,8 @@
                                         <input  class="inp inp-0"  placeholder="Retype New password" type="password" name="password_confirmation">
                                     </div>
                                     <div class="b b--1" style="margin-bottom:15px">
-                                        <button type="submit" class="btn btn-b" 
-                                            style="outline: none; color:#fff">Save</button>
+                                    <button type="submit" class="btn btn-b" hidefocus="true"
+                                    style="outline: none; color:#fff" name="save_wallets">Save</button>
                                     </div>
                             </form>
 
@@ -832,33 +835,30 @@
                 <!-- Tabs content item -->
                 <div class="account-tab tab-privacy ">
                     <div class="account-form">
-                        <form action="" method="post">
+                         <form action="{{ route('user.change-trxpasswword') }}" method="POST">
+                                     {{ csrf_field() }}
                             <input type="hidden" name="_type" value="privacy">
                             <input type="hidden" name="_csrf" value="da34d580ab242255b283db3e45685e97">
                             <div class="caption">Publicity</div>
                             <div class="settings-box-form">
                                 <div class="g">
                                     <div class="g-left">
-                                        <label>Show e-mail to your upline </label>
+                                        <label>Old Password </label>
                                         <div class="xsel xsel--0">
                                             <div class="SumoSelect sumo_network_id" tabindex="0" role="button"
                                                 aria-expanded="false">
-                                                <select name="allow_ref_view_email" class="js-select SumoUnder">
-                                                    <option value="1">Yes</option>
-                                                    <option value="0">No </option>
-                                                </select>
+                                                <input placeholder="Old password" type="password" name="old_password" class="inp inp-0" >
+
                                             </div>
                                         </div>
                                     </div>
                                     <div class="g-right">
-                                        <label>Show phone to your upline </label>
+                                        <label>New Password </label>
                                         <div class="xsel xsel--0">
                                             <div class="SumoSelect sumo_network_id" tabindex="0" role="button"
                                                 aria-expanded="false">
-                                                <select name="allow_ref_view_phone1" class="js-select SumoUnder">
-                                                    <option value="1">Yes</option>
-                                                    <option value="0">No </option>
-                                                </select>
+                                                <input placeholder="New password" type="password" name="password" class="inp inp-0" >
+
                                             </div>
                                         </div>
 
@@ -866,50 +866,25 @@
                                 </div>
                                 <div class="g">
                                     <div class="g-left">
-                                        <label>Enable stakes updates e-mail alerts </label>
+                                        <label>Retype New password </label>
                                         <div>
                                             <div class="xsel xsel--0">
                                                 <div class="SumoSelect sumo_network_id" tabindex="0" role="button"
                                                     aria-expanded="false">
-                                                    <select name="alert_email_earn_deposit" class="js-select SumoUnder">
-                                                        <option value="1">Yes</option>
-                                                        <option value="0">No </option>
-                                                    </select>
+                                                    <input placeholder="Retype New password" type="password" name="password_confirmation" class="inp inp-0" >
+
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="g-right">
-                                        <label>Show Whatsapp to your upline</label>
-                                        <div class="xsel xsel--0">
-                                            <div class="SumoSelect sumo_network_id" tabindex="0" role="button"
-                                                aria-expanded="false">
-                                                <select name="allow_ref_view_skype" class="js-select SumoUnder">
-                                                    <option value="1">Yes</option>
-                                                    <option value="0">No </option>
-                                                </select>
-                                            </div>
-                                        </div>
+                                  
+                                </div>
+                               
+                                <div class="b b--1">
+                                        <button type="submit" class="btn btn-b" 
+                                            style="outline: none; color:#fff">Save</button>
+
                                     </div>
-                                </div>
-                                <div class="g">
-                                    <div class="g-left">
-                                        <label>Show Telegram to your upline </label>
-                                        <div class="xsel xsel--0">
-                                            <div class="SumoSelect sumo_network_id" tabindex="0" role="button"
-                                                aria-expanded="false">
-                                                <select name="allow_ref_view_phone2" class="js-select SumoUnder">
-                                                    <option value="1">Yes</option>
-                                                    <option value="0">No </option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="b b--1" style="margin-bottom:15px">
-                                    <button type="submit" class="btn btn-b" hidefocus="true"
-                                        style="outline: none; color:#fff" name="save_privacy">Save</button>
-                                </div>
                             </div>
                         </form>
                     </div>

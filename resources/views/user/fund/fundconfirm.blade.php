@@ -40,14 +40,7 @@
 </div><div class="exchange__section">
     <div class="exchange__section__row exchange__process">
         <div class="exchange__status exchange-status-section">
-            <div class="exchange__status__item no-grab">
-                <div class="exchange__status__status">
-                    <span class="exchange__status__status__text exchange-status status-color__grey">Awaiting transfer</span>
-                    <span class="exchange-status-icon">
-<img class="exchange__status__status__spinner" src="{{asset('')}}assets/images/icons/balance-loader.svg?v=3.22.1726217824" alt="">
-</span>
-                </div>
-            </div>
+           
             <div class="exchange__status__item exchange__status__order">
                 <div class="exchange__status__order__title copy-exchange" data-copy="id">Fixed rate:                    <span class="exchange__status__order__id order-id copy-exchange" id="timer-last-fixrate" data-now="1727778137" data-end="1727779284">--:--</span>
                 </div>
@@ -83,7 +76,7 @@
                         <div class="exchange__process__details__coin__amount final-deposit-amount">{{$paymentMode}}</div>
                     </div>
                     <div class="exchange__process__details__coin__holder">
-                        <img class="exchange__process__details__coin__icon no-grab" src="{{asset('')}}assets/images/coins/BTC.svg?v=3.22.1726217824" alt="">
+                        <img class="exchange__process__details__coin__icon no-grab" src="{{asset('')}}assets/images/coins/BALANCE.svg?v=3.22.1726217824" alt="">
                         BTC                    </div>
                                     </div>
 
@@ -144,11 +137,7 @@
 
 
 
-            <div class="exchange__process__info">
-                <div class="exchange__process__info__item">Your Order execution will proceed to the next stage when your transfer will be credited to the address indicated above.</div>
-                <div class="exchange__process__info__item">The rate is guaranteed within  <b>20 minutes</b> after placing the order. In case of breach of  the limit the amount will be recalculated at the rate current at the moment of transfer.</div>
-                <div class="exchange__process__info__item">Should you fail to transfer the amount indicated above, or your transfer will not be received within <b>6 hours</b>, your order will not be processed due to security concerns.</div>
-            </div>
+         
 
         </div>
     </div>
