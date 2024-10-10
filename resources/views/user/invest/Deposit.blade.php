@@ -178,7 +178,7 @@
 <footer class="footer">
 	<div class="bottom">
 		<div class="inner">
-			<div class="copyright">Copyright © 2023. All rights reserved.<br>Netmi Limited.</div>
+			<div class="copyright">Copyright <br>Netmi Limited.</div>
 			<div class="clr"></div>
 		</div>
 	</div>

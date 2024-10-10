@@ -1,6 +1,6 @@
 
 
-    <main class="eas bg-gray">
+<main class="eas bg-gray">
     <div class="account-mob-link">
    <div class="container">
    <a class="js-account-menu" href="#"><i class="flaticon-menu"></i>Navigation</a>
@@ -17,302 +17,219 @@
 
 	
 
-<style type="text/css">
-    .modal-dialog {
-        overflow-y: initial !important;
-        width: 95%;
-    }
-
-    .modal-body {
-        overflow-y: auto;
-    }
-</style>
-
-
-<div class="account-tabs">
-    <div class="account-tabs-white">
-        <a href="#" onclick="return false;" data-tab="statistic" class="blocs3-tabs active">
-            <b>Statistics</b>
-        </a>
-        <a href="#" onclick="return false;" data-tab="list" class="blocs3-tabs">
-            <b>Referral list</b>
-        </a>
-        <a href="#" onclick="return false;" data-tab="adv" class="blocs3-tabs ">
-            <b>Banners</b>
-        </a>
+                   <div class="account-tabs">
+                   <div class="account-tabs-white">
+    <!-- <a href="{{route('user.invest')}}"  style="outline: none;" >
+        <strong>
+            Deposit History    
+       </strong></a> -->
+       <a href="{{route('user.level-income')}}" style="outline: none;" >
+        <strong>
+            Level Income    
+        </strong></a>
+        <a href="{{route('user.direct-income')}}" style="outline: none;" >
+        <strong>
+            Direct Income    
+        </strong></a>
+        <a href="{{route('user.roi-bonus')}}" style="outline: none;" >
+        <strong>
+            Roi Income    
+        </strong></a>
+        <a href="{{route('user.cashback_income')}}" style="outline: none;" >
+        <strong>
+            Boster Income    
+        </strong></a>
+        <!-- <a href="#" class="blocs3-tabs " style="outline: none;" data-tab="profit">
+        <strong>
+            Accruals    
+       </strong></a> -->
     </div>
 </div>
+<p>
+Booster  Income
+</p>
+</br></br>
+<div class="account-tab tab-topup active">
+        <div class="account-form account-form--2">
+      
 
 
-            <div class="account-tab tab-statistic active">
-            <div class="account-form account-form--2" style="margin-bottom: 0px;">
-            <div class="caption caption--border" style="padding-bottom: 0px;">Statistics</div>
-                                <div class="account-notification" style="margin-top:20px; margin-bottom:0px">
-                    <div class="i"><img src="{{asset('')}}assets/theme/images/netmi/upline-check.svg?v=3.22.1726217824" alt=""></div>
-                     <div class="m">Your Upline: <b class="c1" style="color:#fff">PhyipCom</b></div>
-                     <div class="d">
-                     <div class="upline-contacts">
-                                                                        </div>
-</div>
-</div>
-                
-                </div>
 
-                <div class="ref-box-link">
-                    <div class="account-info-item box-1" style="background: #141329;">
-                        <div class="desc box-referrals" style="width: 100%">
-                            <div class="dashbox__title">
-                                <h3>Referral link</h3>
-                            </div>
-                                                        <div class="input-wrapper">
-                                <input type="text" style="background: rgb(28 17 41); color: #ffffff; outline: none;" class="inp inp-0" name="referral-link" id="copyInp" value="https://netmi.org/ref/Rameshk">
-                                <a class="btn copy" hidefocus="true" data-toggle="tooltip" data-original-title="<b>Copy</b>" onclick="copyText('copyInp'); alerx('Saved','The referral link was saved to clipboard','green'); return false; "><span class="netmiicon-copy"></span></a>
-                            </div>
-                                                        <div class="ref-box">
-                                <div class="status">
-                                    <div><span class="icons netmiicon-crown refIconStatus-starter"></span> <span class="ref-title">STARTER</span><span class="ref-subtitle">Partner status</span></div>
-                                    <div><span class="icons netmiicon-partners"></span> <span class="ref-title">0.00$</span> <span class="ref-subtitle">Referral Income</span></div>
+
+<div id="example_wrapper" class="dataTables_wrapper">
+                                    <form action="{{ route('user.cashback_income') }}" method="GET">
+                                        <div class="row">
+                                            <div class="col-xl-4">
+                                                <div class="form-group mb-3">
+                                                    <input type="text"  Placeholder="Search Users"
+                                                        name="search" class="form-control" value="{{ @$search }}" style="    background: #0b071a;
+    border-color: #aa73ce;
+" >
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2">
+                                                <div class="form-group mb-3">
+                                                    <select name="limit"  class="form-control" style=" background: #0b071a; border-color: #aa73ce;" >
+                                                        <option value="10">10</option>
+                                                        <option value="25">25</option>
+                                                        <option value="50">50</option>
+                                                        <option value="100">100</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2">
+                                                <div class="form-group mb-3">
+                                                    <input type="submit"  name="submit" style="padding: 4px;"
+                                                        class="btn btn-outline-theme btn-lg d-block w-100 btn-primary"
+                                                        value="Search"    >
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2">
+                                                <div class="form-group mb-3">
+                                                    <a href="{{ route('user.cashback_income') }}" 
+                                                        name="reset" style="padding: 4px;"
+                                                        class="btn btn-outline-theme btn-lg d-block w-100 btn-primary"
+                                                        value="Reset">Reset</a>
+                                                </div>
+                                            </div>
+        
+        
+                                        </div>
+                                    </form>
                                 </div>
-                            </div>
-                            <div class="desc-bottom">
-                                <p style="margin-bottom: 10px; color: #D0CED9; text-transform: uppercase">
-                                    <i class="flaticon-check" style="color: #aa72cf; margin-right: 3px"></i> ACTIVE LEVELS: <strong class="referral-levels-opened">4% - 1.5%</strong>
-                                </p>
 
-                                                                        <div class="first" style="display:none">1</div>
-
-                                        <div class="last" style="display:none">-</div>
-                                                                            <div class="first" style="display:none">2</div>
-
-                                        <div class="last" style="display:none">-</div>
-                                    
-                                <p style="margin-bottom: 20px; color: #D0CED9; text-transform: uppercase">
-                                    <i class="netmiicon-stat" style="color: #fff; margin-right: 3px; position: relative;top: 2px;"></i> Structure turnover:
-                                    <span class="purple-gradient-amount">0.00$</span>
-                                </p>
-                                                                    <p style="border-top: 1px dashed #312f4d; padding-top: 15px; font-size: 12px">
-                                        Upgrade your status to receive <strong style="color: #D0CED9; display: inline-block;" >5% - 1.7% - 0.5%</strong> with a personal invest volume of  <strong style="color: #D0CED9; display: inline-block;">50.00$</strong>.
-                                                                                    Alternatively raise the turnover of your Afilliate network up to <strong style="color: #D0CED9; display: inline-block;">500.00$</strong>.
-                                                                            </p>
+        <table class="table-product-group" style="margin-top:25px">
+            <thead>
+                 
+            <tr>
+                                    <th>SR#</th>
+                                    <th>UserID</th>
+                                  
+                                    <th>Amount</th>
+                                    <th>Date</th>
                                 
-                            </div>
-                        </div>
-                    </div>
+                                    <th>Remarks </th>
+                                </tr>
+            </thead>
+            <tbody>
 
-                    <div class="account-info-item box-2">
-                        <h4><b>Bonus program</b></h4>
-                        <div style="border-bottom: 1px solid #312f4d; padding-bottom: 25px; margin-top: 20px;">
-                            <div class="afflist-item">
-                                <div class="icon"><img src="{{asset('')}}assets/theme/images/netmi/bonus-volume.svg?v=3.22.1726217824" alt=""></div>
-                                <div class="txt">
-                                    <h4>Volume <span>Bonus</span> <i class="flaticon-help" data-toggle="tooltip" data-original-title="<b>The Bonus is paid depending on your overall affiliate earnings <span>from all levels</span> of your referral network. The more referral commissions you earn, the bigger bonus you get.</b>"></i></h4>
-                                                                        <p>
-                                        Total received: <b style="color: #aa72cf; display: inline-block;"><b style="color: #fff; display: inline-block;">0.00$</b></b>
-                                    </p>
-                                    <p>
-                                        Current income: <b style="display: inline-block;">0.00$</b>
-                                    </p>
-                                </div>
-                            </div>
-                                                            <div class="info-box">
-                                    To receive the next bonus <b style="color: #D0CED9; display: inline-block;"> #1</b> you must raise the referral income from your whole network up to <b style="color: #D0CED9; display: inline-block;">100.00$</b>.
-                                </div>
+
+            <?php if(is_array($level_income) || is_object($level_income)){ ?>
+
+<?php $cnt = $level_income->perPage() * ($level_income->currentPage() - 1); ?>
+@foreach ($level_income as $value)
+
+                                            <tr>
+                    <td class="td-price"> <div>
+                            <span class="amount-dark"><?= $cnt += 1?></span>
+                        </div></td>
+
+                
+
+                    <td class="td-price">
+                        <div>
+                            <span class="amount-dark">{{ $value->user_id_fk }}</span>
+                        </div></td>
+                        <td class="td-price">
+                        <div>
+                            <span class="amount-dark">{{currency()}} {{ $value->comm }}</span>
+                        </div></td>
+                        <td class="td-price">
+                        <div>
+                            <span class="amount-dark">{{ $value->remarks }} </span>
+                        </div></td>
+                        <!-- <td class="td-price">
+                        <div>
+                            <span class="amount-dark" style="background:{{($value->status=='Approved')?'#1f9a00':'#e33838'}};padding: 5px;
+                                            border-radius: 5px;">{{$value->status}} </span>
+                        </div></td> -->
+                
+                    <td class="td-price" style="height: 64px;">
+                        <div class="last">
+                                                            <span class="button">
+
+                                                            <span style="background-color: {{ $value->status == 'Active' ? 'green' : 'red' }}; color: white;">{{ $value->status }}</span>
+
+
+                                                        </span>
+
                                                     </div>
+                    </td>
+                </tr>
+                  
+                @endforeach
 
-                        <div style="margin-top: 25px; padding-bottom: 10px;">
-                            <div class="afflist-item">
-                                <div class="icon"><img src="{{asset('')}}assets/theme/images/netmi/bonus-performance.svg?v=3.22.1726217824" alt=""></div>
-                                <div class="txt">
-                                    <h4>Performance <span>Bonus</span> <i class="flaticon-help" data-toggle="tooltip" data-original-title="<b>The Bonus is paid every <span>1st day</span> of the month depending on your past month referral commission volume from the <span>1st line</span> of your affiliate network.</b>"></i></h4>
-                                                                        <p>
-                                        Total received: <b style="color: #aa72cf; display: inline-block;"><b style="color: #fff; display: inline-block;">0.00$</b></b>
-                                    </p>
-                                    <p>
-                                        Current income: <b style="display: inline-block;">0.00$</b>
-                                    </p></div></div>
-                                                            <div class="info-box">
-                                    To receive the next bonus <b style="color: #D0CED9; display: inline-block;">#1</b> you must get the referral income from the first line of your network  in the amount of <b style="color: #D0CED9; display: inline-block;">70$</b>.
-                                </div>
-                                                    </div>
-
-                    </div>
-                </div>
-
-                <div class="account-info-item" style="background: #141329;">
-                    <div class="col-left">
-                        <div class="desc">
-                            <div class="h" style="margin-bottom:20px"><h4><b>Referral statistics</b></h4></div>
-                            <div>
-                                <ul>
-                                    <li><small>Total referrals</small> <strong style="display: inline-block;   height: 30px; min-width: 30px;  border: 2px solid #37355a; background: #37355a; padding: 0px 10px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">0</strong></li>
-                                    <li><small>Total on levels</small> <strong style="display: inline-block;  height: 30px; min-width: 30px;  border: 2px solid #37355a; background: #37355a; padding: 0px 10px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">0</strong></li>
-                                    <li><small>Total visits via referral link</small> <strong style="display: inline-block; background: #37355a;  height: 30px; min-width: 30px;  border: 2px solid #37355a; padding: 0px 10px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">0</strong></li>
-                                    <li><small>Today visits via referral link</small> <strong style="display: inline-block; background: #37355a;  height: 30px; min-width: 30px;   border: 2px solid #37355a; padding: 0px 10px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">0</strong></li>
-                                    <li><small>Total registrations</small> <strong style="display: inline-block; background: #37355a;   height: 30px; min-width: 30px;  border: 2px solid #37355a; padding: 0px 10px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">0</strong></li>
-                                    <li><small>Today registrations</small> <strong style="display: inline-block; background: #37355a;  height: 30px; min-width: 30px;   border: 2px solid #37355a;  padding: 0px 10px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">0</strong></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-right">
-                        <div class="chart-title-text">
-                            <div class="visits"><span>Visits</span></div>
-                            <div class="registrations"><span>Registrations</span></div>
-                        </div>
-                        <script type="text/javascript" src="{{asset('')}}assets/theme/js/Chart.js?v=3.22.1726217824"></script>
-                        <canvas id="bar-chart" width="800" height="450" class="chart-margin"></canvas>
-                        <script type="text/javascript">
-                                                        // Bar chart
-                            new Chart(document.getElementById("bar-chart"), {
-                                type: 'bar',
-                                data: {
-                                    labels: ["23.09","24.09","25.09","26.09","27.09","28.09"],
-                                    datasets: [
-                                        {
-                                            label: "Visits",
-                                            backgroundColor: "#227f9e",
-                                            data: [0,0,0,0,0,0]                                        },        {
-                                            label: "Registrations",
-                                            backgroundColor: "#aa72cf",
-                                            data: [0,0,0,0,0,0],
-                                        }
-                                    ]
-                                },
-                                options: {
-                                    plugins: {
-                                        legend: {
-                                            display: false
-                                        }
-                                    },
-                                    title: {
-                                        display: false,
-                                        text: '',
-                                    },
-                                    scales: {
-                                        y: {
-                                            beginAtZero: true,
-                                            ticks: {
-                                                stepSize: 1,
-                                                min: 0
-                                            }
-                                        }
-                                    }
-                                }
-                            });
-                        </script>
-
-
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="account-tab tab-list">
-
-                                    <div class="account-info-list">
-    <div class="account-form account-form--2">
-    <div class="caption caption--border">Referral list</div>
-    <div class="account-no-data"><i class="flaticon-info icon"></i><br>No referrals attracted</div></div></div>
-
-                            </div>
-
-
-            <div class="account-tab tab-adv">
-                <div>
-                                             <div class="account-form account-form--2">
-                         <div class="settings-box-form" style="padding-top:20px; margin-bottom: -30px;">
-                         <div class="caption caption--border">1920x180</div>
-                            <img src="{{asset('')}}assets/a/1920en.gif?v=3.22.1726217824" style="max-width: 100%; border: 1px solid #aa72cf; border-radius: 12px;-moz-border-radius: 12px; -webkit-border-radius: 12px;"/>
-                            <textarea class="inp inp-0"
-                                      style="margin-top: 10px; font-size: 14px; text-align: center;"
-                                      readonly><a href="https://netmi.org/ref/Rameshk" target="_blank"> <img src="https://netmi.org/assets/images/1920en.gif"/></a></textarea>
-                        </div>
-                        </div>
-                                             <div class="account-form account-form--2">
-                         <div class="settings-box-form" style="padding-top:20px; margin-bottom: -30px;">
-                         <div class="caption caption--border">1200x150</div>
-                            <img src="{{asset('')}}assets/a/1200en.gif?v=3.22.1726217824" style="max-width: 100%; border: 1px solid #aa72cf; border-radius: 12px;-moz-border-radius: 12px; -webkit-border-radius: 12px;"/>
-                            <textarea class="inp inp-0"
-                                      style="margin-top: 10px; font-size: 14px; text-align: center;"
-                                      readonly><a href="https://netmi.org/ref/Rameshk" target="_blank"> <img src="https://netmi.org/assets/images/1200en.gif"/></a></textarea>
-                        </div>
-                        </div>
-                                             <div class="account-form account-form--2">
-                         <div class="settings-box-form" style="padding-top:20px; margin-bottom: -30px;">
-                         <div class="caption caption--border">728x90</div>
-                            <img src="{{asset('')}}assets/a/728en.gif?v=3.22.1726217824" style="max-width: 100%; border: 1px solid #aa72cf; border-radius: 12px;-moz-border-radius: 12px; -webkit-border-radius: 12px;"/>
-                            <textarea class="inp inp-0"
-                                      style="margin-top: 10px; font-size: 14px; text-align: center;"
-                                      readonly><a href="https://netmi.org/ref/Rameshk" target="_blank"> <img src="https://netmi.org/assets/images/728en.gif"/></a></textarea>
-                        </div>
-                        </div>
-                                             <div class="account-form account-form--2">
-                         <div class="settings-box-form" style="padding-top:20px; margin-bottom: -30px;">
-                         <div class="caption caption--border">468x60</div>
-                            <img src="{{asset('')}}assets/a/468en.gif?v=3.22.1726217824" style="max-width: 100%; border: 1px solid #aa72cf; border-radius: 12px;-moz-border-radius: 12px; -webkit-border-radius: 12px;"/>
-                            <textarea class="inp inp-0"
-                                      style="margin-top: 10px; font-size: 14px; text-align: center;"
-                                      readonly><a href="https://netmi.org/ref/Rameshk" target="_blank"> <img src="https://netmi.org/assets/images/468en.gif"/></a></textarea>
-                        </div>
-                        </div>
-                                             <div class="account-form account-form--2">
-                         <div class="settings-box-form" style="padding-top:20px; margin-bottom: -30px;">
-                         <div class="caption caption--border">160x600</div>
-                            <img src="{{asset('')}}assets/a/160en.gif?v=3.22.1726217824" style="max-width: 100%; border: 1px solid #aa72cf; border-radius: 12px;-moz-border-radius: 12px; -webkit-border-radius: 12px;"/>
-                            <textarea class="inp inp-0"
-                                      style="margin-top: 10px; font-size: 14px; text-align: center;"
-                                      readonly><a href="https://netmi.org/ref/Rameshk" target="_blank"> <img src="https://netmi.org/assets/images/160en.gif"/></a></textarea>
-                        </div>
-                        </div>
-                                             <div class="account-form account-form--2">
-                         <div class="settings-box-form" style="padding-top:20px; margin-bottom: -30px;">
-                         <div class="caption caption--border">150x150</div>
-                            <img src="{{asset('')}}assets/a/150en.gif?v=3.22.1726217824" style="max-width: 100%; border: 1px solid #aa72cf; border-radius: 12px;-moz-border-radius: 12px; -webkit-border-radius: 12px;"/>
-                            <textarea class="inp inp-0"
-                                      style="margin-top: 10px; font-size: 14px; text-align: center;"
-                                      readonly><a href="https://netmi.org/ref/Rameshk" target="_blank"> <img src="https://netmi.org/assets/images/150en.gif"/></a></textarea>
-                        </div>
-                        </div>
-                                             <div class="account-form account-form--2">
-                         <div class="settings-box-form" style="padding-top:20px; margin-bottom: -30px;">
-                         <div class="caption caption--border">125x125</div>
-                            <img src="{{asset('')}}assets/a/125en.gif?v=3.22.1726217824" style="max-width: 100%; border: 1px solid #aa72cf; border-radius: 12px;-moz-border-radius: 12px; -webkit-border-radius: 12px;"/>
-                            <textarea class="inp inp-0"
-                                      style="margin-top: 10px; font-size: 14px; text-align: center;"
-                                      readonly><a href="https://netmi.org/ref/Rameshk" target="_blank"> <img src="https://netmi.org/assets/images/125en.gif"/></a></textarea>
-                        </div>
-                        </div>
-                                    </div>
-            </div>
-
-
-<style type="text/css">
+<?php }?>
+                        </tbody>
+        </table>
+    </div>
+    <style type="text/css">
 @media screen and (max-width: 760px) {
-td:nth-of-type(1):before { content: "Username"; text-align: left; }
-td:nth-of-type(2):before { content: "Referred by"; text-align: left; }
-td:nth-of-type(3):before { content: "Income"; text-align: left; }
-td:nth-of-type(4):before { content: "Contacts"; text-align: left; }
-.table td.text-center {
-text-align: left !important;
-}
-.table tr {
-border-bottom: 0px;
-}
+    .tab-topup td:nth-of-type(1):before { content: "Date"; text-align: left; }
+    .tab-topup td:nth-of-type(2):before { content: "Amount"; text-align: left; }
+    .tab-topup td:nth-of-type(3):before { content: "Status"; text-align: left; }
+    .tab-topup td:nth-of-type(4):before { content: "Action"; text-align: left;}
+    .tab-topup .table td.text-center {
+        text-align: left !important;
+    }
+    .tab-topup .table tr {
+        border-bottom: 0px;
+    }
 .table tr:nth-of-type(odd) {
 background: #f7f8fc;
 }
 }
 </style>
+</div>
 
-</div></div>
+<div class="account-tab tab-payout ">
+    <div class="account-info-list">
+    <div class="account-form account-form--2">
+    <div class="caption caption--border">Payout History</div>
+    <div class="account-no-data"><i class="flaticon-info icon"></i>
+    <br>Payout history is empty<br><a class="btn btn-affiliate" style="margin: 30px auto 0px;" href="/payout">Withdraw Funds</a></div></div></div>
+
+    <style type="text/css">
+@media screen and (max-width: 760px) {
+    .tab-payout td:nth-of-type(1):before { content: "Date"; text-align: left; }
+    .tab-payout td:nth-of-type(2):before { content: "Amount"; text-align: left; }
+    .tab-payout td:nth-of-type(3):before { content: "Status"; text-align: left; }
+    .tab-payout td:nth-of-type(4):before { content: "Action"; text-align: left; }
+    .tab-payout .table td.text-center {
+        text-align: left !important;
+    }
+    .tab-payout .table tr {
+        border-bottom: 0px;
+    }
+.table tr:nth-of-type(odd) {
+background: #f7f8fc;
+}
+}
+</style>
+</div>
+<div class="account-tab tab-profit ">
+    <!-- End tabs navigation -->
+<style type="text/css">
+    #filter_history_specific {
+        display: none;
+    }
+</style>
+
+
+<div class="account-info-list">
+    <div class="account-form account-form--2">
+    <div class="caption caption--border">Accruals history</div>
+    <div class="account-no-data"><i class="flaticon-info icon"></i><br>No accruals found<br><a class="btn btn-affiliate" style="margin:30px auto 0px;" href="/deposits">Make a New Stake</a></div></div></div></div></div></div>
 
 
 
 
-@include('layouts.sidebar')
 
 
 
+
+
+    @include('layouts.sidebar')
 
 
 
@@ -394,31 +311,6 @@ background: #f7f8fc;
 
 
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-
-            setTimeout(function () {
-                var fieldChartDiv = $('#chart_div');
-                var w = fieldChartDiv.children().width();
-                var r = w - 629;
-                fieldChartDiv.scrollLeft(r / 2);
-            }, 300);
-
-            $('textarea').focus(function () {
-                $(this).select();
-            });
-
-            $('#view_ref_banners').click(function () {
-                $('#modal_ref_banners').modal('show');
-                $('html').getNiceScroll().hide();
-            });
-
-            $('#modal_ref_banners').on('hide.bs.modal', function () {
-                $('html').getNiceScroll().show();
-            });
-
-        });
-    </script>
 
 
 <script type="text/javascript">
@@ -450,48 +342,11 @@ background: #f7f8fc;
 </script>
 
 
-<script type="text/javascript">
-var global_params = [];
-$(document).ready(function ($) {
-$(document).ready(function($){
-    $('#search-ref').on('change keyup', function(){
-        searchRefSelect();
-    });
 
-    $('#filter_levels').on('change', function () {
-        searchRefSelect();
-    });
-});
-
-function searchRefSelect()
-{
-    let search = $('#search-ref').val().toLowerCase().trim();
-    let level = $('#filter_levels').val();
-
-    let trList = $('#table_refs').children('tbody');
-
-
-    trList.children('tr').each(function(){
-        let displayInit = level === 'all' || $(this).data('level') == level.substr(6) ? '' : 'none';
-
-        if(displayInit !== 'none'){
-            if($(this).data('user').toLowerCase().indexOf(search) < 0){
-                displayInit = 'none';
-            }
-        }
-
-        $(this).css('display', displayInit);
-    });
-
-    updateListRefferalsTableView();
-}
-});
-
-</script>
 <script type="text/javascript" src="https://netmi.org/api-web/js-last-news"></script>
 
 </body>
 </html>
 
-<!-- Generated in 0.024 s. -->
+<!-- Generated in 0.0225 s. -->
 <!-- Version 3.22.1726217824 -->

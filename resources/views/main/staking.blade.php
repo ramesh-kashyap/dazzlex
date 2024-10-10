@@ -13,7 +13,7 @@
 <div class="netmi-inner"><h1>Staking <span>Crypto</span></h1>
 <div class="netmi-hiw-header netmi-page-box">
 <div class="netmi-row netmi-row-1">
-<div class="netmi-subdesc" >Allocate your free crypto assets to our trading pool, provide liquidity for Netmi custom developed crypto instruments, and get paid generous returns on a daily basis.</div>
+<div class="netmi-subdesc" >Allocate your free crypto assets to our trading pool, provide liquidity for Dazzlex custom developed crypto instruments, and get paid generous returns on a daily basis.</div>
 <div class="netmi-buttons">
 <a href="javascript: goTo('.netmi-block-2');" class="netmi-btn netmi-purple">Staking offer</a>
 <a href="javascript: goTo('.block-3');" class="netmi-link">Have a Question?</a>
@@ -200,7 +200,7 @@
                 <div class="l" >
                     <div class="question">
                         <h5 ><span class="flaticon-sign-help icon" ></span><span>How do I start investing?</span></h5>
-                        <div class="answer">Top up your member account, choose from the Staking options available, and allocate your free crypto assets to Netmi trading pool.</div>
+                        <div class="answer">Top up your member account, choose from the Staking options available, and allocate your free crypto assets to Dazzlex trading pool.</div>
                     </div>
                     <div class="question">
                         <h5 ><span class="flaticon-sign-help icon" ></span><span>What payment methods are available to top up my account?</span></h5>

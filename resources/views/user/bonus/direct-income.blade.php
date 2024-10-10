@@ -47,7 +47,7 @@
 </div>
 
 
-<p>Roi Income</p>
+<p>Direct  Income</p>
 </br></br>
 <div class="account-tab tab-topup active">
         <div class="account-form account-form--2">
@@ -57,7 +57,7 @@
 
 
 <div id="example_wrapper" class="dataTables_wrapper">
-                                    <form action="{{ route('user.roi-bonus') }}" method="GET">
+                                    <form action="{{ route('user.direct-income') }}" method="GET">
                                         <div class="row">
                                             <div class="col-xl-4">
                                                 <div class="form-group mb-3">
@@ -86,7 +86,7 @@
                                             </div>
                                             <div class="col-xl-2">
                                                 <div class="form-group mb-3">
-                                                    <a href="{{ route('user.roi-bonus') }}" 
+                                                    <a href="{{ route('user.direct-income') }}" 
                                                         name="reset" style="padding: 4px;"
                                                         class="btn btn-outline-theme btn-lg d-block w-100 btn-primary"
                                                         value="Reset">Reset</a>

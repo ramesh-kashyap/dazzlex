@@ -706,80 +706,7 @@
                             <form action="" method="post" autocomplete="off">
                                 <input type="hidden" name="_type" value="passwords">
                                 <input type="hidden" name="_csrf" value="da34d580ab242255b283db3e45685e97">
-                                <div class="account-form-box">
-                                    <div class="caption">Account security</div>
-                                    <div class="caption-sub">Turn on the defence for maximum security.</div>
-
-                                    <div class="g">
-                                        <div class="g-left">
-                                            <label>Secure login (E-mail)</label>
-                                            <input type="hidden" id="h_sec_auth_email" value="0">
-                                            <div class="xsel xsel--0">
-                                                <div class="SumoSelect sumo_network_id" tabindex="0" role="button"
-                                                    aria-expanded="false">
-                                                    <select name="sec_auth_email" class="js-select SumoUnder">
-                                                        <option value="1">Yes</option>
-                                                        <option value="0" selected>No </option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="g-right" style="display: none">
-                                            <label>IP authorization security - TODO</label>
-                                            <div class="xsel xsel--0">
-                                                <div class="SumoSelect sumo_network_id" tabindex="0" role="button"
-                                                    aria-expanded="false">
-                                                    <select name="sec_ip" class="js-select SumoUnder">
-                                                        <option value="1">Yes</option>
-                                                        <option value="0" selected>No </option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="g" style="display: none">
-                                        <div class="g-left">
-                                            <label>Payment Protection (E-mail) - TODO</label>
-                                            <div class="xsel xsel--0">
-                                                <div class="SumoSelect sumo_network_id" tabindex="0" role="button"
-                                                    aria-expanded="false">
-                                                    <select name="sec_payout_email" class="js-select SumoUnder">
-                                                        <option value="1">Yes</option>
-                                                        <option value="0" selected>No </option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="g-right">
-                                            <label>Payment Protection (SMS) - TODO</label>
-                                            <div class="xsel xsel--0">
-                                                <div class="SumoSelect sumo_network_id" tabindex="0" role="button"
-                                                    aria-expanded="false">
-                                                    <select name="sec_payout_sms" class="js-select SumoUnder">
-                                                        <option value="1">Yes</option>
-                                                        <option value="0" selected>No </option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="g" style="display: none">
-                                        <div class="g-left">
-                                            <label>Financial password - TODO</label>
-                                            <div class="xsel xsel--0">
-                                                <div class="SumoSelect sumo_network_id" tabindex="0" role="button"
-                                                    aria-expanded="false">
-                                                    <select name="sec_financy_pass" class="js-select SumoUnder">
-                                                        <option value="1">Yes</option>
-                                                        <option value="0" selected>No </option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
+                               
 
                                 <div class="account-form-box" style="display: none">
                                     <div class="caption">Two-Factor Security Option</div>
@@ -839,7 +766,7 @@
                                      {{ csrf_field() }}
                             <input type="hidden" name="_type" value="privacy">
                             <input type="hidden" name="_csrf" value="da34d580ab242255b283db3e45685e97">
-                            <div class="caption">Publicity</div>
+                            <div class="caption">Transaction Change Password</div>
                             <div class="settings-box-form">
                                 <div class="g">
                                     <div class="g-left">
