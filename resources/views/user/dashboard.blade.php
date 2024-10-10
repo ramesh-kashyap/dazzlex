@@ -26,7 +26,7 @@
 <!-- Main account statistics -->
 <div class="my-account">
     <div class="card">
-    <div class="name">Welcome, <span>Rameshk</span>!</div>
+    <div class="name">Welcome, <span>{{ Auth::user()->name }}</span></div>
     <div class="balance">{{ currency() }}
     {{ number_format(Auth::user()->available_balance(), 2) }}<span class="subtitle">Main balance</span></div>
     <div class="buttons">
@@ -80,7 +80,7 @@
 <div class="lamount" id="lamount-ltc">{{ currency() }}
 {{ number_format(Auth::user()->booster_bonus->sum('comm'), 2) }}</div>
 <div class="llink">
-<a href="/deposits#active" data-toggle="tooltip" data-original-title="<b>Active Stakes</b>"><img src="{{asset('')}}assets/theme/images/netmi/account-deposits.svg?v=3.22.1726217824" alt=""></a>
+<a href="{{route('user.cashback_income')}}" data-toggle="tooltip" ><img src="{{asset('')}}assets/theme/images/netmi/account-deposits.svg?v=3.22.1726217824" alt=""></a>
 </div>
 </div>
 </div>
@@ -90,7 +90,7 @@
         <div class="lamount" id="lamount-doge">{{ currency() }}
         {{ number_format(Auth::user()->level_bonus->sum('comm'), 2) }}<span style="font-size: 12px;color: #9093ab;top: 0px;position: relative;"></span></div>
         <div class="llink">
-            <a href="/history_actions#profit" data-toggle="tooltip" data-original-title="<b>Accruals history</b>"><img src="{{asset('')}}assets/theme/images/netmi/account-withdraw.svg?v=3.22.1726217824" alt=""></a>
+            <a href="{{route('user.cashback_income')}}" data-toggle="tooltip" ><img src="{{asset('')}}assets/theme/images/netmi/account-withdraw.svg?v=3.22.1726217824" alt=""></a>
         </div>
     </div>
 </div>
@@ -100,7 +100,7 @@
 <div class="lamount" id="lamount-doge">{{ currency() }}
 {{ number_format(Auth::user()->royalty_bonus->sum('comm'), 2) }}</div>
 <div class="llink">
-<a href="/ref_sys#list" data-toggle="tooltip" data-original-title="<b>Referral list</b>"><img src="{{asset('')}}assets/theme/images/netmi/account-referrals.svg?v=3.22.1726217824" alt=""></a>
+<a href="{{route('user.cashback_income')}}" data-toggle="tooltip" ><img src="{{asset('')}}assets/theme/images/netmi/account-referrals.svg?v=3.22.1726217824" alt=""></a>
 </div>
 </div>
 </div>

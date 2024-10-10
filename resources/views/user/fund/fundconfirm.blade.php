@@ -75,9 +75,7 @@
                         <div class="exchange__process__details__coin__label no-grab">Payment Mode</div>
                         <div class="exchange__process__details__coin__amount final-deposit-amount">{{$paymentMode}}</div>
                     </div>
-                    <div class="exchange__process__details__coin__holder">
-                        <img class="exchange__process__details__coin__icon no-grab" src="{{asset('')}}assets/images/coins/BALANCE.svg?v=3.22.1726217824" alt="">
-                        BTC                    </div>
+                   
                                     </div>
 
                 <div class="exchange__process__details__middle">

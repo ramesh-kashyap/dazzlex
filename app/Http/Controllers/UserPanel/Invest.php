@@ -103,7 +103,7 @@ class Invest extends Controller
       try{
         $validation =  Validator::make($request->all(), [
             'amount' => 'required|numeric|min:20',
-            'transaction_id' => 'required',
+            'username' => 'required',
             'paymentMode' => 'required',
         ]);
     
@@ -128,7 +128,7 @@ class Invest extends Controller
     
                $data = [
                     'plan' => $plan,
-                    'transaction_id' =>$request->transaction_id,
+                    'transaction_id' =>$request->username,
                     'user_id' => $user_detail->id,
                     'user_id_fk' => $user_detail->username,
                     'amount' => $request->amount,
