@@ -163,129 +163,146 @@ function verificationCode($length)
 
 
 
- function add_level_income($id,$amt)
-        {
+function add_level_income($id,$amt)
+{
 
-          //$user_id =$this->session->userdata('user_id_session')
-      $data = User::where('id',$id)->orderBy('id','desc')->first();
+  //$user_id =$this->session->userdata('user_id_session')
+$data = User::where('id',$id)->orderBy('id','desc')->first();
 
-        $user_id = $data->username;
-        $fullname=$data->name;
+$user_id = $data->username;
+$fullname=$data->name;
 
-        $rname = $data->username;
-        $user_mid = $data->id;
+$rname = $data->username;
+$user_mid = $data->id;
+  
 
+      $cnt = 1;
 
-              $cnt = 1;
+      $amount = $amt/100;
+        
 
-              $amount = $amt/100;
+        while ($user_mid!="" && $user_mid!="1"){
 
+              $Sposnor_id = User::where('id',$user_mid)->orderBy('id','desc')->first();
+              $sponsor=$Sposnor_id->sponsor;
+              if (!empty($sponsor))
+               {
+                $Sposnor_status = User::where('id',$sponsor)->orderBy('id','desc')->first();
+                $sp_status = ($Sposnor_status)?$Sposnor_status->active_status:0;
+                $Sposnor_cnt = User::where('sponsor',$sponsor)->where('active_status','Active')->count("id");
+                $rank=$Sposnor_status->rank;
+              }
+              else
+              {
+                $Sposnor_status =array();
+                $sp_status="Pending";
+                $Sposnor_cnt=0;
+              }
+             
+              $pp=0;
+               if($sp_status=="Active")
+               {  
+                 if($cnt===1  &&  $Sposnor_cnt>=1)
+                  {
+                    $pp= $amount*20;
 
-                while ($user_mid!="" && $user_mid!="1"){
-
-                      $Sposnor_id = User::where('id',$user_mid)->orderBy('id','desc')->first();
-                      $sponsor=$Sposnor_id->sponsor;
-                      if (!empty($sponsor))
-                       {
-                        $Sposnor_status = User::where('id',$sponsor)->orderBy('id','desc')->first();
-                        $Sposnor_cnt = User::where('sponsor',$sponsor)->where('active_status','Active')->count("id");
-                        $sp_status=$Sposnor_status->active_status;
-                      }
-                      else
-                      {
-                        $Sposnor_status =array();
-                        $sp_status="Pending";
-                        $Sposnor_cnt=0;
-                      }
-
-                      $pp=0;
-                      $sp_percent=0;
-                    //   $up_percent=0;
-                      $pp=0;
-                      
-                          if($cnt==1)
-                          {
-                           $Sposnor_cnt=$Sposnor_cnt;
-                          }
-                          else
-                          {
-                          $Sposnor_cnt= User::where('sponsor',$user_mid)->where('active_status','Active')->count("id"); 
-                          }
-                        if($Sposnor_cnt==1)
-                        {
-                         $sp_percent = 1;    
-                         $up_percent = 3;    
-                        }
-                        if($Sposnor_cnt==2)
-                        {
-                         $sp_percent = 2;    
-                         $up_percent = 2;    
-                        }
-                         if($Sposnor_cnt==3)
-                        {
-                         $sp_percent = 3;    
-                         $up_percent = 1;    
-                        }
-                        
-                         if($Sposnor_cnt>=4)
-                        {
-                         $sp_percent = 4;    
-                         $up_percent = 0;    
-                        }
-                        
-                        
-                       if($sp_status=="Active")
-                       {
-                         if($cnt==1)
-                          {
-                            $pp= $amount*$sp_percent;
-
-                          } 
-                          if($cnt==2)
-                          {
-                            $pp= $amount*$up_percent;
-
-                          } 
-
-                        }
-                        else
-                        {
-                          $pp=0;
-                        }
-
-
-
-                      $user_mid = @$Sposnor_status->id;
-                      $spid = @$Sposnor_status->id;
-                      $idate = date("Y-m-d");
-
-                      $user_id_fk=$sponsor;
-                      if($spid>0 && $cnt<=2){
-                        if($pp>0){
-
-                         $data = [
-                        'user_id' => $user_mid,
-                        'user_id_fk' =>$Sposnor_status->username,
-                        'amt' => $amt,
-                        'comm' => $pp,
-                        'remarks' =>'Level Bonus',
-                        'level' => $cnt,
-                        'rname' => $rname,
-                        'fullname' => $fullname,
-                        'ttime' => Date("Y-m-d"),
-
-                    ];
-                     $user_data =  Income::create($data);
-
+                  } if($cnt==2 &&  $Sposnor_cnt>=2)
+                  {
+                    $pp= $amount*10;
+        
+                  } if($cnt==3 && $Sposnor_cnt>=3)
+                  {
+                    $pp= $amount*5;
+        
+                  } if($cnt==4 &&  $Sposnor_cnt>=4)
+                  {
+                    $pp= $amount*3;
+        
+                  } if($cnt>=5 && $cnt<=10 && $Sposnor_cnt>=5)
+                  {
+                    $pp= $amount*3;
+        
+                  } 
+                  if($cnt>=11 && $cnt<=15 && $Sposnor_cnt>=6)
+                  {
+                    $pp= $amount*1;
+        
+                  } if($cnt>=16 && $cnt<=20 && $Sposnor_cnt>=7)
+                  {
+                    $pp= $amount*1;
+        
+                  } if($cnt>=21 && $cnt<=25 && $Sposnor_cnt>=8)
+                  {
+                    $pp= $amount*5/10;
+        
+                  }if($cnt>=26 && $cnt<=30 && $Sposnor_cnt>=9)
+                  {
+                    $pp= $amount*5/10;
+        
+                  }if($cnt>=31 && $cnt<=35 && $Sposnor_cnt>=10)
+                  {
+                    $pp= $amount*25/100;
+        
+                  }if($cnt>=36 && $cnt<=40 && $Sposnor_cnt>=11)
+                  {
+                    $pp= $amount*25/100;
+        
+                  }if($cnt>=41 && $cnt<=45 && $Sposnor_cnt>=12)
+                  {
+                    $pp= $amount*25/100;
+        
+                  }if($cnt>=46 && $cnt<=50 && $Sposnor_cnt>=13)
+                  {
+                    $pp= $amount*25/100;
+        
+                  }
 
                 }
-               }
+                
+                  
+              
+              $user_mid = @$Sposnor_status->id;
 
-                $cnt++;
-     }
+              $spid = @$Sposnor_status->id;
 
-     return true;
-  }
+            //   echo $user_mid."<br>";
+            //   echo $spid."<br>";
+            //   echo $cnt."<br>";
+            //   echo $pp."<br>";
+            //   echo $sp_status."<br>";
+            //  die;
+              $idate = date("Y-m-d");
+        
+                          
+             
+              $user_id_fk=$sponsor;
+              if($spid>0 && $cnt<=10){
+                if($pp>0){
+                 
+                 $data = [
+                'user_id' => $user_mid,
+                'user_id_fk' =>$Sposnor_status->username,
+                'amt' => $amt,
+                'comm' => $pp,
+                'remarks' =>'Level Bonus',
+                'level' => $cnt,
+                'rname' => $rname,
+                'fullname' => $fullname,
+                'ttime' => Date("Y-m-d"),
+                
+            ];
+             $user_data =  Income::create($data);
+           
+            
+        }
+       }
+       
+        $cnt++;
+}
+
+return true;
+}
+
 
 
 
