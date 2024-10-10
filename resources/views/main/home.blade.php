@@ -44,6 +44,7 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{route('Index')}}">
+    <meta property="og:url" content="{{route('Index')}}">
     <meta property="og:locale" content="en_US">
     <meta property="og:title" content="Netmi">
     <meta property="og:description"
@@ -51,6 +52,7 @@
     <meta property="og:image" content="{{asset('')}}assets/images/netmi-og-image7a1a.jpg?v=3.10.1726217824">
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{route('Index')}}">
     <meta property="twitter:url" content="{{route('Index')}}">
     <meta property="twitter:title" content="Netmi">
     <meta property="twitter:description"
@@ -68,148 +70,107 @@
     <div class="netmi-wrapper">
         <header class="netmi-header">
 
-            <div class="netmi-header-middle">
-                <div class="netmi-inner">
-                    <div class="netmi-nav-button"><span class="flaticon-nav-button"></span></div>
-                    <div class="netmi-logo"><a href="{{route('Index')}}">
-                            <img src="{{asset('')}}assets/logo.png" class="netmi-full-logo" alt="Netmi">
-                            <img src="{{asset('')}}assets/logo.png" class="netmi-mobile-logo"
-                                alt="Netmi">
-                        </a>
-                    </div>
-
-                    <div class="netmi-seperator"></div>
-                    <div class="netmi-navigation">
-                        <span class="netmi-current">
-                            <span class="flaticon-nav-button"></span> Navigation
+<div class="netmi-header-middle">
+			<div class="netmi-inner">
+				<div class="netmi-nav-button"><span class="flaticon-nav-button"></span></div>
+				<div class="netmi-logo"><a href="{{route('Index')}}">
+				<img src="{{asset('')}}assets/logo.png" class="netmi-full-logo" alt="Netmi">
+				<img src="{{asset('')}}assets/logo.png" style="width:137px;" class="netmi-mobile-logo" alt="Netmi">
+			</a>
+			</div>
+				
+				<div class="netmi-seperator"></div>
+				<div class="netmi-navigation">
+						<span class="netmi-current">
+						<span class="flaticon-nav-button"></span> Navigation 
                         </span>
                         <ul class="netmi-dropdown">
-                            <li><a href="{{route('Index')}}" class="eas  ">Home</a></li>
-                            <li><a href="{{route('about')}}" class="">About Us</a></li>
-                            <li><a href="{{route('work')}}" class="">How it works?</a></li>
-                            <li><a href="{{route('faq')}}" class="netmi-active">FAQ</a></li>
-                            <li><a href="{{route('news')}}" class="">News
-                                    <img src="{{asset('')}}assets/tpl/images/icons/dot-main-menu.svg?v=3.10.1726217824"
-                                        alt="" style="position: relative;width: 10px; top: -6px;left: 1px;"></a>
-                            </li>
-                            <li><a href="{{route('contacts')}}" class="netmi-last ">Contacts</a></li>
-                        </ul>
-                    </div>
-                    <ul class="netmi-nav">
-                        <li class="netmi-close netmi-eas"><img
-                                src="{{asset('')}}assets/tpl/images/menu-close.svg?v=3.10.1726217824" alt=""
-                                style="position: relative;width: 32px;top: -4px;right: 6px;"></li>
-                        <li class="netmi-eas netmi-mob-hidden netmi-active"><a href="{{route('Index')}}"
-                                class="netmi-main-menu netmi-first">Home</a></li>
-                        <li class="netmi-eas netmi-mob-hidden "><a href="{{route('about')}}"
-                                class="netmi-main-menu">About Us</a></li>
-                        <li class="netmi-eas netmi-mob-hidden "><a href="{{route('work')}}" class="netmi-main-menu">How
-                                it works?</a></li>
-                        <li class="netmi-eas netmi-mob-hidden "><a href="{{route('faq')}}"
-                                class="netmi-main-menu">FAQ</a></li>
-                        <li class="netmi-eas netmi-mob-hidden "><a href="{{route('news')}}" class="netmi-main-menu">News
-                                <img src="{{asset('')}}assets/tpl/images/icons/dot-main-menu.svg?v=3.10.1726217824"
-                                    alt=""
-                                    style="position: relative;width: 10px; top: 0px;left: -2px;margin-right:-12px"></a>
-                        </li>
-                        <li class="netmi-eas netmi-mob-hidden "><a href="{{route('contacts')}}"
-                                class="netmi-main-menu">Contacts</a></li>
-                        <li class="netmi-eas">
-                            <a href="#"
-                                onclick="$('.netmi-income-options-popup').fadeIn(50);$('body').css('overflow', 'hidden');return false;"
-                                class="netmi-earn">Income Options <span class="netmi-icon-bubble netmi-eas">4</span>
-                            </a>
-                        </li>
-                        <div class="netmi-soc netmi-mob">
-                            <a href="https://t.me/netmi_news" target="_blank" class="netmi-soc-a netmi-soc-a-channel">
-                                <img src="{{asset('')}}assets/tpl/images/icons/telegram-header.svg?v=3.10.1726217824"
-                                    alt="">
-                                Сhannel </a>
-                            <a href="https://t.me/netmi_chat" target="_blank" class="netmi-soc-a netmi-soc-a-chat">
-                                <img src="{{asset('')}}assets/tpl/images/icons/chat-header.svg?v=3.10.1726217824"
-                                    alt="">
-                                Chat </a>
-                        </div>
-                    </ul>
-                    <div class="netmi-userbox">
-                        <a href="#" onclick="popup_open('#popup-signin'); return false;" class="netmi-eas"><img
-                                src="{{asset('')}}assets/tpl/images/icons/header-user.svg?v=3.10.1726217824"
-                                class="netmi-eas"><span>Log in</span></a>
-                    </div>
-                    <div class="netmi-soc netmi-header" style="background:none">
-                        <a href="https://t.me/netmi_news" target="_blank" class="netmi-soc-a netmi-soc-a-channel">
-                            <img src="{{asset('')}}assets/tpl/images/icons/telegram-header.svg?v=3.10.1726217824"
-                                alt="">
-                            <span>Сhannel</span>
-                        </a>
-                        <a href="https://t.me/netmi_chat" target="_blank" class="netmi-soc-a netmi-soc-a-chat">
-                            <img src="{{asset('')}}assets/tpl/images/icons/chat-header.svg?v=3.10.1726217824" alt="">
-                            <span>Chat</span>
-                        </a>
-                    </div>
+							<li><a href="{{route('Index')}}" class="eas  ">Home</a></li>
+							<li><a href="{{route('about')}}" class="">About Us</a></li>
+							<li><a href="{{route('work')}}" class="">How it works?</a></li>
+							<li><a href="{{route('faq')}}" class="netmi-active">FAQ</a></li>
+							<li><a href="{{route('news')}}" class="">News 
+							<img src="{{asset('')}}assets/tpl/images/icons/dot-main-menu.svg?v=3.10.1726217824" alt="" style="position: relative;width: 10px; top: -6px;left: 1px;"></a>
+						    </li>
+							<li><a href="{{route('contacts')}}" class="netmi-last ">Contacts</a></li>
+						</ul>
+				</div>
+				<ul class="netmi-nav">
+					<li class="netmi-close netmi-eas"><img src="{{asset('')}}assets/tpl/images/menu-close.svg?v=3.10.1726217824" alt="" style="position: relative;width: 32px;top: -4px;right: 6px;"></li>
+					<li class="netmi-eas netmi-mob-hidden netmi-active"><a href="{{route('Index')}}" class="netmi-main-menu netmi-first">Home</a></li>
+					<li class="netmi-eas netmi-mob-hidden "><a href="{{route('about')}}" class="netmi-main-menu">About Us</a></li>
+					<li class="netmi-eas netmi-mob-hidden "><a href="{{route('work')}}" class="netmi-main-menu">How it works?</a></li>
+					<li class="netmi-eas netmi-mob-hidden "><a href="{{route('faq')}}" class="netmi-main-menu">FAQ</a></li>
+					<li class="netmi-eas netmi-mob-hidden "><a href="{{route('news')}}" class="netmi-main-menu">News				    <img src="{{asset('')}}assets/tpl/images/icons/dot-main-menu.svg?v=3.10.1726217824" alt="" style="position: relative;width: 10px; top: 0px;left: -2px;margin-right:-12px"></a></li>
+					<li class="netmi-eas netmi-mob-hidden "><a href="{{route('contacts')}}" class="netmi-main-menu">Contacts</a></li>
+					<li class="netmi-eas">
+						<a href="#" onclick="$('.netmi-income-options-popup').fadeIn(50);$('body').css('overflow', 'hidden');return false;" class="netmi-earn">Income Options						<span class="netmi-icon-bubble netmi-eas">4</span>
+				        </a>
+					</li>
+					<div class="netmi-soc netmi-mob">
+                    <a href="https://t.me/netmi_news" target="_blank" class="netmi-soc-a netmi-soc-a-channel">
+                        <img src="{{asset('')}}assets/tpl/images/icons/telegram-header.svg?v=3.10.1726217824" alt="">
+                        Сhannel                    </a>
+                    <a href="https://t.me/netmi_chat" target="_blank" class="netmi-soc-a netmi-soc-a-chat">
+                        <img src="{{asset('')}}assets/tpl/images/icons/chat-header.svg?v=3.10.1726217824" alt="">
+                        Chat                    </a>
                 </div>
-            </div>
-            <div class="netmi-income-options-popup">
-                <div class="netmi-in">
-                    <div class="netmi-in-header">
-                        <span class="flaticon-close netmi-close netmi-eas"
-                            onclick="$('.netmi-income-options-popup').fadeOut(100);$('body').css('overflow', 'auto');"></span>
-                        <h3>Income Options</h3>
-                    </div>
-                    <div class="netmi-in-items">
-                        <h5>Active</h5>
-                        <a href="{{route('staking')}}" type="button"><span class="netmi-in-item "><img
-                                    src="{{asset('')}}assets/tpl/images/icons/popup/popup-staking-active.svg?v=3.10.1726217824"
-                                    alt=""> Staking</span></a>
-                        <a href="{{route('accelerators')}}" type="button"><span class="netmi-in-item "><img
-                                    src="{{asset('')}}assets/tpl/images/icons/popup/popup-accelerators.svg?v=3.10.1726217824"
-                                    alt=""> Accelerators</span></a>
-                        <a href="{{route('partners')}}"><span class="netmi-in-item "><img
-                                    src="{{asset('')}}assets/tpl/images/icons/popup/popup-affiliates-active.svg?v=3.10.1726217824"
-                                    alt=""> Affiliates</span></a>
-                        <a href="{{route('tasks')}}"><span class="netmi-in-item "><img
-                                    src="{{asset('')}}assets/tpl/images/icons/popup/popup-tasks-active.svg?v=3.10.1726217824"
-                                    alt=""> Tasks</span></a>
-                        <h5>Coming soon</h5>
-                        <span class="netmi-in-item netmi-eas netmi-coming-soon"><img
-                                src="{{asset('')}}assets/tpl/images/icons/popup/popup-prize.svg?v=3.10.1726217824"
-                                style="opacity: 0.3;" alt=""> Prize Raffle</span>
-                        <span class="netmi-in-item netmi-eas netmi-coming-soon"><img
-                                src="{{asset('')}}assets/tpl/images/icons/popup/popup-saving.svg?v=3.10.1726217824"
-                                style="opacity: 0.3;" alt=""> Savings</span>
-                        <span class="netmi-in-item netmi-eas netmi-coming-soon"><img
-                                src="{{asset('')}}assets/tpl/images/icons/popup/popup-marketplace.svg?v=3.10.1726217824"
-                                style="opacity: 0.3;" alt=""> Marketplace</span>
-                        <span class="netmi-in-item netmi-eas netmi-coming-soon"><img
-                                src="{{asset('')}}assets/tpl/images/icons/popup/popup-loyalty.svg?v=3.10.1726217824"
-                                style="opacity: 0.3;" alt=""> Loyalty Program</span>
-                        <span style="border:none"></span>
-                    </div>
+				</ul>
+				<div class="netmi-userbox">
+                    						<a href="#" onclick="popup_open('#popup-signin'); return false;" class="netmi-eas"><img src="{{asset('')}}assets/tpl/images/icons/header-user.svg?v=3.10.1726217824" class="netmi-eas"><span>Log in</span></a>
+                                        </div>
+				<div class="netmi-soc netmi-header" style="background:none">
+                    <a href="https://t.me/netmi_news" target="_blank" class="netmi-soc-a netmi-soc-a-channel">
+                        <img src="{{asset('')}}assets/tpl/images/icons/telegram-header.svg?v=3.10.1726217824" alt="">
+                        <span>Сhannel</span>
+                    </a>
+                    <a href="https://t.me/netmi_chat" target="_blank" class="netmi-soc-a netmi-soc-a-chat">
+                        <img src="{{asset('')}}assets/tpl/images/icons/chat-header.svg?v=3.10.1726217824" alt="">
+						<span>Chat</span>
+                    </a>
                 </div>
-            </div>
-            <div class="netmi-inner">
-                <div class="bxhead container">
-                    <div class="bxhead-info">
-                        <h1 class="bxhead-info__title">
-                            Safe Digital Hub<br /> for<span class="ms-headline clip">
-                                <span class="ms-headline-wrapper">
-                                    <b class="is-visible" data-type="staking">Staking</b>
-                                    <b data-type="marketing" class="is-hidden">Marketing</b>
-                                    <b data-type="networking" class="is-hidden">Networking</b>
-                                </span>
-                            </span>
-                        </h1>
-                        <p class="bxhead-info__text">
-                            We shall make your profits rock with advanced fintech solutions and instruments, applying
-                            best practices with minimal risks.</p>
-                        <div class="netmi-buttons head">
-                            <a href="#" onclick="popup_open('#popup-signup'); return false;"
-                                class="netmi-btn netmi-purple">Sign up</a>
-                            <a href="{{route('register')}}" class="netmi-btn">Staking info</a>
-                        </div>
-                        <div class="fixhead-img-mobile"><img
-                                src="{{asset('')}}assets/tpl/images/header-bitcoin-ne7a1a.png?v=3.10.1726217824" alt=""
-                                style="display: inline; width:110%"></div>
+			</div>
+		</div>
+<div class="netmi-income-options-popup">
+	<div class="netmi-in">
+		<div class="netmi-in-header">
+			<span class="flaticon-close netmi-close netmi-eas" onclick="$('.netmi-income-options-popup').fadeOut(100);$('body').css('overflow', 'auto');"></span>
+			<h3>Income Options</h3>
+		</div>
+		<div class="netmi-in-items">
+		<h5>Active</h5>
+        <a href="{{route('staking')}}" type="button"><span class="netmi-in-item "><img src="{{asset('')}}assets/tpl/images/icons/popup/popup-staking-active.svg?v=3.10.1726217824" alt=""> Staking</span></a>
+		<a href="{{route('accelerators')}}" type="button"><span class="netmi-in-item "><img src="{{asset('')}}assets/tpl/images/icons/popup/popup-accelerators.svg?v=3.10.1726217824" alt=""> Accelerators</span></a>
+		<a href="{{route('partners')}}"><span class="netmi-in-item "><img src="{{asset('')}}assets/tpl/images/icons/popup/popup-affiliates-active.svg?v=3.10.1726217824" alt=""> Affiliates</span></a>
+		<a href="{{route('tasks')}}"><span class="netmi-in-item "><img src="{{asset('')}}assets/tpl/images/icons/popup/popup-tasks-active.svg?v=3.10.1726217824" alt=""> Tasks</span></a>
+        <h5>Coming soon</h5>
+		<span class="netmi-in-item netmi-eas netmi-coming-soon"><img src="{{asset('')}}assets/tpl/images/icons/popup/popup-prize.svg?v=3.10.1726217824" style="opacity: 0.3;" alt=""> Prize Raffle</span>
+		<span class="netmi-in-item netmi-eas netmi-coming-soon"><img src="{{asset('')}}assets/tpl/images/icons/popup/popup-saving.svg?v=3.10.1726217824" style="opacity: 0.3;" alt=""> Savings</span>
+		<span class="netmi-in-item netmi-eas netmi-coming-soon"><img src="{{asset('')}}assets/tpl/images/icons/popup/popup-marketplace.svg?v=3.10.1726217824" style="opacity: 0.3;" alt=""> Marketplace</span>
+		<span class="netmi-in-item netmi-eas netmi-coming-soon"><img src="{{asset('')}}assets/tpl/images/icons/popup/popup-loyalty.svg?v=3.10.1726217824" style="opacity: 0.3;" alt=""> Loyalty Program</span>
+		<span style="border:none"></span>
+	   </div>
+	</div>
+</div>
+    <div class="netmi-inner">  
+<div class="bxhead container">
+<div class="bxhead-info">
+<h1 class="bxhead-info__title">
+Safe Digital Hub<br/> for<span class="ms-headline clip">
+<span class="ms-headline-wrapper">
+<b class="is-visible" data-type="staking">Staking</b>
+<b data-type="marketing" class="is-hidden">Marketing</b>
+<b data-type="networking" class="is-hidden">Networking</b>
+</span>
+</span>
+</h1>
+<p class="bxhead-info__text">
+We shall make your profits rock with advanced fintech solutions and instruments, applying best practices with minimal risks.</p>
+<div class="netmi-buttons head">
+                                                    <a href="#" onclick="popup_open('#popup-signup'); return false;" class="netmi-btn netmi-purple">Sign up</a>
+                        							<a href="{{route('register')}}" class="netmi-btn">Staking info</a>
+						</div>
+                        <div class="fixhead-img-mobile"><img src="{{asset('')}}assets/tpl/images/header-bitcoin-ne7a1a.png?v=3.10.1726217824" alt="" style="display: inline; width:110%"></div>
 
                         <div class="netmi-header-certificate">
                             <a target="_blank" href="../upload/Netmi.pdf">
@@ -234,183 +195,149 @@
                 </div>
             </div>
 
-        </header>
-        <main class="netmi-content">
-            <div class="netmi-main">
-                <div class="netmi-features">
-                    <div class="netmi-inner">
-                        <div class="netmi-income-block">
-                            <div class="owl-carousel owl-theme">
-                                <div class="netmi-income-box">
-                                    <div class="netmi-income-box-img">
-                                        <img src="{{asset('')}}assets/tpl/images/home/home-slide-1-27a1a.png?v=3.10.1726217824"
-                                            alt="">
-                                        <div class="netmi-income-box-caption">
-                                            <div class="netmi-income-box-price">
-                                                <span class="netmi-new"><span class="flaticon-status-1"></span>
-                                                    Active</span>
-                                            </div>
-                                            Staking Crypto
-                                        </div>
-                                    </div>
-                                    <div class="netmi-income-box-info">
-                                        <div class="netmi-income-box-desc">
-                                            <p>Allocate your crypto assets to receive daily dividends.</p>
-                                            <a href="{{route('register')}}" class="netmi-_link">
-                                                <span class="netmi-b"><i class="flaticon-arr-next-fast"></i></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="netmi-income-box">
-                                    <div class="netmi-income-box-img">
-                                        <img src="{{asset('')}}assets/tpl/images/home/home-slide-27a1a.png?v=3.10.1726217824"
-                                            alt="">
-                                        <div class="netmi-income-box-caption">
-                                            <div class="netmi-income-box-price">
-                                                <span class="netmi-new"><span class="flaticon-status-1"></span>
-                                                    Active</span>
-                                            </div>
-                                            Accelerators
-                                        </div>
-                                    </div>
-                                    <div class="netmi-income-box-info">
-                                        <div class="netmi-income-box-desc">
-                                            <p>Boost your staking returns and get other benefits with special
-                                                accelerators.</p>
-                                            <a href=" {{route('accelerators')}}" class="netmi-_link">
-                                                <span class="netmi-b"><i class="flaticon-arr-next-fast"></i></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="netmi-income-box">
-                                    <div class="netmi-income-box-img">
-                                        <img src="{{asset('')}}assets/tpl/images/home/home-slide-37a1a.png?v=3.10.1726217824"
-                                            alt="">
-                                        <div class="netmi-income-box-caption">
-                                            <div class="netmi-income-box-price">
-                                                <span class="netmi-new"><span class="flaticon-status-1"></span>
-                                                    Active</span></span>
-                                            </div>
-                                            Affiliate Program
-                                        </div>
-                                    </div>
-                                    <div class="netmi-income-box-info">
-                                        <div class="netmi-income-box-desc">
-                                            <p>Get generous rewards for attracting new partners.</p>
-                                            <a href="partners.html" class="netmi-_link">
-                                                <span class="netmi-b"><i class="flaticon-arr-next-fast"></i></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="netmi-income-box">
-                                    <div class="netmi-income-box-img">
-                                        <img src="{{asset('')}}assets/tpl/images/home/home-slide-47a1a.png?v=3.10.1726217824"
-                                            alt="">
-                                        <div class="netmi-income-box-caption">
-                                            <div class="netmi-income-box-price">
-                                                <span class="netmi-new"><span class="flaticon-status-1"></span>
-                                                    Active</span></span>
-                                            </div>
-                                            Bonus Tasks
-                                        </div>
-                                    </div>
-                                    <div class="netmi-income-box-info">
-                                        <div class="netmi-income-box-desc">
-                                            <p>Complete paid tasks to receive extra income.</p>
-                                            <a href="tasks.html" class="netmi-_link">
-                                                <span class="netmi-b"><i class="flaticon-arr-next-fast"></i></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="netmi-income-box">
-                                    <div class="netmi-income-box-img">
-                                        <img src="{{asset('')}}assets/tpl/images/home/home-slide-5-17a1a.png?v=3.10.1726217824"
-                                            alt="">
-                                        <div class="netmi-income-box-caption">
-                                            <div class="netmi-income-box-price"
-                                                style="background: #0c071a;color: #fff;">
-                                                <span class="netmi-new"><span class="flaticon-status-0"></span> Coming
-                                                    soon</span></span>
-                                            </div>
-                                            Monthly prize draw
-                                        </div>
-                                    </div>
-                                    <div class="netmi-income-box-info">
-                                        <div class="netmi-income-box-desc">
-                                            <p>Hit the Jackpot that is growing on a daily basis.</p>
-                                            <span class="netmi-b" style="background: #8e88a4;"><i
-                                                    class="flaticon-arr-next-fast"></i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="netmi-income-box">
-                                    <div class="netmi-income-box-img">
-                                        <img src="{{asset('')}}assets/tpl/images/home/home-slide-6-27a1a.png?v=3.10.1726217824"
-                                            alt="">
-                                        <div class="netmi-income-box-caption">
-                                            <div class="netmi-income-box-price"
-                                                style="background: #0c071a;color: #fff;">
-                                                <span class="netmi-new"><span class="flaticon-status-0"></span> Coming
-                                                    soon</span></span>
-                                            </div>
-                                            Savings Program
-                                        </div>
-                                    </div>
-                                    <div class="netmi-income-box-info">
-                                        <div class="netmi-income-box-desc">
-                                            <p>Set aside your accruals to get access to VIP and VIP+ Staking plans.</p>
-                                            <span class="netmi-b" style="background: #8e88a4;"><i
-                                                    class="flaticon-arr-next-fast"></i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="netmi-income-box">
-                                    <div class="netmi-income-box-img">
-                                        <img src="{{asset('')}}assets/tpl/images/home/home-slide-7-17a1a.png?v=3.10.1726217824"
-                                            alt="">
-                                        <div class="netmi-income-box-caption">
-                                            <div class="netmi-income-box-price"
-                                                style="background: #0c071a;color: #fff;">
-                                                <span class="netmi-new"><span class="flaticon-status-0"></span> Coming
-                                                    soon</span></span>
-                                            </div>
-                                            Marketplace
-                                        </div>
-                                    </div>
-                                    <div class="netmi-income-box-info">
-                                        <div class="netmi-income-box-desc">
-                                            <p>Collect, save, and sell {{siteName()}} tokens at p2p marketplace.</p>
-                                            <span class="netmi-b" style="background: #8e88a4;"><i
-                                                    class="flaticon-arr-next-fast"></i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="netmi-income-box">
-                                    <div class="netmi-income-box-img">
-                                        <img src="{{asset('')}}assets/tpl/images/home/home-slide-8-17a1a.png?v=3.10.1726217824"
-                                            alt="">
-                                        <div class="netmi-income-box-caption">
-                                            <div class="netmi-income-box-price"
-                                                style="background: #0c071a;color: #fff;">
-                                                <span class="netmi-new"><span class="flaticon-status-0"></span> Coming
-                                                    soon</span></span></div>
-                                            Loyalty Program
-                                        </div>
-                                    </div>
-                                    <div class="netmi-income-box-info">
-                                        <div class="netmi-income-box-desc">
-                                            <p>Use more favorable staking rates with each new re-investment.</p>
-                                            <span class="netmi-b" style="background: #8e88a4;"><i
-                                                    class="flaticon-arr-next-fast"></i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+</header>
+<main class="netmi-content"><div class="netmi-main">
+     <div class="netmi-features">
+<div class="netmi-inner">
+<div class="netmi-income-block">
+<div class="owl-carousel owl-theme">
+<div class="netmi-income-box">
+<div class="netmi-income-box-img">
+<img src="{{asset('')}}assets/tpl/images/home/home-slide-1-27a1a.png?v=3.10.1726217824" alt="">
+<div class="netmi-income-box-caption">
+    <div class="netmi-income-box-price">
+    <span class="netmi-new"><span class="flaticon-status-1"></span> Active</span>
+    </div>
+    Staking Crypto</div>
+</div>
+<div class="netmi-income-box-info">
+<div class="netmi-income-box-desc">
+<p >Allocate your crypto assets  to receive daily dividends.</p>
+<a href="{{route('register')}}" class="netmi-_link">
+<span class="netmi-b"><i class="flaticon-arr-next-fast"></i></span>
+</a>
+</div>
+</div>
+</div>
+<div class="netmi-income-box">
+<div class="netmi-income-box-img">
+<img src="{{asset('')}}assets/tpl/images/home/home-slide-27a1a.png?v=3.10.1726217824" alt="">
+<div class="netmi-income-box-caption">
+    <div class="netmi-income-box-price">
+    <span class="netmi-new"><span class="flaticon-status-1"></span> Active</span>
+    </div>
+    Accelerators</div>
+</div>
+<div class="netmi-income-box-info">
+<div class="netmi-income-box-desc">
+<p >Boost your staking returns and get other benefits with special accelerators.</p>
+<a href=" {{route('accelerators')}}" class="netmi-_link">
+<span class="netmi-b"><i class="flaticon-arr-next-fast"></i></span>
+</a>
+</div>
+</div>
+</div>
+<div class="netmi-income-box">
+<div class="netmi-income-box-img">
+<img src="{{asset('')}}assets/tpl/images/home/home-slide-37a1a.png?v=3.10.1726217824" alt="">
+<div class="netmi-income-box-caption">
+<div class="netmi-income-box-price">
+<span class="netmi-new"><span class="flaticon-status-1"></span> Active</span></span>
+</div>
+Affiliate Program</div>
+</div>
+<div class="netmi-income-box-info">
+<div class="netmi-income-box-desc">
+<p >Get generous rewards for attracting new partners.</p>
+<a href="partners.html" class="netmi-_link">
+<span class="netmi-b"><i class="flaticon-arr-next-fast"></i></span>
+</a>
+</div>
+</div>
+</div>
+<div class="netmi-income-box">
+<div class="netmi-income-box-img">
+<img src="{{asset('')}}assets/tpl/images/home/home-slide-47a1a.png?v=3.10.1726217824" alt="">
+<div class="netmi-income-box-caption">
+<div class="netmi-income-box-price">
+<span class="netmi-new"><span class="flaticon-status-1"></span> Active</span></span>
+</div>  
+Bonus Tasks</div>
+</div>
+<div class="netmi-income-box-info">
+<div class="netmi-income-box-desc">
+<p >Complete paid tasks to receive extra income.</p>
+<a href="tasks.html" class="netmi-_link">
+<span class="netmi-b"><i class="flaticon-arr-next-fast"></i></span>
+</a>
+</div>
+</div>
+</div>
+<div class="netmi-income-box">
+<div class="netmi-income-box-img">
+<img src="{{asset('')}}assets/tpl/images/home/home-slide-5-17a1a.png?v=3.10.1726217824" alt="">
+<div class="netmi-income-box-caption">
+<div class="netmi-income-box-price" style="background: #0c071a;color: #fff;">
+<span class="netmi-new"><span class="flaticon-status-0"></span> Coming soon</span></span>
+</div>
+Monthly prize draw</div>
+</div>
+<div class="netmi-income-box-info">
+<div class="netmi-income-box-desc">
+<p >Hit the  Jackpot that is growing on a daily basis.</p>
+<span class="netmi-b" style="background: #8e88a4;"><i class="flaticon-arr-next-fast"></i></span>
+</div>
+</div>
+</div>
+<div class="netmi-income-box">
+<div class="netmi-income-box-img">
+<img src="{{asset('')}}assets/tpl/images/home/home-slide-6-27a1a.png?v=3.10.1726217824" alt="">
+<div class="netmi-income-box-caption">
+<div class="netmi-income-box-price" style="background: #0c071a;color: #fff;">
+<span class="netmi-new"><span class="flaticon-status-0"></span> Coming soon</span></span>
+</div>
+Savings Program</div>
+</div>
+<div class="netmi-income-box-info">
+<div class="netmi-income-box-desc">
+<p >Set aside your accruals to get access to VIP and VIP+ Staking plans.</p>
+<span class="netmi-b" style="background: #8e88a4;"><i class="flaticon-arr-next-fast"></i></span>
+</div>
+</div>
+</div>
+<div class="netmi-income-box">
+<div class="netmi-income-box-img">
+<img src="{{asset('')}}assets/tpl/images/home/home-slide-7-17a1a.png?v=3.10.1726217824" alt="">
+<div class="netmi-income-box-caption">
+<div class="netmi-income-box-price" style="background: #0c071a;color: #fff;">
+<span class="netmi-new"><span class="flaticon-status-0"></span> Coming soon</span></span>
+</div>   
+Marketplace</div>
+</div>
+<div class="netmi-income-box-info">
+<div class="netmi-income-box-desc">
+<p >Collect, save, and sell Dazzlex tokens at p2p marketplace.</p>
+<span class="netmi-b" style="background: #8e88a4;"><i class="flaticon-arr-next-fast"></i></span>
+</div>
+</div>
+</div>
+<div class="netmi-income-box">
+<div class="netmi-income-box-img">
+<img src="{{asset('')}}assets/tpl/images/home/home-slide-8-17a1a.png?v=3.10.1726217824" alt="">
+<div class="netmi-income-box-caption">
+<div class="netmi-income-box-price" style="background: #0c071a;color: #fff;">
+<span class="netmi-new"><span class="flaticon-status-0"></span> Coming soon</span></span></div>
+Loyalty Program</div>
+</div>
+<div class="netmi-income-box-info">
+<div class="netmi-income-box-desc">
+<p >Use more favorable  staking rates with each new re-investment.</p>
+<span class="netmi-b" style="background: #8e88a4;"><i class="flaticon-arr-next-fast"></i></span>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 
 

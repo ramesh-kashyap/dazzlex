@@ -81,13 +81,14 @@ class Bonus extends Controller
 
 
     public function direct_income(Request $request)
+    public function direct_income(Request $request)
     {
        $user=Auth::user();
 
           $limit = $request->limit ? $request->limit : paginationLimit();
             $status = $request->status ? $request->status : null;
             $search = $request->search ? $request->search : null;
-            $notes = Income::where('user_id',$user->id)->where('remarks','Direct Bonus')->orderBy('id', 'DESC');
+            $notes = Income::where('user_id',$user->id)->where('remarks','Direct Income')->orderBy('id', 'DESC');
            if($search <> null && $request->reset!="Reset"){
             $notes = $notes->where(function($q) use($search){
               $q->Where('rname', 'LIKE', '%' . $search . '%')
@@ -104,6 +105,7 @@ class Bonus extends Controller
                 ]);
         $this->data['level_income'] =$notes;
         $this->data['search'] =$search;
+        $this->data['page'] = 'user.bonus.direct-income';
         $this->data['page'] = 'user.bonus.direct-income';
         return $this->dashboard_layout();
 
@@ -152,7 +154,7 @@ class Bonus extends Controller
           $limit = $request->limit ? $request->limit :  paginationLimit();
             $status = $request->status ? $request->status : null;
             $search = $request->search ? $request->search : null;
-            $notes = Income::where('user_id',$user->id)->where('remarks','Roi Bonus')->orderBy('ttime', 'DESC');
+            $notes = Income::where('user_id',$user->id)->where('remarks','Roi Income')->orderBy('ttime', 'DESC');
 
            if($search <> null && $request->reset!="Reset"){
             $notes = $notes->where(function($q) use($search){
