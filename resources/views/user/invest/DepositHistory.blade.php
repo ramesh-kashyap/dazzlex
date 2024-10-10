@@ -146,6 +146,7 @@
 <?php }?>
                         </tbody>
         </table>
+        {{ $deposit_list->withQueryString()->links() }}
     </div>
     <style type="text/css">
 @media screen and (max-width: 760px) {

@@ -267,6 +267,8 @@ $(document).ready(function() {
                                                 </tbody>
                     </table>
                     </div>
+                    {{ $direct_team->withQueryString()->links() }}
+
                             </div>
 
 
