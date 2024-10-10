@@ -32,14 +32,14 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="../index.html">
+    <meta property="og:url" content="{{route('Index')}}">
     <meta property="og:locale" content="en_US">
     <meta property="og:title" content="Netmi">
     <meta property="og:description" content="Netmi Limited is a new generation high-tech business! We work with the most prominent financial instruments , ensuring highest returns and minimizing risks for our partners. Invest and make your dreams come true with us!">
     <meta property="og:image" content="{{asset('')}}assets/images/netmi-og-image7a1a.jpg?v=3.10.1726217824">
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="../index.html">
+    <meta property="twitter:url" content="{{route('Index')}}">
     <meta property="twitter:title" content="Netmi">
     <meta property="twitter:description" content="Netmi Limited is a new generation high-tech business! We work with the most prominent financial instruments , ensuring highest returns and minimizing risks for our partners. Invest and make your dreams come true with us!">
     <meta property="twitter:image" content="{{asset('')}}assets/images/netmi-og-image7a1a.jpg?v=3.10.1726217824">
@@ -58,7 +58,7 @@ class="netmi-header">
 <div class="netmi-header-middle">
 			<div class="netmi-inner">
 				<div class="netmi-nav-button"><span class="flaticon-nav-button"></span></div>
-				<div class="netmi-logo"><a href="index.html">
+				<div class="netmi-logo"><a href="{{route('Index')}}">
 				<img src="{{asset('')}}assets/logo.png" class="netmi-full-logo" alt="Netmi">
 				<img src="{{asset('')}}assets/logo.png" style="width:137px;" class="netmi-mobile-logo" alt="Netmi">
 			</a>
@@ -82,12 +82,12 @@ class="netmi-header">
 				</div>
 				<ul class="netmi-nav">
 					<li class="netmi-close netmi-eas"><img src="{{asset('')}}assets/tpl/images/menu-close.svg?v=3.10.1726217824" alt="" style="position: relative;width: 32px;top: -4px;right: 6px;"></li>
-					<li class="netmi-eas netmi-mob-hidden netmi-active"><a href="index.html" class="netmi-main-menu netmi-first">Home</a></li>
-					<li class="netmi-eas netmi-mob-hidden "><a href="about.html" class="netmi-main-menu">About Us</a></li>
-					<li class="netmi-eas netmi-mob-hidden "><a href="how-it-works.html" class="netmi-main-menu">How it works?</a></li>
-					<li class="netmi-eas netmi-mob-hidden "><a href="faq.html" class="netmi-main-menu">FAQ</a></li>
-					<li class="netmi-eas netmi-mob-hidden "><a href="news.html" class="netmi-main-menu">News				    <img src="{{asset('')}}assets/tpl/images/icons/dot-main-menu.svg?v=3.10.1726217824" alt="" style="position: relative;width: 10px; top: 0px;left: -2px;margin-right:-12px"></a></li>
-					<li class="netmi-eas netmi-mob-hidden "><a href="contact.html" class="netmi-main-menu">Contacts</a></li>
+					<li class="netmi-eas netmi-mob-hidden netmi-active"><a href="{{route('Index')}}" class="netmi-main-menu netmi-first">Home</a></li>
+					<li class="netmi-eas netmi-mob-hidden "><a href="{{route('about')}}" class="netmi-main-menu">About Us</a></li>
+					<li class="netmi-eas netmi-mob-hidden "><a href="{{route('work')}}" class="netmi-main-menu">How it works?</a></li>
+					<li class="netmi-eas netmi-mob-hidden "><a href="{{route('faq')}}" class="netmi-main-menu">FAQ</a></li>
+					<li class="netmi-eas netmi-mob-hidden "><a href="{{route('news')}}" class="netmi-main-menu">News				    <img src="{{asset('')}}assets/tpl/images/icons/dot-main-menu.svg?v=3.10.1726217824" alt="" style="position: relative;width: 10px; top: 0px;left: -2px;margin-right:-12px"></a></li>
+					<li class="netmi-eas netmi-mob-hidden "><a href="{{route('contacts')}}" class="netmi-main-menu">Contacts</a></li>
 					<li class="netmi-eas">
 						<a href="#" onclick="$('.netmi-income-options-popup').fadeIn(50);$('body').css('overflow', 'hidden');return false;" class="netmi-earn">Income Options						<span class="netmi-icon-bubble netmi-eas">4</span>
 				        </a>
@@ -153,7 +153,7 @@ Safe Digital Hub<br/> for<span class="ms-headline clip">
 We shall make your profits rock with advanced fintech solutions and instruments, applying best practices with minimal risks.</p>
 <div class="netmi-buttons head">
                                                     <a href="#" onclick="popup_open('#popup-signup'); return false;" class="netmi-btn netmi-purple">Sign up</a>
-                        							<a href="staking.html" class="netmi-btn">Staking info</a>
+                        							<a href="{{route('register')}}" class="netmi-btn">Staking info</a>
 						</div>
                         <div class="fixhead-img-mobile"><img src="{{asset('')}}assets/tpl/images/header-bitcoin-ne7a1a.png?v=3.10.1726217824" alt="" style="display: inline; width:110%"></div>
 
@@ -195,7 +195,7 @@ We shall make your profits rock with advanced fintech solutions and instruments,
 <div class="netmi-income-box-info">
 <div class="netmi-income-box-desc">
 <p >Allocate your crypto assets  to receive daily dividends.</p>
-<a href="staking.html" class="netmi-_link">
+<a href="{{route('register')}}" class="netmi-_link">
 <span class="netmi-b"><i class="flaticon-arr-next-fast"></i></span>
 </a>
 </div>
@@ -213,7 +213,7 @@ We shall make your profits rock with advanced fintech solutions and instruments,
 <div class="netmi-income-box-info">
 <div class="netmi-income-box-desc">
 <p >Boost your staking returns and get other benefits with special accelerators.</p>
-<a href="accelerators.html" class="netmi-_link">
+<a href=" {{route('accelerators')}}" class="netmi-_link">
 <span class="netmi-b"><i class="flaticon-arr-next-fast"></i></span>
 </a>
 </div>

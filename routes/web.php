@@ -116,10 +116,12 @@ Route::get('/level-team', [App\Http\Controllers\UserPanel\Team::class, 'LevelTea
 
 //bonus
 Route::get('/level-income', [App\Http\Controllers\UserPanel\Bonus::class, 'index'])->name('user.level-income');
-Route::get('/cashback-income', [App\Http\Controllers\UserPanel\Bonus::class, 'cashback_income'])->name('user.cashback-income');
+Route::get('/direct-income', [App\Http\Controllers\UserPanel\Bonus::class, 'direct_income'])->name('user.direct-income');
 Route::get('/reward-bonus', [App\Http\Controllers\UserPanel\Bonus::class, 'reward_income'])->name('user.reward-bonus');
 Route::get('/roi-bonus', [App\Http\Controllers\UserPanel\Bonus::class, 'roi_income'])->name('user.roi-bonus');
-Route::get('/gap-margin-bonus', [App\Http\Controllers\UserPanel\Bonus::class, 'gap_margin_bonus'])->name('user.gap-margin-bonus');
+Route::get('/cashback_income', [App\Http\Controllers\UserPanel\Bonus::class, 'cashback_income'])->name('user.cashback_income');
+
+// Route::get('/gap-margin-bonus', [App\Http\Controllers\UserPanel\Bonus::class, 'gap_margin_bonus'])->name('user.gap-margin-bonus');
 //end bonus
 
 //tickets

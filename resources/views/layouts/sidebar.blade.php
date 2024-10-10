@@ -14,6 +14,8 @@
               <li><a href="{{route('user.dashboard')}}" class="eas active "><img src="{{asset('')}}assets/theme/images/netmi/left-menu/my-account.svg?v=3.22.1726217824" alt=""> Dashboard</a></li>
        <li><a href="{{route('user.invest')}}" ><img src="{{asset('')}}assets/theme/images/netmi/left-menu/investments.svg?v=3.22.1726217824" alt=""> My Investments </a></li>
        <li><a href="{{route('user.referral-team')}}" ><img src="{{asset('')}}assets/theme/images/netmi/left-menu/refferals.svg?v=3.22.1726217824" alt=""> Affiliate system</a></li>
+       <li><a href="{{route('user.level-income')}}" ><img src="{{asset('')}}assets/theme/images/netmi/left-menu/refferals.svg?v=3.22.1726217824" alt=""> Profit Summary </a></li>
+
        <li><a href="{{route('user.fundHistory')}}" ><img src="{{asset('')}}assets/theme/images/netmi/left-menu/accelerator-1.svg?v=3.22.1726217824" alt=""> Fund History</a></li>
 
        <li><a href="{{route('user.DepositHistory')}}" ><img src="{{asset('')}}assets/theme/images/netmi/left-menu/stats.svg?v=3.22.1726217824" alt=""> Deposit History</a></li>

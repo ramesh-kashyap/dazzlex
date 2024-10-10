@@ -1,51 +1,349 @@
 
-<div class="container-fluid content-inner pb-0">
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="card">
-                <div class="card-header d-flex justify-content-between pb-0 border-0">
-                    <div class="header-title ">
-                        <h4 class="card-title">Rank Reward</h4>
-                    </div>
-                </div>
-                <div class="card-body">
-                  
-                    <div class="table-responsive">
-                        <table id="datatable" class="table table-striped iq-table1" data-toggle="data-table">
-                             <thead>
+
+<main class="eas bg-gray">
+    <div class="account-mob-link">
+   <div class="container">
+   <a class="js-account-menu" href="#"><i class="flaticon-menu"></i>Navigation</a>
+   <a href="/notifications" class="notification-mobile"><img src="{{asset('')}}assets/theme/images/netmi/left-menu/new-notifications.svg?v=3.22.1726217824" alt=""><span class="notification-buble-mobile total_count_notifications"></span></a>
+   </div>
+   </div>
+
+   <div class="container">
+	<div class="row help-row">
+               <div class="col-xl-9 col-lg-8">
+                   <div class="account-info-list">
+
+                        
+
+	
+
+                   <div class="account-tabs">
+                   <div class="account-tabs-white">
+    <!-- <a href="{{route('user.invest')}}"  style="outline: none;" >
+        <strong>
+            Deposit History    
+       </strong></a> -->
+       <a href="{{route('user.level-income')}}" style="outline: none;" >
+        <strong>
+            Level Income    
+        </strong></a>
+        <a href="{{route('user.direct-income')}}" style="outline: none;" >
+        <strong>
+            Direct Income    
+        </strong></a>
+        <a href="{{route('user.roi-bonus')}}" style="outline: none;" >
+        <strong>
+            Roi Income    
+        </strong></a>
+        <a href="{{route('user.cashback_income')}}" style="outline: none;" >
+        <strong>
+            Boster Income    
+        </strong></a>
+        <!-- <a href="#" class="blocs3-tabs " style="outline: none;" data-tab="profit">
+        <strong>
+            Accruals    
+       </strong></a> -->
+    </div>
+</div>
+<div class="account-tab tab-topup active">
+        <div class="account-form account-form--2">
+      
+
+        <p>Reward Income</p>
+        </br></br>
+
+
+<div id="example_wrapper" class="dataTables_wrapper">
+                                    <form action="{{ route('user.fundHistory') }}" method="GET">
+                                        <div class="row">
+                                            <div class="col-xl-4">
+                                                <div class="form-group mb-3">
+                                                    <input type="text"  Placeholder="Search Users"
+                                                        name="search" class="form-control" value="{{ @$search }}" style="    background: #0b071a;
+    border-color: #aa73ce;
+" >
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2">
+                                                <div class="form-group mb-3">
+                                                    <select name="limit"  class="form-control" style=" background: #0b071a; border-color: #aa73ce;" >
+                                                        <option value="10">10</option>
+                                                        <option value="25">25</option>
+                                                        <option value="50">50</option>
+                                                        <option value="100">100</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2">
+                                                <div class="form-group mb-3">
+                                                    <input type="submit"  name="submit" style="padding: 4px;"
+                                                        class="btn btn-outline-theme btn-lg d-block w-100 btn-primary"
+                                                        value="Search"    >
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2">
+                                                <div class="form-group mb-3">
+                                                    <a href="{{ route('user.fundHistory') }}" 
+                                                        name="reset" style="padding: 4px;"
+                                                        class="btn btn-outline-theme btn-lg d-block w-100 btn-primary"
+                                                        value="Reset">Reset</a>
+                                                </div>
+                                            </div>
+        
+        
+                                        </div>
+                                    </form>
+                                </div>
+
+        <table class="table-product-group" style="margin-top:25px">
+            <thead>
+                 
+            <tr>
+                                    <th>SR#</th>
+                                    <th>UserID</th>
+                                  
+                                    <th>Amount</th>
+                                    <th>Date</th>
+                                
+                                    <th>Remarks </th>
+                                </tr>
+            </thead>
+            <tbody>
+
+
+            <?php if(is_array($level_income) || is_object($level_income)){ ?>
+
+<?php $cnt = $level_income->perPage() * ($level_income->currentPage() - 1); ?>
+@foreach ($level_income as $value)
+
                                             <tr>
-                                                <th>SR</th>
+                    <td class="td-price"> <div>
+                            <span class="amount-dark"><?= $cnt += 1?></span>
+                        </div></td>
+
+                
+
+                    <td class="td-price">
+                        <div>
+                            <span class="amount-dark">{{ $value->user_id_fk }}</span>
+                        </div></td>
+                        <td class="td-price">
+                        <div>
+                            <span class="amount-dark">{{currency()}} {{ $value->comm }}</span>
+                        </div></td>
+                        <td class="td-price">
+                        <div>
+                            <span class="amount-dark">{{ $value->remarks }} </span>
+                        </div></td>
+                        <!-- <td class="td-price">
+                        <div>
+                            <span class="amount-dark" style="background:{{($value->status=='Approved')?'#1f9a00':'#e33838'}};padding: 5px;
+                                            border-radius: 5px;">{{$value->status}} </span>
+                        </div></td> -->
+                
+                    <td class="td-price" style="height: 64px;">
+                        <div class="last">
+                                                            <span class="button">
+
+                                                            <span style="background-color: {{ $value->status == 'Active' ? 'green' : 'red' }}; color: white;">{{ $value->status }}</span>
 
 
-                                                <th>Amount</th>
-                                                <th>Date</th>
-                                              
-                                                <th>Remarks </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <?php if(is_array($level_income) || is_object($level_income)){ ?>
+                                                        </span>
 
-                                                <?php $cnt = $level_income->perPage() * ($level_income->currentPage() - 1); ?>
-                                                @foreach ($level_income as $value)
-                                                    <tr>
-                                                        <td><?= $cnt += 1 ?></td>
-                                                        <td>{{currency()}} {{ $value->comm }}</td>
-                                                        <td>{{ $value->created_at }}</td>
-                                                     
-                                                        <td>{{ $value->remarks }}</td>
+                                                    </div>
+                    </td>
+                </tr>
+                  
+                @endforeach
 
-                                                    </tr>
-                                                @endforeach
+<?php }?>
+                        </tbody>
+        </table>
+    </div>
+    <style type="text/css">
+@media screen and (max-width: 760px) {
+    .tab-topup td:nth-of-type(1):before { content: "Date"; text-align: left; }
+    .tab-topup td:nth-of-type(2):before { content: "Amount"; text-align: left; }
+    .tab-topup td:nth-of-type(3):before { content: "Status"; text-align: left; }
+    .tab-topup td:nth-of-type(4):before { content: "Action"; text-align: left;}
+    .tab-topup .table td.text-center {
+        text-align: left !important;
+    }
+    .tab-topup .table tr {
+        border-bottom: 0px;
+    }
+.table tr:nth-of-type(odd) {
+background: #f7f8fc;
+}
+}
+</style>
+</div>
 
-                                                <?php }?>
+<div class="account-tab tab-payout ">
+    <div class="account-info-list">
+    <div class="account-form account-form--2">
+    <div class="caption caption--border">Payout History</div>
+    <div class="account-no-data"><i class="flaticon-info icon"></i>
+    <br>Payout history is empty<br><a class="btn btn-affiliate" style="margin: 30px auto 0px;" href="/payout">Withdraw Funds</a></div></div></div>
 
-                                            </tbody>
-                           
-                        </table>
-                    </div>
+    <style type="text/css">
+@media screen and (max-width: 760px) {
+    .tab-payout td:nth-of-type(1):before { content: "Date"; text-align: left; }
+    .tab-payout td:nth-of-type(2):before { content: "Amount"; text-align: left; }
+    .tab-payout td:nth-of-type(3):before { content: "Status"; text-align: left; }
+    .tab-payout td:nth-of-type(4):before { content: "Action"; text-align: left; }
+    .tab-payout .table td.text-center {
+        text-align: left !important;
+    }
+    .tab-payout .table tr {
+        border-bottom: 0px;
+    }
+.table tr:nth-of-type(odd) {
+background: #f7f8fc;
+}
+}
+</style>
+</div>
+<div class="account-tab tab-profit ">
+    <!-- End tabs navigation -->
+<style type="text/css">
+    #filter_history_specific {
+        display: none;
+    }
+</style>
+
+
+<div class="account-info-list">
+    <div class="account-form account-form--2">
+    <div class="caption caption--border">Accruals history</div>
+    <div class="account-no-data"><i class="flaticon-info icon"></i><br>No accruals found<br><a class="btn btn-affiliate" style="margin:30px auto 0px;" href="/deposits">Make a New Stake</a></div></div></div></div></div></div>
+
+
+
+
+
+
+
+
+
+    @include('layouts.sidebar')
+
+
+
+
+</main>
+<footer class="footer">
+	<div class="bottom">
+		<div class="inner">
+			<div class="copyright">Copyright © 2023. All rights reserved.<br>Netmi Limited.</div>
+			<div class="clr"></div>
+		</div>
+	</div>
+</footer>
+</div>
+
+<!-- Alerts form -->
+<section class="section-fp_alert section-fp_alert-popup">
+    <div class="page-overlay hidden"></div>
+
+    <div class="fp_alert-modal hidden">
+        <div class="popup-form-container">
+            <div class="popup-form-header">
+                <div class="close-icon"></div>
+            </div>
+            <div class="popup-form-content">
+                <div class="entry-title clearfix">
+                    <h2 class="section-title"></h2>
+
+                    <h3 class="section-subtitle"></h3>
                 </div>
             </div>
         </div>
     </div>
+</section>
 </div>
+
+<!-- scripts -->
+<!-- https://cdn.jsdelivr.net/jquery/1.11.1/jquery.min.js -->
+<script src="{{asset('')}}assets/js/jquery.min.js?v=3.22.1726217824"></script>
+<!-- https://cdn.jsdelivr.net/jquery.migrate/1.2.1/jquery-migrate.min.js -->
+<script src="{{asset('')}}assets/js/jquery-migrate.min.js?v=3.22.1726217824"></script>
+<!-- https://cdn.jsdelivr.net/modernizr/2.8.3/modernizr.min.js -->
+<script type="text/javascript" src="{{asset('')}}assets/template/js/menu.js?v=3.22.1726217824"></script>
+
+<!--https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js-->
+<script src="{{asset('')}}assets/js/bootstrap.min.js?v=3.22.1726217824"></script>
+<!-- RANGE -->
+<script src="{{asset('')}}assets/js/jquery.slider.min.js?v=3.22.1726217824"></script>
+<!-- CAROUFREDSEL JS -->
+<!--https://cdn.jsdelivr.net/caroufredsel/6.2.1/jquery.carouFredSel.packed.js-->
+<script src="{{asset('')}}assets/js/jquery.carouFredSel.packed.js?v=3.22.1726217824"></script>
+<!--https://cdn.jsdelivr.net/caroufredsel/6.2.1/helper-plugins/jquery.mousewheel.min.js-->
+<script src="{{asset('')}}assets/js/jquery.mousewheel.min.js?v=3.22.1726217824"></script>
+<!--https://cdn.jsdelivr.net/caroufredsel/6.2.1/helper-plugins/jquery.touchSwipe.min.js-->
+<script src="{{asset('')}}assets/js/jquery.touchSwipe.min.js?v=3.22.1726217824"></script>
+<!-- FLIP CLOCK JS -->
+<script src="{{asset('')}}assets/js/flipclock.min.js?v=3.22.1726217824"></script>
+<!-- CUSEL JS -->
+<script src="{{asset('')}}assets/js/cusel.min.js?v=3.22.1726217824'"></script>
+<!-- OTHER JS -->
+<script src="{{asset('')}}assets/js/jquery.countTo.js?v=3.22.1726217824"></script>
+<script src="{{asset('')}}assets/js/jquery.customInput.js?v=3.22.1726217824"></script>
+<script src="{{asset('')}}assets/js/onScreen.js?v=3.22.1726217824"></script>
+<script src="{{asset('')}}assets/js/jquery.nicescroll.min.js?v=3.22.1726217824"></script>
+<script type="text/javascript" src="{{asset('')}}assets/template/js/jquery-confirm.min.js?v=3.22.1726217824"></script>
+<script type="text/javascript">
+    jconfirm.defaults = {
+        theme: 'modern'
+    };
+</script>
+<!-- General JS -->
+<script src="{{asset('')}}assets/js/general.js?v=3.22.1726217824" type="text/javascript"></script>
+<script src="{{asset('')}}assets/js/account.js?v=3.22.1726217824" type="text/javascript"></script>
+
+<script type="text/javascript" src="{{asset('')}}assets/theme/js/core.js?v=3.22.1726217824"></script>
+<script type="text/javascript" src="{{asset('')}}assets/theme/js/inner.js?v=3.22.1726217824"></script>
+
+
+
+
+
+
+
+<script type="text/javascript">
+    $(document).ready(function ($) {
+        $("section").onScreen({
+            tolerance: 200,
+            debug: false,
+            toggleClass: false,
+            doIn: function () {
+                $(this).addClass('animated');
+                $(this).find('*').each(function () {
+                    if ($(this).attr('data-animate')) {
+                        $(this).addClass($(this).attr('data-animate')).addClass('animated');
+                    }
+                });
+            }
+        });
+
+        $(".global-ranking").onScreen({
+            tolerance: 200,
+            debug: false,
+            toggleClass: false,
+            doIn: function () {
+                $('.count').countTo();
+            }
+        });
+
+    });
+</script>
+
+
+
+<script type="text/javascript" src="https://netmi.org/api-web/js-last-news"></script>
+
+</body>
+</html>
+
+<!-- Generated in 0.0225 s. -->
+<!-- Version 3.22.1726217824 -->
