@@ -9,77 +9,113 @@ use App\Models\User;
 use App\Models\Reward;
 use DateTime;
 use DateInterval;
+use Carbon\Carbon;
 use DatePeriod;
 class Cron extends Controller
 {
 
 
-public function generate_roi()
-{
-
-$allResult=Investment::where('status','Active')->where('roiCandition',0)->get();
-$todays=Date("Y-m-d");
-
-if ($allResult)
-{
- foreach ($allResult as $key => $value)
- {
-
-  $userID=$value->user_id;
-   $joining_amt = $value->amount;
-
-  $userDetails=User::where('id',$userID)->first();
-  $checkTask=User::where('email',$userDetails->email)->where('active_status','Active')->where('today_tasked','>=',5)->count();
-  $today=date("Y-m-d");
-   $previous_date =date('Y-m-d',(strtotime ( '-1 day' , strtotime ( $today) ) ));
-
-  if ($userDetails && $checkTask>0)
-  {
-        $total_profit_b = Income::where('user_id', $userID)->where('invest_id', $value->id)->where('remarks','AD Cash Income')->count();
-        $total_profit=($total_profit_b)?$total_profit_b:0;
-        $sponsor_cnt=User::where('sponsor',$userID)->where('active_status','Active')->count();
-        $total_get=100;
-
-        $percent= 0.5;
-       
-      $roi = 0.5;
-         $max_income=$total_get;
-        $n_m_t = $max_income - $total_profit;
-        // dd($total_received);
-          if($roi >= $n_m_t)
+    public function generate_roi()
+    {  
+    
+    $allResult=Investment::where('status','Active')->where('roiCandition',0)->get();
+    $todays=Date("Y-m-d");
+    
+    if ($allResult) 
+    {
+     foreach ($allResult as $key => $value) 
+     {
+      
+      $username=$value->transaction_id;
+    
+    $user=User::where('username',$username)->first();
+    $userID=$user->id;
+    
+    $joining_amt = $value->amount;
+     
+      $userDetails=User::where('id',$userID)->where('active_status','Active')->first();
+      $today=date("Y-m-d");
+       $previous_date =date('Y-m-d',(strtotime ( '-1 day' , strtotime ( $today) ) ));
+    
+      if ($userDetails) 
+      {
+         $total_profit_b = Income::where('user_id', $userID)->where('invest_id', $value->id)->where('remarks','Roi Bonus')->sum("comm");
+          $total_profit=($total_profit_b)?$total_profit_b:0;
+    
+          // Assuming $sdate is in a format like '2023-12-16'
+    $sdate = Carbon::parse($user->jdate); // Parse the sdate as a Carbon date
+    
+    // Add 2 days to sdate to get edate
+    $edate = $sdate->copy()->addDays(2);
+    
+    // Query to count sponsors where jdate is between sdate and edate
+    $sponsor_cnt = User::where('sponsor', $userID)
+                       ->where('active_status', 'Active')
+                       ->whereBetween('jdate', [$sdate->format('Y-m-d'), $edate->format('Y-m-d')]) // Format the dates for the query
+                       ->count();
+    
+           $total_get=$joining_amt*200/100;
+            
+            $percent= 0.5;
+            if ($sponsor_cnt >= 2 && $joining_amt >= 50 && $joining_amt < 500) {
+                        $percent = 1;
+                    } elseif ($joining_amt >= 50 && $joining_amt < 500) {
+                        $percent = 0.5;
+                    } elseif ($sponsor_cnt >= 2 && $joining_amt >= 500 && $joining_amt < 5000) {
+                        $percent = 1.5;
+                    } elseif ($joining_amt >= 500 && $joining_amt < 5000) {
+                        $percent = 0.75;
+                    } elseif ($sponsor_cnt >= 2 && $joining_amt >= 5000) {
+                        $percent = 2;
+                    } elseif ($joining_amt >= 5000) {
+                        $percent = 1;
+                    }
+    
+    
+    
+           $roi = $joining_amt*$percent/100; 
+             $max_income=$total_get;
+            $n_m_t = $max_income - $total_profit;
+            // dd($total_received);
+              if($roi >= $n_m_t)
+              {
+                  $roi = $n_m_t;
+              }  
+          if ($total_profit<$total_get && $roi>0) 
           {
-              $roi = $n_m_t;
+    
+            echo "ID:".$userDetails->username." Package:".$joining_amt." Roi:".$roi."<br>";
+             $data['remarks'] = 'Roi Bonus';
+            $data['comm'] = $roi;
+            $data['amt'] = $joining_amt;
+            $data['invest_id']=$value->id;
+            $data['ttime'] = date("Y-m-d");
+            $data['user_id_fk'] = $userDetails->username;
+            $data['user_id']=$userDetails->id; 
+          $income = Income::firstOrCreate(['remarks' => 'Roi Bonus','ttime'=>date("Y-m-d"),'user_id'=>$userID,'invest_id'=>$value->id],$data);
+          add_level_income($userDetails->id,$roi);
+           
           }
-      if ($total_profit<$total_get && $roi>0)
-      {
-
-        echo "ID:".$userDetails->username." Package:".$joining_amt." Roi:".$roi."<br>";
-         $data['remarks'] = 'AD Cash Income';
-        $data['comm'] = $roi;
-        $data['amt'] = $joining_amt;
-        $data['level'] = 0;
-        $data['invest_id']=$value->id;
-        $data['ttime'] = date("Y-m-d");
-        $data['user_id_fk'] = $userDetails->username;
-        $data['user_id']=$userDetails->id;
-      $income = Income::firstOrCreate(['remarks' => 'AD Cash Income','ttime'=>date("Y-m-d"),'user_id'=>$userID,'invest_id'=>$value->id],$data);
-         User::where('id',$userDetails->id)->update(['today_tasked' => 0]);
+          else
+          {
+          Investment::where('id',$value->id)->update(['roiCandition' => 1]);   
+          }
+    
+    
+    
       }
-      else
-      {
-      Investment::where('id',$value->id)->update(['roiCandition' => 1]);
-      }
-
-  }
-
- }
-}
-
-
-
-
-}
-
+      
+    
+    
+    
+    
+     }
+    } 
+    
+    
+    
+    
+    }
 
 
 public function tradeAmt()
