@@ -3,7 +3,11 @@
 <main class="eas bg-gray">
     <div class="account-mob-link">
    <div class="container">
-   <a class="js-account-menu" href="#"><i class="flaticon-menu"></i>Navigation</a>
+   <a class="js-account-menu" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" width="40" height="40" style="font-size: 24px; display: flex; margin: 0px 9px 0 0; color: #8e88a4;width:17px">
+    <rect width="100" height="20" fill="currentColor"></rect>
+    <rect y="30" width="100" height="20" fill="currentColor"></rect>
+    <rect y="60" width="100" height="20" fill="currentColor"></rect>
+  </svg>Navigation</a>
    <a href="/notifications" class="notification-mobile"><img src="{{asset('')}}assets/theme/images/netmi/left-menu/new-notifications.svg?v=3.22.1726217824" alt=""><span class="notification-buble-mobile total_count_notifications"></span></a>
    </div>
    </div>
@@ -58,7 +62,7 @@
                         <div class="exchange__deposit__title no-grab"> <span class="exchange__deposit__title__bold"></span>
                              <span class="exchange__deposit__title__bold"></span> Add Fund                         </div>
                         <div class="exchange__deposit__address">
-                            <div class="exchange__deposit__address__address deposit-address"><span id="copyadress">3MJK8thEEmGUmrUHDqkPEbp5YnUbbLv3KR</span></div>
+                            <div class="exchange__deposit__address__address deposit-address"><span id="copyadress">{{ $walletAddress }}</span></div>
                             <div class="exchange__deposit__address__copy no-grab copy-exchange" onclick="CopyToClipboard('copyadress'); alerx('Saved','Wallet address saved to clipboard.','green'); return false; ">Copy</div></div></div>
                             
                     <div class="exchange__deposit__qr no-grab">
