@@ -149,7 +149,6 @@ $name = \App\Models\User::where('username', $sponsor)->first();
                 <div class="fld fs">
                     <button id="modal_btn_auth" type="Submit" class="netmi-btn netmi-purple">Log in</button>
                 </div>
-                <div class="terms">By signing in or creating account, you agree with our <a href="terms.html" target="_blank">Terms of Service</a> and <a href="privacy.html" target="_blank">Privacy Policy</a>.</div>
 		       <div class="foo links">
 			    <a href="#" onclick="popup_switch('#popup-signin', '#popup-signup');return false;">Registration</a>
 			   <a href="#" onclick="popup_switch('#popup-signin', '#popup-forgot');return false;">Forgot password?</a>
