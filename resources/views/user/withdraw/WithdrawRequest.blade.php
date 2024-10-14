@@ -58,7 +58,7 @@
 
                                                                     <select name="paymentMode" id="payout_method_select" class="js-select SumoUnder" onmousedown="return false" onselectstart="return false">
     <option value="USDT.TRC20" data-wallet="" data-img="{{ asset('') }}assets/images/coins/BEP20_BNB.svg?v=3.22.1726217824">USDT (TRC20)</option>
-    <option value="USDT.BEP20" data-wallet="" data-img="{{ asset('') }}assets/images/coins/TRC20_USDT.svg?v=3.22.1726217824">BNB (BEP20)</option>
+    <option value="USDT.BEP20" data-wallet="" data-img="{{ asset('') }}assets/images/coins/TRC20_USDT.svg?v=3.22.1726217824">USDT (BEP20)</option>
 </select>
                                                                     <script type="text/javascript">
                                                                         var fp_payments = [];
