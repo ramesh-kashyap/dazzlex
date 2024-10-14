@@ -214,6 +214,8 @@ $(document).ready(function() {
                         <tr>
                             <th>Username</th>
                             <th>Deposit</th>
+                            <th>Email</th>
+                            <th>Phone</th>
                             <th>Status</th>
                         </tr>
                         </thead>
@@ -242,6 +244,10 @@ $(document).ready(function() {
                             </div>
                                     </td>
                                 <td><div>{{ ($value->investment->sum('amount'))?$value->investment->sum('amount'):0 }} USDT</div></td>
+                                <td><div> {{ $value->email }} </div></td>
+
+                                <td><div> {{ $value->phone }} </div></td>
+
                                 <td class="td-price">
                                     <div>
                                     <label style="font-size: 15px;" class="data-status process" {{ $value->active_status == 'Active' ? 'green' : 'red' }}>{{ $value->active_status }}</label>                             </div>

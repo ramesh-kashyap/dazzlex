@@ -5,7 +5,7 @@
    <a href="#" class="js-account-menu"><span style="font-size: 13px;position: relative;top: -3px;"><i class="netmiicon-left" style="color:#9093ab;margin-right: 2px;font-size: 21px;position: relative;top: 5px;"></i> Back</span></a>
    </div>
    <ul class="aside-menu">
-    <a href="{{route('user.GenerateTicket')}}" class="notification-main"><img src="{{asset('')}}assets/theme/images/netmi/left-menu/new-notifications.svg?v=3.22.1726217824" alt=""><span class="notification-buble total_count_notifications"></span>  Notifications</a>
+    <a href="{{route('user.profile')}}" class="notification-main"><img src="{{asset('')}}assets/theme/images/netmi/left-menu/new-notifications.svg?v=3.22.1726217824" alt=""><span class="notification-buble total_count_notifications"></span>  Notifications</a>
    <h5>Balance</h5>
    <div class="in-items">
         <a href="{{route('user.AddFund')}}"><span class="in-item eas "><img src="{{asset('')}}assets/theme/images/netmi/left-menu/wallet-top-up.svg?v=3.22.1726217824" alt=""> Top Up</span></a>

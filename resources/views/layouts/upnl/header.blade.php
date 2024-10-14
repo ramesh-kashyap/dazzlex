@@ -11,7 +11,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Netmi &#8212; My account</title>
+    <title>{{siteName()}}</title>
     <meta name="description"
         content="Netmi Limited is a new generation high-tech business! We work with the most prominent financial instruments , ensuring highest returns and minimizing risks for our partners. Invest and make your dreams come true with us!">
     <meta name="keywords"

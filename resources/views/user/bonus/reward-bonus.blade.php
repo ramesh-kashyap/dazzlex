@@ -76,7 +76,7 @@
                                             </div>
                                             <div class="col-xl-2">
                                                 <div class="form-group mb-3">
-                                                    <input type="submit"  name="submit" style="padding: 4px;"
+                                                    <input type="submit"  name="submit" style="padding: 4px; background: #aa73cf;"
                                                         class="btn btn-outline-theme btn-lg d-block w-100 btn-primary"
                                                         value="Search"    >
                                                 </div>
@@ -84,7 +84,7 @@
                                             <div class="col-xl-2">
                                                 <div class="form-group mb-3">
                                                     <a href="{{ route('user.fundHistory') }}" 
-                                                        name="reset" style="padding: 4px;"
+                                                        name="reset" style="padding: 4px; background: #aa73cf;"
                                                         class="btn btn-outline-theme btn-lg d-block w-100 btn-primary"
                                                         value="Reset">Reset</a>
                                                 </div>
