@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Auth;
 use Hexters\CoinPayment\CoinPayment;
 use App\Models\CoinpaymentTransaction;
+use App\Models\GeneralSetting;
 use Log;
 use Redirect;
 class AddFund extends Controller
@@ -71,14 +72,25 @@ if($validation->fails()) {
     return redirect()->route('user.fund')->withErrors($validation->getMessageBag()->first())->withInput();
 }
 
+$setting = GeneralSetting::where('id',1)->first();
+
+
+if($request->paymentMode == "USDT.BEP20"){
+      $walletAddress = $setting->usdtBep20;
+}else{
+    $walletAddress = $setting->usdtTrc20;
+
+}
 
 
 $user=Auth::user();
 
 $this->data['paymentMode'] =$request->paymentMode;
+$this->data['walletAddress'] = $walletAddress;
+
 $this->data['amount'] =$request->amount;
 $this->data['page'] = 'user.fund.fundconfirm';
-return $this->dashboard_layout();
+return $this->dashboard_layout(); 
 
 
 }

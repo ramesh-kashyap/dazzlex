@@ -3,7 +3,11 @@
     <main class="eas bg-gray">
     <div class="account-mob-link">
    <div class="container">
-   <a class="js-account-menu" href="#"><i class="flaticon-menu"></i>Navigation</a>
+   <a class="js-account-menu" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" width="40" height="40" style="font-size: 24px; display: flex; margin: 0px 9px 0 0; color: #8e88a4;width:17px">
+    <rect width="100" height="20" fill="currentColor"></rect>
+    <rect y="30" width="100" height="20" fill="currentColor"></rect>
+    <rect y="60" width="100" height="20" fill="currentColor"></rect>
+  </svg>Navigation</a>
    <a href="/notifications" class="notification-mobile"><img src="{{asset('')}}assets/theme/images/netmi/left-menu/new-notifications.svg?v=3.22.1726217824" alt=""><span class="notification-buble-mobile total_count_notifications"></span></a>
    </div>
    </div>
@@ -146,6 +150,7 @@
 <?php }?>
                         </tbody>
         </table>
+        {{ $deposit_list->withQueryString()->links() }}
     </div>
     <style type="text/css">
 @media screen and (max-width: 760px) {
