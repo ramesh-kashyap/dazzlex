@@ -39,10 +39,10 @@
         <strong>
             Roi Income    
         </strong></a>
-        <a href="{{route('user.cashback_income')}}" style="outline: none;" >
+        <!-- <a href="{{route('user.cashback_income')}}" style="outline: none;" >
         <strong>
             Boster Income    
-        </strong></a>
+        </strong></a> -->
         <!-- <a href="#" class="blocs3-tabs " style="outline: none;" data-tab="profit">
         <strong>
             Accruals    
@@ -110,7 +110,7 @@
                                     <th>UserID</th>
                                   
                                     <th>Amount</th>
-                                    <th>Date</th>
+                                    
                                 
                                     <th>Remarks </th>
                                 </tr>

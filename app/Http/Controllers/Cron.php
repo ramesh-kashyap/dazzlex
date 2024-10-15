@@ -29,6 +29,7 @@ class Cron extends Controller
       $username=$value->transaction_id;
     
     $user=User::where('username',$username)->first();
+    if($user){
     $userID=$user->id;
     
     $joining_amt = $value->amount;
@@ -105,7 +106,7 @@ class Cron extends Controller
     
       }
       
-    
+    }
     
     
     

@@ -8,6 +8,12 @@ use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Auth;
 use Redirect;
 use Carbon\Carbon;
+use Elliptic\EC;
+use kornrunner\Secp256k1;
+
+use kornrunner\Keccak;
+
+
 use Log;
 use Hash;
 class Register extends Controller
@@ -37,22 +43,20 @@ class Register extends Controller
             $validation =  Validator::make($request->all(), [
                 'email' => 'required',
                 'name' => 'required',
-                'password' => 'required|min:5|confirmed',
+                'password' => 'required|min:5',
                 'sponsor' => 'required|exists:users,username',
                 'phone' => 'required|numeric|min:10'
               
             ]);
-
             
             if($validation->fails()) {
-
                 Log::info($validation->getMessageBag()->first());
-     
+
                 return Redirect::back()->withErrors($validation->getMessageBag()->first())->withInput();
             }
             //check if email exist
           
-            $user = User::where('username',$request->sponsor)->first();
+            $user = User::where('username',$request->sponsor)->where('active_status','Active')->first();
             if(!$user)
             {
                 return Redirect::back()->withErrors(array('Introducer ID Not Active'));
@@ -88,15 +92,15 @@ class Register extends Controller
             $registered_user_id = $user_data['id'];
             $user = User::find($registered_user_id);
             // Auth::loginUsingId($registered_user_id);
-          
-             sendEmail($user->email, 'Welcome to '.siteName(), [
-                'name' => $user->name,
-                'username' => $user->username,
-                'password' => $user->PSR,
-                'tpassword' => $user->TPSR,
-                'viewpage' => 'register_sucess',
-                 'link'=>route('login'),
-            ]);
+            $mail_data=array('name'=>$data['name'],'username'=>$data['username'],'password'=>$data['password'],'subject'=>'Welcome To BET KRY','viewpage'=>'register_sucess');
+            //  sendEmail($user->email, 'Welcome to '.siteName(), [
+            //     'name' => $user->name,
+            //     'username' => $user->username,
+            //     'password' => $user->PSR,
+            //     'tpassword' => $user->TPSR,
+            //     'viewpage' => 'register_sucess',
+            //      'link'=>route('login'),
+            // ]);
             
             
 

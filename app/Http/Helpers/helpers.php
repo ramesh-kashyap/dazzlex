@@ -341,7 +341,7 @@ $user_mid = $data->id;
              if($sp_status=="Active")
                {
 
-                $pp = $amount*6;
+                $pp = $amount*10;
 
 
               }else
@@ -368,7 +368,7 @@ $user_mid = $data->id;
                 'user_id_fk' =>$Sposnor_status->username,
                 'amt' => $amt,
                 'comm' => $pp,
-                'remarks' => 'Direct Income',
+                'remarks' => 'Direct Bonus',
                 'level' => $cnt,
                 'rname' => $rname,
                 'fullname' => $fullname,

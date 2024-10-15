@@ -29,18 +29,25 @@
 <div class="clearfix"></div>
 
 
-
 <div class="account-tabs">
     <div class="account-tabs-white">
-        <a style="outline: none;" data-tab="buy" class="active">
-            <strong>Purchase</strong>
+        <a href="#" onclick="return false;" data-tab="list" class="blocs3-tabs active">
+            <b>Referral list</b>
         </a>
-        <a style="outline: none;" data-tab="my" >
-            <strong>My Accelerators                            </strong>
+        <a href="#" onclick="return false;" data-tab="statistic" class="blocs3-tabs">
+            <b>Statistics</b>
         </a>
-        <a style="outline: none; display:none" data-tab="free" >
-            <strong>Free certificates</strong>
+        <a href="{{route('user.tree-view')}}"  data-tab="statistic" class="blocs3-tabs">
+            <b>Tree</b>
         </a>
+        <a href="{{route('user.right-team')}}"  data-tab="statistic" class="blocs3-tabs">
+            <b>Right Team</b>
+        </a>
+        <a href="{{route('user.left-team')}}"  data-tab="statistic" class="blocs3-tabs">
+            <b>Left Team</b>
+        </a>
+       
+      
     </div>
 </div>
 
