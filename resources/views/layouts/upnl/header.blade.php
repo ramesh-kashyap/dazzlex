@@ -369,16 +369,16 @@
                     </div>
                     <div class="in-items">
                         <h5>Active</h5>
-                        <a href="https://netmi.org/en/staking"><span class="in-item eas"><img
+                        <a href="{{route('staking')}}"><span class="in-item eas"><img
                                     src="{{ asset('') }}assets/theme/images/netmi/popup-staking-active.svg?v=3.22.1726217824"
                                     alt=""> Staking</span></a>
-                        <a href="https://netmi.org/en/accelerators"><span class="in-item eas"><img
+                        <a href="{{route('accelerators')}}"><span class="in-item eas"><img
                                     src="{{ asset('') }}assets/theme/images/netmi/popup-accelerators.svg?v=3.22.1726217824"
                                     alt=""> Accelerators</span></a>
-                        <a href="https://netmi.org/en/partners"><span class="in-item eas"><img
+                        <a href="{{route('partners')}}"><span class="in-item eas"><img
                                     src="{{ asset('') }}assets/theme/images/netmi/popup-affiliates-active.svg?v=3.22.1726217824"
                                     alt=""> Affiliates</span></a>
-                        <a href="https://netmi.org/en/tasks"><span class="in-item eas"><img
+                        <a href="{{route('tasks')}}"><span class="in-item eas"><img
                                     src="{{ asset('') }}assets/theme/images/netmi/popup-tasks-active.svg?v=3.22.1726217824"
                                     alt=""> Tasks</span></a>
                         <h5 style="margin-top: 8px;">Coming soon</h5>
