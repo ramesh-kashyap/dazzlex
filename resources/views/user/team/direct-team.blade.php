@@ -42,6 +42,15 @@
         <a href="#" onclick="return false;" data-tab="statistic" class="blocs3-tabs">
             <b>Statistics</b>
         </a>
+        <a href="{{route('user.tree-view')}}"  data-tab="statistic" class="blocs3-tabs">
+            <b>Tree</b>
+        </a>
+        <a href="{{route('user.right-team')}}"  data-tab="statistic" class="blocs3-tabs">
+            <b>Right Team</b>
+        </a>
+        <a href="{{route('user.left-team')}}"  data-tab="statistic" class="blocs3-tabs">
+            <b>Left Team</b>
+        </a>
        
         <a href="#" onclick="return false;" data-tab="statistic" class="blocs3-tabs">
             <b>Statistics</b>
