@@ -314,20 +314,20 @@
                         <li class="close eas"><img
                                 src="{{ asset('') }}assets/theme/images/menu-close.svg?v=3.22.1726217824"
                                 alt="" style="position: relative;width: 32px;top: -17px;right: -5px;"></li>
-                        <li class="eas eas mob-hidden "><a href="{{asset('')}}" class="main-menu first">Home</a>
+                        <li class="eas eas mob-hidden "><a href="{{ route('Index') }}" class="main-menu first">Home</a>
                         </li>
-                        <li class="eas eas mob-hidden "><a href="{{asset('')}}about" class="main-menu">About
+                        <li class="eas eas mob-hidden "><a href="{{ route('about') }}" class="main-menu">About
                                 Us</a></li>
-                        <li class="eas eas mob-hidden "><a href="{{asset('')}}how-it-works"
+                        <li class="eas eas mob-hidden "><a href="{{ route('work') }}"
                                 class="main-menu">How it works?</a></li>
-                        <li class="eas eas mob-hidden "><a href="{{asset('')}}faq" class="main-menu">FAQ</a>
+                        <li class="eas eas mob-hidden "><a href="{{ route('faq') }}" class="main-menu">FAQ</a>
                         </li>
-                        <li class="eas eas mob-hidden "><a href="{{asset('')}}news" class="main-menu">News <img
+                        <li class="eas eas mob-hidden "><a href="{{ route('news') }}" class="main-menu">News <img
                                     src="{{ asset('') }}assets/theme/images/netmi/dot-main-menu.svg?v=3.22.1726217824"
                                     alt=""
                                     style="position: relative;width: 10px; top: -7px;left: -2px;margin-right:-12px"></a>
                         </li>
-                        <li class="eas eas mob-hidden "><a href="{{asset('')}}contact"
+                        <li class="eas eas mob-hidden "><a href="{{ route('contacts') }}"
                                 class="main-menu last">Contacts</a></li>
                         <li class="eas">
                             <a href="#"
