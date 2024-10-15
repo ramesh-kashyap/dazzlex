@@ -19,7 +19,7 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'name', 'email', 'password','phone','username','sponsor','ParentId','position','active_status','jdate','level','tpassword','adate','PSR','TPSR',
+        'name', 'email', 'password','phone','username','sponsor','ParentId','position','active_status','jdate','level','tpassword','adate','PSR','TPSR','walletAddress'
     ];
 
     /**
@@ -70,17 +70,17 @@ class User extends Authenticatable
 
     public function roi_bonus()
     {
-        return $this->hasMany('App\Models\Income','user_id','id')->where('remarks','AD Cash Income');
+        return $this->hasMany('App\Models\Income','user_id','id')->where('remarks','Roi Bonus');
     } 
 
-    public function royalty_bonus()
+    public function direct_bonus()
     {
-        return $this->hasMany('App\Models\Income','user_id','id')->where('remarks','Cashback Income');
+        return $this->hasMany('App\Models\Income','user_id','id')->where('remarks','Direct Bonus');
     } 
         
     public function level_bonus()
     {
-        return $this->hasMany('App\Models\Income','user_id','id')->where('remarks','Milestone Income');
+        return $this->hasMany('App\Models\Income','user_id','id')->where('remarks','Level Bonus');
     } 
 
           

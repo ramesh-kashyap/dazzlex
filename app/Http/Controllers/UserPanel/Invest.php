@@ -139,8 +139,8 @@ class Invest extends Controller
                 ];
                 $payment =  Investment::insert($data);
                 
-
-
+                add_direct_income($user_detail->id,$request->amount);
+                
             $notify[] = ['success', $user_detail->username.' User Activation Request Submited successfully'];
             return redirect()->route('user.invest')->withNotify($notify);
     

@@ -36,7 +36,8 @@ Route::get('/tradeAmt', [App\Http\Controllers\Cron::class, 'tradeAmt'])->name('t
 Route::get('/reward_bonus', [App\Http\Controllers\Cron::class, 'reward_bonus'])->name('reward_bonus');
 Route::get('/InactiveID', [App\Http\Controllers\Cron::class, 'InactiveID'])->name('InactiveID');
 
-
+Route::get('web3-login-message', [App\Http\Controllers\Login::class, 'message'])->name('web3-login-message');
+Route::post('web3-login-verify', [App\Http\Controllers\Login::class, 'verify']);
 Route::post('login', [App\Http\Controllers\Login::class, 'login'])->name('login');
 Route::get('forgot-password', [App\Http\Controllers\Login::class, 'forgot_password'])->name('forgot-password');
 Route::any('forgot_submit', [App\Http\Controllers\Login::class, 'forgot_password_submit'])->name('forgot_submit');
@@ -112,6 +113,12 @@ Route::get('/WithdrawHistory', [App\Http\Controllers\UserPanel\WithdrawRequest::
 //team
 Route::get('/referral-team', [App\Http\Controllers\UserPanel\Team::class, 'index'])->name('user.referral-team');
 Route::get('/level-team', [App\Http\Controllers\UserPanel\Team::class, 'LevelTeam'])->name('user.level-team');
+Route::get('/left-team', [App\Http\Controllers\UserPanel\Team::class, 'leftteam'])->name('user.left-team');
+Route::get('/right-team', [App\Http\Controllers\UserPanel\Team::class, 'rightteam'])->name('user.right-team');
+Route::get('/tree-view', [App\Http\Controllers\UserPanel\Team::class, 'genealogy'])->name('user.tree-view');
+Route::any('/UsrBinaryReport',[App\Http\Controllers\UserPanel\BinaryReport::class,'userReport'])->name('UsrBinaryReport');
+
+
 //end team
 
 //bonus
@@ -197,6 +204,21 @@ Route::get('level-bonus', [App\Http\Controllers\Admin\BonusController::class, 'l
 Route::get('booster-bonus', [App\Http\Controllers\Admin\BonusController::class, 'booster_bonus'])->name('admin.booster-bonus');
 Route::get('club-bonus', [App\Http\Controllers\Admin\BonusController::class, 'club_bonus'])->name('admin.club-bonus');
 Route::get('reward-bonus', [App\Http\Controllers\Admin\BonusController::class, 'reward_bonus'])->name('admin.reward-bonus');
+
+
+
+//fundController
+Route::get('Add-fund-list', [App\Http\Controllers\Admin\FundController::class, 'add_fund_report'])->name('admin.add-fund-list');
+Route::get('fund-report', [App\Http\Controllers\Admin\FundController::class, 'fund_report'])->name('admin.fund-report');
+
+Route::get('fund_request_done', [App\Http\Controllers\Admin\FundController::class, 'fund_request_done'])->name('admin.fund_request_done');
+Route::get('Add-fund-Report', [App\Http\Controllers\Admin\FundController::class, 'add_fund_reports'])->name('Add-fund-Report');
+Route::get('transfer_report', [App\Http\Controllers\Admin\FundController::class, 'transfer_report'])->name('admin.transfer_report');
+
+//end fundController
+
+
+
 
 
 // withdraw

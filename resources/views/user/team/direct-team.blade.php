@@ -41,6 +41,15 @@
         <a href="#" onclick="return false;" data-tab="statistic" class="blocs3-tabs">
             <b>Statistics</b>
         </a>
+        <a href="{{route('user.tree-view')}}"  data-tab="statistic" class="blocs3-tabs">
+            <b>Tree</b>
+        </a>
+        <a href="{{route('user.right-team')}}"  data-tab="statistic" class="blocs3-tabs">
+            <b>Right Team</b>
+        </a>
+        <a href="{{route('user.left-team')}}"  data-tab="statistic" class="blocs3-tabs">
+            <b>Left Team</b>
+        </a>
        
       
     </div>
@@ -117,7 +126,7 @@
                                     </p>
                                     <p>
                                     Referral income: <b style="display: inline-block;">{{ currency() }}
-                                    {{ number_format(Auth::user()->royalty_bonus->sum('comm'), 2) }}</b>
+                                    {{ number_format(Auth::user()->direct_bonus->sum('comm'), 2) }}</b>
                                     </p>
                                 </div>
                             </div>

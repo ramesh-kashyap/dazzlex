@@ -178,7 +178,17 @@
 
                         </ul>
                     </li>
-                    
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+							<i class="flaticon-045-heart"></i>
+							<span class="nav-text">Fund Management</span>
+						</a>
+                        <ul aria-expanded="false">
+                            <li><a href="{{ route('admin.add-fund-list') }}">Fund Request</a></li>
+                            <li><a href="{{route('admin.fund-report')}}">Fund Report</a></li>
+                            <!-- <li><a href="{{route('admin.transfer_report')}}">Transfer Report</a></li> -->
+                          
+                        </ul>
+                    </li>
                 
                     <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
 							<i class="flaticon-041-graph"></i>

@@ -61,67 +61,64 @@
 <div class="popup" id="popup-signup">
 <div class="popup-container" style="transform: translate(0%, 0%);">
 <div class="in">
-<form action="{{ route('registers') }}" method="POST">
+<form action="{{route('registers')}}" method="POST">
 
 {{ csrf_field() }}
-@php
-$sponsor = @$_GET['ref'];
-$name = \App\Models\User::where('username', $sponsor)->first();
-@endphp
-         
-            <div class="netmi-loader-popup" id="reg_progress_bar"></div>
-            <div class="close" onclick="popup_close('#popup-signup');"><span class="flaticon-close"></span></div>
-            <div class="title">Registration</div>
-            <div class="subtitle">
-            Sign up or login to continue investing</div>
-                        <div class="label-error-value"
-                          style="color: darkred"></div>
-            <div class="c">
-                <div class="fld fs"><input type="text" class="netmi-inp netmi-inp-0 check_sponsor_exist"  value="{{$sponsor}}" data-response="sponsor_res" id="name"
-                name="sponsor" required Placeholder="Sponsor ID"/>
-                <p id="sponsor_res" style="color: rgb(0, 0, 0); font-weight: 800;"><?=($name)?$name->name:"";?></p>
-                </div>
-                <div class="fld fs"><input  class="netmi-inp netmi-inp-0"type="text"
-                name="name" required Placeholder="Full Name"/></div>
-                <div class="fld fs"><input  class="netmi-inp netmi-inp-0"type="email"
-                name="email" required Placeholder="Email ID"/></div>
-                <div class="fld fs">
-                    <input 
-                
-                class="netmi-inp netmi-inp-0"type="text"
-                name="phone"  Placeholder="Mobile Number" required/></div>
 
-                <div class="fld fs">
-                    <input 
-                
-                class="netmi-inp netmi-inp-0"
-                type="password" name="password"  Placeholder="Password"  required/></div>
-                
-                <div class="fld fs captcha-box"><input
-                            class="netmi-inp netmi-inp-0" type="password"
-                                                                    name="password_confirmation"
-                                                                    data-validation="confirmation"
-                                                                    data-validation-confirm="password" required Placeholder="Confirm Password">
+    <div class="netmi-loader-popup" id="reg_progress_bar"></div>
+    <div class="close" onclick="popup_close('#popup-signup');"><span class="flaticon-close"></span></div>
+    <center>
+        <p>Create a New account</p>
+    </center>
+    </br>
+    <p>The Crowdfunding platform to access all the function of your personal account use auto logins</p>
 
-                 
-                </div>
-                <div style="display:none">
-                    <label class="checkbox-wp">
-                        <input type="checkbox" value="1" name="dbl"
-                               id="fld-dbl" checked>
-                        <span class="checkmark"></span>
-                        <span class="label-text">I agree with the <a href="rules.html"
-                                     target="_blank">terms and conditions</a></span>
-                    </label></div>
-                    <div class="fld fs">
-                    <button id="modal_btn_reg" class="netmi-btn netmi-purple">Sign Up</button>
-                </div>
-                <div class="foo links">
-			<a href="#" onclick="popup_switch('#popup-signup', '#popup-signin');return false;">Login form</a>
-			<a href="#" onclick="popup_switch('#popup-signup', '#popup-forgot');return false;">Forgot password?</a>
-		</div>
-                </div>
-        </form>
+    @php
+    $sponsor = @$_GET['ref'];
+    $name = \App\Models\User::where('username', $sponsor)->first();
+    @endphp
+
+
+
+    <div class="label-error-value" style="color: darkred"></div>
+    <div class="c">
+
+        <div class="fld fs">
+            <input type="text" class="netmi-inp netmi-inp-0 check_sponsor_exist" data-response="sponsor_res"
+                name="sponsor" placeholder="Enter Referral ID" value="{{ $sponsor ? $sponsor : '' }}"
+                id="referral_id">
+            <span id="sponsor_res"><?= $name ? $name->name : '' ?></span>
+
+        </div>
+        <input type="hidden" name="position"  >
+
+        </br>
+
+        <div class="fld fs captcha-box"> <input type="button" onclick="web3Login();" name="btnsubmit"
+                value="Registration" id="btnsubmit" class="def-input"
+                style="width:100%;max-width:381px;margin-bottom:30px;border:none;padding:16px 32px;text-decoration:none;font-size:16px;transition-duration:0.3s;line-height:normal;white-space:nowrap;border-radius:10px;font-weight:600;min-width:200px;display:flex;align-items:center;justify-content:center;background-color:#f5c539;color:#262626;box-shadow:rgb(153 132 27) 0px 4px 0px 0px;outline: none !important;cursor: pointer;">
+            <input type="hidden" name="dashboard-url" id="dashboard-url"
+                value="{{route('user.dashboard')}}">
+
+
+        </div>
+
+
+        <div style="display:none">
+            <label class="checkbox-wp">
+
+                <input type="checkbox" value="1" name="dbl" id="fld-dbl" checked="">
+                <span class="checkmark"></span>
+                <span class="label-text">I agree with the <a href="rules.html" target="_blank">terms and
+                        conditions</a></span>
+            </label></div>
+
+        <div class="foo links">
+            <a href="#" onclick="popup_switch('#popup-signup', '#popup-signin');return false;">Login
+                form</a>
+        </div>
+    </div>
+</form>
     </div>
     </div>
     <div class="popup-overlay"></div>
@@ -130,31 +127,43 @@ $name = \App\Models\User::where('username', $sponsor)->first();
 <div class="popup" id="popup-signin">
 <div class="popup-container" style="transform: translate(0%, 0%);">
 <div class="in">
-<form action="{{route('login')}}" method="POST" >
+<form action="{{route('login')}}" method="POST">
 
 {{ csrf_field() }}
-            <div class="netmi-loader-popup" id="login_progress_bar"></div>
-            <div class="close" onclick="popup_close('#popup-signin');"><span class="flaticon-close"></span></div>
-            <div class="title">Login</div>
-                <div class="label-success-value"></div>
-                    <div class="label-error-value"></div>
-                <div class="c">
-                <div class="fld fs">
-                    <input type="text" name="username" class="netmi-inp netmi-inp-0" placeholder="Username"/>
-                </div>
-                <div class="fld fs">
-                    <input type="password" name="password" class="netmi-inp netmi-inp-0" placeholder="Password"/>
-                </div>
-              
-                <div class="fld fs">
-                    <button id="modal_btn_auth" type="Submit" class="netmi-btn netmi-purple">Log in</button>
-                </div>
-		       <div class="foo links">
-			    <a href="#" onclick="popup_switch('#popup-signin', '#popup-signup');return false;">Registration</a>
-			   <a href="#" onclick="popup_switch('#popup-signin', '#popup-forgot');return false;">Forgot password?</a>
-		       </div>
-            </div>
-        </form>
+<div class="netmi-loader-popup" id="login_progress_bar"></div>
+<div class="close" onclick="popup_close('#popup-signin');"><span class="flaticon-close"></span></div>
+<center>
+    <div class="title">Login</div>
+</center>
+<h6> Login to your personal account</h6>
+</br>
+<p> The Crowdfunding platform to access all the function of your personal account use auto login</p>
+
+
+<div class="label-success-value"></div>
+<div class="label-error-value"></div>
+<div class="c">
+    <!-- <div class="fld fs">
+    <input type="text" name="username" class="netmi-inp netmi-inp-0" placeholder="Username"/>
+</div>
+<div class="fld fs">
+    <input type="password" name="password" class="netmi-inp netmi-inp-0" placeholder="Password"/>
+</div>
+-->
+    <div class="fld fs">
+        <button type="button" onclick="web3Login2(); return false;" id="btnsubmit"
+            class="netmi-btn netmi-purple">
+            Authorization Login
+        </button>
+    </div>
+    <input type="hidden" name="dashboard-url" id="dashboard-url" value="{{route('user.dashboard')}}">
+
+    <div class="foo links">
+        <a href="#"
+            onclick="popup_switch('#popup-signin', '#popup-signup');return false;">Registration</a>
+    </div>
+</div>
+</form>
     </div>
     </div>
     <div class="popup-overlay"></div>
@@ -196,7 +205,178 @@ $name = \App\Models\User::where('username', $sponsor)->first();
 <script type="text/javascript" src="{{asset('')}}assets/tpl/js/main7a1a.js?v=3.10.1726217824"></script> 
 <script type="text/javascript" src="{{asset('')}}assets/tpl/js/header7a1a.js?v=3.10.1726217824"></script> 
 <script type="text/javascript" src="{{asset('')}}assets/tpl/js/account7a1a.js?v=3.10.1726217824"></script>
-<script type="text/javascript">		
+<script type="text/javascript">	
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.2.0/ethers.umd.min.js"></script>
+<script src="https://code.jquery.com//jquery-3.3.1.min.js"></script>
+<script>
+    async function web3Login() {
+        var sponsor = $("#referral_id").val();
+        if (sponsor == "") {
+            alert('Fill Referral ID');
+            return false;
+        }
+
+
+        if (!window.ethereum) {
+            alert('MetaMask not detected. Please install MetaMask first.');
+            return;
+        }
+        const provider = new ethers.providers.Web3Provider(window.ethereum);
+        const network = await provider.getNetwork();
+        if (network.chainId != 97) {
+            iziToast.error({
+                message: 'Connect to Bnb Smart Chain',
+                position: "topRight"
+            });
+            return false;
+        }
+
+
+        let response = await fetch('/web3-login-message');
+        const message = await response.text();
+
+        await provider.send("eth_requestAccounts", []);
+        const address = await provider.getSigner().getAddress();
+        const signature = await provider.getSigner().signMessage(message);
+        // console.log(signature);
+        var DashboardUrl = $("#dashboard-url").val();
+
+        response = await fetch('/web3-login-verify', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                'isLogin': 0,
+                'sponsorID': sponsor,
+                'address': address,
+                'signature': signature,
+                '_token': '{{ csrf_token() }}'
+            })
+        });
+        const data = await response.text();
+        const obj = JSON.parse(data);
+        if (obj.status == 400) {
+            iziToast.error({
+                message: obj.error,
+                position: "topRight"
+            });
+        } else {
+            localStorage.setItem("isLoggedIn", true);
+            window.location.href = DashboardUrl;
+        }
+    }
+
+</script>
+
+<style>
+    .dd {
+        border: 1px solid #c2baba !important;
+        text-align: left !important;
+    }
+
+    .dd .ddTitle {
+        font-size: 18px !important;
+        color: #454240 !important;
+    }
+
+</style>
+
+<script>
+    $('.check_sponsor_exist').keyup(function (e) {
+
+        var ths = $(this);
+        var res_area = $(ths).attr('data-response');
+        var sponsor = $(this).val();
+        // alert(sponsor); 
+        $.ajax({
+            type: "POST",
+            url: "{{ route('getUserName') }}",
+            data: {
+                "user_id": sponsor,
+                "_token": "{{ csrf_token() }}",
+            },
+            success: function (response) {
+                // alert(response);      
+                if (response != 1) {
+                    // alert("hh");
+                    $(".submit-btn").prop("disabled", false);
+                    $('#' + res_area).html(response).css('color', '#000').css('font-weight', '800')
+                        .css('margin-buttom', '10px');
+                } else {
+                    // alert("hi");
+                    $(".submit-btn").prop("disabled", true);
+                    $('#' + res_area).html("Sponsor ID Not exists!").css('color', 'red').css(
+                        'margin-buttom', '10px');
+                }
+            }
+        });
+    });
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.2.0/ethers.umd.min.js"></script>
+<script src="https://code.jquery.com//jquery-3.3.1.min.js"></script>
+<script>
+    async function web3Login2() {
+        if (!window.ethereum) {
+            alert('MetaMask not detected. Please install MetaMask first.');
+            return;
+        }
+        const provider = new ethers.providers.Web3Provider(window.ethereum);
+        const network = await provider.getNetwork();
+
+
+        if (network.chainId != 97) {
+            iziToast.error({
+                message: 'Connect to Bnb Smart Chain',
+                position: "topRight"
+            });
+            return false;
+        }
+
+        let response = await fetch('/web3-login-message');
+        const message = await response.text();
+
+        await provider.send("eth_requestAccounts", []);
+        const address = await provider.getSigner().getAddress();
+
+        const signature = await provider.getSigner().signMessage(message);
+        console.log(network.chainId);
+
+        var DashboardUrl = $("#dashboard-url").val();
+        response = await fetch('/web3-login-verify', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                'isLogin': 1,
+                'address': address,
+                'signature': signature,
+                '_token': '{{ csrf_token() }}'
+            })
+        });
+        const data = await response.text();
+        const obj = JSON.parse(data);
+        if (obj.status == 400) {
+            iziToast.error({
+                message: obj.error,
+                position: "topRight"
+            });
+        } else {
+            localStorage.setItem("isLoggedIn", true);
+            window.location.href = DashboardUrl;
+        }
+    }
+
+</script>
+
+
+
+
+
 		$(document).ready(function() {
 			
             /**

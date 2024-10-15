@@ -76,11 +76,11 @@
    <div class="balances-list">
 <div class="l">
 <div class="in block-2">
-<div class="ltitle"><img src="{{asset('')}}assets/theme/images/netmi/money-payout.svg?v=3.22.1726217824" alt="" class="icon"><span>Booster Income</span></div>
+<div class="ltitle"><img src="{{asset('')}}assets/theme/images/netmi/money-payout.svg?v=3.22.1726217824" alt="" class="icon"><span>Roi Income</span></div>
 <div class="lamount" id="lamount-ltc">{{ currency() }}
-{{ number_format(Auth::user()->booster_bonus->sum('comm'), 2) }}</div>
+{{ number_format(Auth::user()->roi_bonus->sum('comm'), 2) }}</div>
 <div class="llink">
-<a href="{{route('user.cashback_income')}}" data-toggle="tooltip" ><img src="{{asset('')}}assets/theme/images/netmi/account-deposits.svg?v=3.22.1726217824" alt=""></a>
+<a href="{{route('user.roi-bonus')}}" data-toggle="tooltip" ><img src="{{asset('')}}assets/theme/images/netmi/account-deposits.svg?v=3.22.1726217824" alt=""></a>
 </div>
 </div>
 </div>
@@ -90,7 +90,7 @@
         <div class="lamount" id="lamount-doge">{{ currency() }}
         {{ number_format(Auth::user()->level_bonus->sum('comm'), 2) }}<span style="font-size: 12px;color: #9093ab;top: 0px;position: relative;"></span></div>
         <div class="llink">
-            <a href="{{route('user.cashback_income')}}" data-toggle="tooltip" ><img src="{{asset('')}}assets/theme/images/netmi/account-withdraw.svg?v=3.22.1726217824" alt=""></a>
+            <a href="{{route('user.level-income')}}" data-toggle="tooltip" ><img src="{{asset('')}}assets/theme/images/netmi/account-withdraw.svg?v=3.22.1726217824" alt=""></a>
         </div>
     </div>
 </div>
@@ -98,9 +98,9 @@
 <div class="in block-3">
 <div class="ltitle"><img src="{{asset('')}}assets/theme/images/netmi/affiliate-income.svg?v=3.22.1726217824" alt="" class="icon"><span>Referral Income</span></div>
 <div class="lamount" id="lamount-doge">{{ currency() }}
-{{ number_format(Auth::user()->royalty_bonus->sum('comm'), 2) }}</div>
+{{ number_format(Auth::user()->direct_bonus->sum('comm'), 2) }}</div>
 <div class="llink">
-<a href="{{route('user.cashback_income')}}" data-toggle="tooltip" ><img src="{{asset('')}}assets/theme/images/netmi/account-referrals.svg?v=3.22.1726217824" alt=""></a>
+<a href="#" data-toggle="tooltip" ><img src="{{asset('')}}assets/theme/images/netmi/account-referrals.svg?v=3.22.1726217824" alt=""></a>
 </div>
 </div>
 </div>

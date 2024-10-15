@@ -12,6 +12,13 @@
    </div>
    </div>
 
+
+
+
+
+
+
+   
    <div class="container">
 	<div class="row help-row">
                <div class="col-xl-9 col-lg-8">
@@ -20,48 +27,33 @@
                         
 
 	
-
                    <div class="account-tabs">
-                   <div class="account-tabs-white">
-    <!-- <a href="{{route('user.invest')}}"  style="outline: none;" >
-        <strong>
-            Deposit History    
-       </strong></a> -->
-       <a href="{{route('user.level-income')}}" style="outline: none;" >
-        <strong>
-            Level Income    
-        </strong></a>
-        <a href="{{route('user.direct-income')}}" style="outline: none;" >
-        <strong>
-            Direct Income    
-        </strong></a>
-        <a href="{{route('user.roi-bonus')}}" style="outline: none;" >
-        <strong>
-            Roi Income    
-        </strong></a>
-        <!-- <a href="{{route('user.cashback_income')}}" style="outline: none;" >
-        <strong>
-            Boster Income    
-        </strong></a> -->
-        <!-- <a href="#" class="blocs3-tabs " style="outline: none;" data-tab="profit">
-        <strong>
-            Accruals    
-       </strong></a> -->
+    <div class="account-tabs-white">
+        <a href="{{route('user.referral-team')}}"  data-tab="list" class="blocs3-tabs active">
+            <b>Referral list</b>
+        </a>
+        <a href="{{route('user.referral-team')}}"  data-tab="statistic" class="blocs3-tabs">
+            <b>Statistics</b>
+        </a>
+        <a href="{{route('user.tree-view')}}"  data-tab="statistic" class="blocs3-tabs">
+            <b>Tree</b>
+        </a>
+        <a href="{{route('user.right-team')}}"  data-tab="statistic" class="blocs3-tabs">
+            <b>Right Team</b>
+        </a>
+        <a href="{{route('user.left-team')}}"  data-tab="statistic" class="blocs3-tabs">
+            <b>Left Team</b>
+        </a>
+       
+      
     </div>
 </div>
 
-
-<p>Direct  Income</p>
-</br></br>
-<div class="account-tab tab-topup active">
-        <div class="account-form account-form--2">
-      
-
-
-
+<h5>Left Team<h5>
+</br>
 
 <div id="example_wrapper" class="dataTables_wrapper">
-                                    <form action="{{ route('user.direct-income') }}" method="GET">
+                                    <form action="{{ route('user.DepositHistory') }}" method="GET">
                                         <div class="row">
                                             <div class="col-xl-4">
                                                 <div class="form-group mb-3">
@@ -83,15 +75,15 @@
                                             </div>
                                             <div class="col-xl-2">
                                                 <div class="form-group mb-3">
-                                                    <input type="submit"  name="submit" style="padding: 4px;  background: #aa73cf;"
+                                                    <input type="submit"  name="submit" style="padding: 4px; background: #aa73cf;"
                                                         class="btn btn-outline-theme btn-lg d-block w-100 btn-primary"
                                                         value="Search"    >
                                                 </div>
                                             </div>
                                             <div class="col-xl-2">
                                                 <div class="form-group mb-3">
-                                                    <a href="{{ route('user.direct-income') }}" 
-                                                        name="reset" style="padding: 4px;  background: #aa73cf;"
+                                                    <a href="{{ route('user.DepositHistory') }}" 
+                                                        name="reset" style="padding: 4px; background: #aa73cf;"
                                                         class="btn btn-outline-theme btn-lg d-block w-100 btn-primary"
                                                         value="Reset">Reset</a>
                                                 </div>
@@ -102,26 +94,31 @@
                                     </form>
                                 </div>
 
+
+<div class="account-tab tab-topup active">
+        <div class="account-form account-form--2">
+      
         <table class="table-product-group" style="margin-top:25px">
             <thead>
                  
             <tr>
-                                    <th>SR#</th>
-                                    <th>UserID</th>
-                                  
-                                    <th>Amount</th>
-                                   
-                                
-                                    <th>Remarks </th>
+                                    <th>Sr No</th>
+                                    <th>Name</th>
+                                    <th>User ID</th>
+                                    <th>Email ID</th>
+                                    <!--<th>Mobile No</th>-->
+                                    <th>Position</th>
+                                    <!-- <th>Joining Date</th> -->
+                                    <th>Status</th>
                                 </tr>
             </thead>
             <tbody>
 
 
-            <?php if(is_array($level_income) || is_object($level_income)){ ?>
+            <?php if(is_array($direct_team) || is_object($direct_team)){ ?>
 
-<?php $cnt = $level_income->perPage() * ($level_income->currentPage() - 1); ?>
-@foreach ($level_income as $value)
+<?php $cnt = $direct_team->perPage() * ($direct_team->currentPage() - 1); ?>
+@foreach($direct_team as $value)
 
                                             <tr>
                     <td class="td-price"> <div>
@@ -132,27 +129,28 @@
 
                     <td class="td-price">
                         <div>
-                            <span class="amount-dark">{{ $value->user_id_fk }}</span>
+                            <span class="amount-dark">{{$value->name}}</span>
                         </div></td>
                         <td class="td-price">
                         <div>
-                            <span class="amount-dark">{{currency()}} {{ $value->comm }}</span>
+                            <span class="amount-dark">{{$value->username}}</span>
                         </div></td>
                         <td class="td-price">
                         <div>
-                            <span class="amount-dark">{{ $value->remarks }} </span>
+                            <span class="amount-dark">{{$value->email}}</span>
                         </div></td>
-                        <!-- <td class="td-price">
+                    <td class="td-price">
                         <div>
-                            <span class="amount-dark" style="background:{{($value->status=='Approved')?'#1f9a00':'#e33838'}};padding: 5px;
-                                            border-radius: 5px;">{{$value->status}} </span>
-                        </div></td> -->
-                
+                    <span class="status">
+                    <span class="amount-dark">{{$value->position}}</span>
+                    </span>
+                        </div>
+                    </td>
                     <td class="td-price" style="height: 64px;">
                         <div class="last">
                                                             <span class="button">
 
-                                                            <span style="background-color: {{ $value->status == 'Active' ? 'green' : 'red' }}; color: white;">{{ $value->status }}</span>
+                                                            <span   class="amount-dark" style="background-color: {{ $value->status == 'Active' ? 'green' : 'red' }}; color: white;">{{$value->active_status}}</span>
 
 
                                                         </span>
@@ -312,7 +310,27 @@ background: #f7f8fc;
 <script type="text/javascript" src="{{asset('')}}assets/theme/js/inner.js?v=3.22.1726217824"></script>
 
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('#filter_level').change(function() {
+        var selectedLevel = $(this).val();
+        console.log(selectedLevel);
+        // Redirect to the referral team route with the selected level as a query parameter
+        window.location.href = '{{ route("user.referral-team") }}?selected_level=' + selectedLevel;
+    });
+});
 
+$(document).ready(function() {
+    $('#search-ref').on('keyup', function() {
+        var value = $(this).val().toLowerCase();
+        
+        $('#table_refs tbody tr').filter(function() {
+            $(this).toggle($(this).find('a.filter_ref').text().toLowerCase().indexOf(value) > -1);
+        });
+    });
+});
+</script>
 
 
 
