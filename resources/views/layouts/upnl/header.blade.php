@@ -17,7 +17,6 @@
     <meta name="keywords"
         content="Netmi, netmi.org, Netmi Limited, Netmi Company, Netmi Investments, Staking Crypto, Affiliate Program, Bonus Tasks, Monthly prize draw, Bonus coupons, Business packages, Loyalty Program, High-tech business, Netmi Pays, Crypto investments">
     <meta name="format-detection" content="telephone=no">
-    <base href="https://panel.netmi.org/">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="apple-touch-icon" sizes="57x57"
@@ -275,15 +274,22 @@
                         <rect y="30" width="100" height="20" fill="currentColor"></rect>
                         <rect y="60" width="100" height="20" fill="currentColor"></rect>
                       </svg></div>
-                    <div class="logo"><a href="https://netmi.org/en/">
+                    <div class="logo"><a href="{{asset('')}}">
                             <img src="{{ asset('') }}assets/logo.png" class="full-logo" alt="Netmi">
-                            <img src="{{ asset('') }}assets/logo.png" style="width:137px;" class="mobile-logo" alt="Netmi">
+                            <img src="{{ asset('') }}assets/logo.png"  class="mobile-logo" alt="Netmi">
                         </a>
                     </div>
 
                     <div class="seperator"></div>
                     <div class="navigation">
                         <span class="current">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" width="40" height="40" style="font-size: 24px; display: flex; margin: 0px 9px 0 0; color: #8e88a4;width:17px">
+                                <rect width="100" height="20" fill="currentColor"></rect>
+                                <rect y="30" width="100" height="20" fill="currentColor"></rect>
+                                <rect y="60" width="100" height="20" fill="currentColor"></rect>
+                              </svg>
+                              
+                               Navigation
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" width="40" height="40" style="font-size: 24px; display: flex; margin: 0px 9px 0 0; color: #8e88a4;width:17px">
                                 <rect width="100" height="20" fill="currentColor"></rect>
                                 <rect y="30" width="100" height="20" fill="currentColor"></rect>

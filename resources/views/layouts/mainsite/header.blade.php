@@ -2,67 +2,78 @@
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
 
 <!-- Mirrored from netmi.org/en/faq by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 Sep 2024 08:11:17 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
 <head>
     <meta charset="utf-8">
-    <title>{{siteName()}}</title>
-    <meta name="description" content="Netmi Limited is a new generation high-tech business! We work with the most prominent financial instruments , ensuring highest returns and minimizing risks for our partners. Invest and make your dreams come true with us!">
-    <meta name="keywords" content="Netmi, netmi.org, Netmi Limited, Netmi Company, Netmi Investments, Staking Crypto, Affiliate Program, Bonus Tasks, Monthly prize draw, Bonus coupons, Business packages, Loyalty Program, High-tech business, Netmi Pays, Crypto investments">
+    <title>{{ siteName() }}</title>
+    <meta name="description"
+        content="{{ siteName() }} is a new generation high-tech business! We work with the most prominent financial instruments , ensuring highest returns and minimizing risks for our partners. Invest and make your dreams come true with us!">
+    <meta name="keywords"
+        content="{{ siteName() }}, {{ siteName() }}, {{ siteName() }} Company, {{ siteName() }} Investments, Staking Crypto, Affiliate Program, Bonus Tasks, Monthly prize draw, Bonus coupons, Business packages, Loyalty Program, High-tech business, {{ siteName() }} Pays, Crypto investments">
     <meta name="format-detection" content="telephone=no">
-    <base >
-    <link rel="stylesheet" href="{{asset('')}}assets/tpl/css/carouselcd86.css?v=3.10.17262178241">
-    <link rel="stylesheet" href="{{asset('')}}assets/tpl/css/carousel.themecd86.css?v=3.10.17262178241">
-    <link rel="stylesheet" href="{{asset('')}}assets/tpl/css/main-original-no-min7a1a.css?v=3.10.1726217824">
-    <link rel="stylesheet" href="{{asset('')}}assets/tpl/css/master-original-no-mincd86.css?v=3.10.17262178241">
+    <base>
+    <link rel="stylesheet" href="{{ asset('') }}assets/tpl/css/carouselcd86.css?v=3.10.17262178241">
+    <link rel="stylesheet" href="{{ asset('') }}assets/tpl/css/carousel.themecd86.css?v=3.10.17262178241">
+    <link rel="stylesheet" href="{{ asset('') }}assets/tpl/css/main-original-no-min7a1a.css?v=3.10.1726217824">
+    <link rel="stylesheet" href="{{ asset('') }}assets/tpl/css/master-original-no-mincd86.css?v=3.10.17262178241">
 
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="apple-touch-icon" sizes="57x57" href="{{asset('')}}assets/images/apple-icon-57x577a1a.png?v=3.10.1726217824">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{asset('')}}assets/images/apple-icon-72x727a1a.png?v=3.10.1726217824">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{asset('')}}assets/images/apple-icon-114x1147a1a.png?v=3.10.1726217824">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{asset('')}}assets/images/apple-icon-144x1447a1a.png?v=3.10.1726217824">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{asset('')}}assets/images/apple-icon-152x1527a1a.png?v=3.10.1726217824">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('')}}assets/images/apple-icon-180x1807a1a.png?v=3.10.1726217824">
-    <link rel="apple-touch-icon" sizes="192x192" href="{{asset('')}}assets/images/apple-icon-192x1927a1a.png?v=3.10.1726217824">
-    <link rel="apple-touch-icon" href="../../cdn.netmi.org/favicon7a1a.png?v=3.10.1726217824">
-    <link rel="shortcut icon" href="https://cdn.netmi.org/favicon.ico?v=3.10.1726217824" type="image/x-icon">
-    <link rel="icon" href="../../cdn.netmi.org/favicon7a1a.png?v=3.10.1726217824" type="image/png">
+    <link rel="apple-touch-icon" sizes="57x57"
+        href="{{ asset('') }}assets/images/apple-icon-57x577a1a.png?v=3.10.1726217824">
+    <link rel="apple-touch-icon" sizes="72x72"
+        href="{{ asset('') }}assets/images/apple-icon-72x727a1a.png?v=3.10.1726217824">
+    <link rel="apple-touch-icon" sizes="114x114"
+        href="{{ asset('') }}assets/images/apple-icon-114x1147a1a.png?v=3.10.1726217824">
+    <link rel="apple-touch-icon" sizes="144x144"
+        href="{{ asset('') }}assets/images/apple-icon-144x1447a1a.png?v=3.10.1726217824">
+    <link rel="apple-touch-icon" sizes="152x152"
+        href="{{ asset('') }}assets/images/apple-icon-152x1527a1a.png?v=3.10.1726217824">
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="{{ asset('') }}assets/images/apple-icon-180x1807a1a.png?v=3.10.1726217824">
+    <link rel="apple-touch-icon" sizes="192x192"
+        href="{{ asset('') }}assets/images/apple-icon-192x1927a1a.png?v=3.10.1726217824">
     <link rel="mask-icon" color="#0088cc">
-    <meta name="apple-mobile-web-app-title" content="Netmi">
+    <meta name="apple-mobile-web-app-title" content="{{ siteName() }}">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="../index.html">
+    <meta property="og:url" content="../{{ asset('') }}">
     <meta property="og:locale" content="en_US">
-    <meta property="og:title" content="Netmi">
-    <meta property="og:description" content="Netmi Limited is a new generation high-tech business! We work with the most prominent financial instruments , ensuring highest returns and minimizing risks for our partners. Invest and make your dreams come true with us!">
-    <meta property="og:image" content="{{asset('')}}assets/images/netmi-og-image7a1a.jpg?v=3.10.1726217824">
+    <meta property="og:title" content="{{ siteName() }}">
+    <meta property="og:description"
+        content="{{ siteName() }} is a new generation high-tech business! We work with the most prominent financial instruments , ensuring highest returns and minimizing risks for our partners. Invest and make your dreams come true with us!">
+    <meta property="og:image" content="{{ asset('') }}assets/images/netmi-og-image7a1a.jpg?v=3.10.1726217824">
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="../index.html">
+    <meta property="twitter:url" content="{{ asset('') }}">
     <meta property="twitter:title" content="Netmi">
-    <meta property="twitter:description" content="Netmi Limited is a new generation high-tech business! We work with the most prominent financial instruments , ensuring highest returns and minimizing risks for our partners. Invest and make your dreams come true with us!">
-    <meta property="twitter:image" content="{{asset('')}}assets/images/netmi-og-image7a1a.jpg?v=3.10.1726217824">
+    <meta property="twitter:description"
+        content="{{ siteName() }} is a new generation high-tech business! We work with the most prominent financial instruments , ensuring highest returns and minimizing risks for our partners. Invest and make your dreams come true with us!">
+    <meta property="twitter:image" content="{{ asset('') }}assets/images/netmi-og-image7a1a.jpg?v=3.10.1726217824">
 
 </head>
-<body>
-<div class="netmi-wrapper">
-<header 
-class="netmi-header netmi-header-inner">
 
-<div class="netmi-header-middle">
-			<div class="netmi-inner">
-				<div class="netmi-nav-button"><span class="flaticon-nav-button"></span></div>
-				<div class="netmi-logo"><a href="index.html">
-				<img src="{{asset('')}}assets/logo.png" class="netmi-full-logo" alt="Netmi">
-				<img src="{{asset('')}}assets/logo.png"  style="width:137px;" class="netmi-mobile-logo" alt="Netmi">
-			</a>
-			</div>
-				
-				<div class="netmi-seperator"></div>
-				<div class="netmi-navigation">
-						<span class="netmi-current">
-						<span class="flaticon-nav-button"></span> Navigation 
+<body>
+    <div class="netmi-wrapper">
+        <header class="netmi-header netmi-header-inner">
+
+            <div class="netmi-header-middle">
+                <div class="netmi-inner">
+                    <div class="netmi-nav-button"><span class="flaticon-nav-button"></span></div>
+                    <div class="netmi-logo"><a href="{{ asset('') }}">
+                            <img src="{{ asset('') }}assets/logo.png" class="netmi-full-logo" alt="Netmi">
+                            <img src="{{ asset('') }}assets/logo.png" style="width:137px;"
+                                class="netmi-mobile-logo" alt="Netmi">
+                        </a>
+                    </div>
+
+                    <div class="netmi-seperator"></div>
+                    <div class="netmi-navigation">
+                        <span class="netmi-current">
+                            <span class="flaticon-nav-button"></span> Navigation
                         </span>
 						<ul class="netmi-dropdown">
 							<li><a href="{{route('Index')}}" class="eas  ">Home</a></li>

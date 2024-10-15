@@ -5,7 +5,7 @@
 			<div class="netmi-l">
 				<a href="index.html"><img src="{{asset('')}}assets/logo.png" alt="Netmi" class="netmi-foo-logo"></a>
 				<div class="netmi-info" >
-                Dazzlex Limited is a new generation high-tech business! We work with the most prominent financial instruments , ensuring highest returns  and minimizing risks for our partners. Invest and make your dreams come true with us!				</div>
+                {{siteName()}} Limited is a new generation high-tech business! We work with the most prominent financial instruments , ensuring highest returns  and minimizing risks for our partners. Invest and make your dreams come true with us!				</div>
 				<div class="netmi-social">
 					<a href="mailto:info@netmi.org" target="_blank"><span class="flaticon-email netmi-fb netmi-eas"></span></a>
 					<a href="http://t.me/netmi_news" target="_blank"><span class="flaticon-soc-tg netmi-tg netmi-eas"></span></a>
@@ -95,8 +95,7 @@
         </br>
 
         <div class="fld fs captcha-box"> <input type="button" onclick="web3Login();" name="btnsubmit"
-                value="Registration" id="btnsubmit" class="def-input"
-                style="width:100%;max-width:381px;margin-bottom:30px;border:none;padding:16px 32px;text-decoration:none;font-size:16px;transition-duration:0.3s;line-height:normal;white-space:nowrap;border-radius:10px;font-weight:600;min-width:200px;display:flex;align-items:center;justify-content:center;background-color:#f5c539;color:#262626;box-shadow:rgb(153 132 27) 0px 4px 0px 0px;outline: none !important;cursor: pointer;">
+                value="Registration" id="btnsubmit" class="netmi-btn netmi-purple">
             <input type="hidden" name="dashboard-url" id="dashboard-url"
                 value="{{route('user.dashboard')}}">
 
@@ -376,6 +375,7 @@
 
 
 
+<script>
 
 		$(document).ready(function() {
 			
@@ -519,4 +519,3 @@
 </html> 
 <!-- Generated in 0.0988 s. -->
 <!-- Version 3.10.1726217824 -->
-@include('partials.notify')

@@ -73,7 +73,7 @@
                     <div class="netmi-nav-button"><span class="flaticon-nav-button"></span></div>
                     <div class="netmi-logo"><a href="{{route('Index')}}">
                             <img src="{{asset('')}}assets/logo.png" class="netmi-full-logo" alt="Netmi">
-                            <img src="{{asset('')}}assets/logo.png" style="width:137px;" class="netmi-mobile-logo"
+                            <img src="{{asset('')}}assets/logo.png" class="netmi-mobile-logo"
                                 alt="Netmi">
                         </a>
                     </div>
@@ -383,7 +383,7 @@
                                     </div>
                                     <div class="netmi-income-box-info">
                                         <div class="netmi-income-box-desc">
-                                            <p>Collect, save, and sell Dazzlex tokens at p2p marketplace.</p>
+                                            <p>Collect, save, and sell {{siteName()}} tokens at p2p marketplace.</p>
                                             <span class="netmi-b" style="background: #8e88a4;"><i
                                                     class="flaticon-arr-next-fast"></i></span>
                                         </div>
@@ -420,17 +420,17 @@
                             <div class="container gw-header-body">
                                 <div class="gw-contest-info">
                                     <h1 class="gw-header__title">
-                                        Dazzlex token trading</h1>
+                                        {{siteName()}} token trading</h1>
                                     <div class="gw-header__txt">
-                                        NEW way to earn extra income by trading Dazzlex. Now you have the opportunity to
-                                        buy and sell an internal Dazzlex token at any time, right from you user
+                                        NEW way to earn extra income by trading {{siteName()}}. Now you have the opportunity to
+                                        buy and sell an internal {{siteName()}} token at any time, right from you user
                                         dashboard, and earn at least <b style="color: #fff;">0.5% per day</b> on its
                                         price growth. A <b style="color: #fff;">Mini-Pump</b> will be carried out once a
                                         month, where the price of the token will rise sharply for a few hours, which
-                                        will allow Dazzlex holders to realise quick sizable profits.</div>
+                                        will allow {{siteName()}} holders to realise quick sizable profits.</div>
                                     <div class="gw-header__btn">
                                         <a href="#" onclick="popup_open('#popup-signup'); return false;"
-                                            class="netmi-btn netmi-purple" style="background: #141329;">Swap Dazzlex</a>
+                                            class="netmi-btn netmi-purple" style="background: #141329;">Swap {{siteName()}}</a>
                                     </div>
                                 </div>
                                 <div class="gw-contest-col">
@@ -443,12 +443,12 @@
                                             <div class="boost-points__your">
                                                 <img src="{{asset('')}}assets/tpl/images/home/buy-ntm.svg?v=3.10.1726217824"
                                                     alt="NTM">
-                                                <span>Buy Dazzlex</span>
+                                                <span>Buy {{siteName()}}</span>
                                             </div>
                                             <div class="boost-points__up">
                                                 <img src="{{asset('')}}assets/tpl/images/home/sell-ntm.svg?v=3.10.1726217824"
                                                     alt="NTM">
-                                                <span>Sell Dazzlex</span>
+                                                <span>Sell {{siteName()}}</span>
                                             </div>
                                         </div>
                                         <div class="boost-pgbar">
@@ -475,7 +475,7 @@
                             <div class="netmi-title">
                                 <h3>Accelerator <span>Features</span></h3>
                                 <div class="netmi-d">Our unique accelerator system lets you increase your daily returns,
-                                    get premium bonuses , and obtain custom Dazzlex tokens.</div>
+                                    get premium bonuses , and obtain custom {{siteName()}} tokens.</div>
                             </div>
                             <div class="coin-specs__head__box">
                                 <div class="coin-specs__head__box__data__container">
@@ -483,7 +483,7 @@
                                         <div class="coin-specs__head__box__data__head__coin">
                                             <img src="{{asset('')}}assets/tpl/images/home/accelerator-check7a1a.svg"
                                                 alt="" class="coin-specs__head__box__data__head__coin__img">
-                                            <div class="coin-specs__head__box__data__head__coin__name">Dazzlex Price
+                                            <div class="coin-specs__head__box__data__head__coin__name">{{siteName()}} Price
                                             </div>
                                         </div>
                                         <div class="coin-specs__head__box__data__head__price">$ 3.7593</div>
@@ -499,7 +499,7 @@
                                             </div>
                                             <div class="coin-specs__head__box__data__box ">
                                                 <div class="coin-specs__head__box__data__box__text">Allocation of
-                                                    Dazzlex Tokens</div>
+                                                    {{siteName()}} Tokens</div>
                                                 <div class="coin-specs__head__box__data__box__data__blue"><img
                                                         src="{{asset('')}}assets/tpl/images/home/accelerator-check7a1a.svg"
                                                         alt=""></div>
@@ -545,7 +545,7 @@
                                                 <div class="col-12-new col-lg-5-new">
                                                     <div class="invest__rate-wrap-new">
                                                         <div class="invest__rate-new">
-                                                            <span>Dazzlex Price</span>
+                                                            <span>{{siteName()}} Price</span>
                                                             <p>$3.7593</p>
                                                         </div>
 
@@ -650,7 +650,7 @@
                 <div class="netmi-about">
                     <div class="netmi-inner">
                         <div class="netmi-desc">
-                            <h3>Dazzlex - <span>your trusted crypto guide</span></h3>
+                            <h3>{{siteName()}} - <span>your trusted crypto guide</span></h3>
                             <div class="netmi-textbox">
                                 <p>Netmi is a virtual ecosystem that makes crypto investments available to general
                                     public. Everyone can multiply his hard earned capital here. With our professional
@@ -671,7 +671,7 @@
                 <div class="netmi-inner">
                     <div class="netmi-title">
                         <h3>Why <span>choose us?</span></h3>
-                        <div class="netmi-d">Whether you are a newbie amateur or a seasoned moneymaker Dazzlex is place
+                        <div class="netmi-d">Whether you are a newbie amateur or a seasoned moneymaker {{siteName()}} is place
                             for you!</div>
                     </div>
                     <div class="netmi-home-slider-info">

@@ -17,7 +17,7 @@
                     <div class="netmi-hiw">
                         <div class="netmi-hiw-header">
                             <div class="netmi-desc">
-                                <div>Mastering the Dazzlex ecosystem of crypto investments will take a minimum time.
+                                <div>Mastering the {{siteName()}} ecosystem of crypto investments will take a minimum time.
                                     These guidelines will speed up the moment when your investments start generating
                                     income.</div>
                             </div>
@@ -42,7 +42,7 @@
                                         src="{{ asset('') }}assets/tpl/images/pages/step-2-en.png"
                                         alt="STEP 5" />
                                     <h5>Choose an investment plan</h5>
-                                    <p>The Dazzlex platform offers several staking plans. They differ in the size of the
+                                    <p>The {{siteName()}} platform offers several staking plans. They differ in the size of the
                                         stake, its validity period, and potential profit rate. Choose the most suitable
                                         option that goes in line with your financial plans.</p>
                                 </div>
@@ -104,7 +104,7 @@
                                         src="{{ asset('') }}assets/tpl/images/pages/step-7-en.png"
                                         alt="STEP 5" />
                                     <h5>Withdraw the funds earned</h5>
-                                    <p>The Dazzlex platform provides for the opportunity to withdraw profits accumulated
+                                    <p>The {{siteName()}} platform provides for the opportunity to withdraw profits accumulated
                                         at your account balance using a number of payment methods. Cash out requests are
                                         usually processed instantly. You must withdraw funds in the same currency that
                                         was used for initial account funding.</p>

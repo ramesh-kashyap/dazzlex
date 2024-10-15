@@ -20,7 +20,7 @@
                         </a>
                         <div class="netmi-post__content">
                             <h3 class="netmi-post__title"><a href="#"
-                                    onclick="popup_open('#271'); return false;">Dazzlex token trading</a></h3>
+                                    onclick="popup_open('#271'); return false;">{{siteName()}} token trading</a></h3>
                             <div class="netmi-post__meta">
                                 <span class="netmi-post__date"><svg xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 24 24">
@@ -187,7 +187,7 @@
                             <img src="{{ asset('') }}assets/upload/netmi-stikers.jpg" alt="">
                         </a>
                         <div class="netmi-post__content">
-                            <h3 class="netmi-post__title"><a href="#" onclick="popup_open('#248'); return false;">Dazzlex
+                            <h3 class="netmi-post__title"><a href="#" onclick="popup_open('#248'); return false;">{{siteName()}}
                                     Grand Opening!</a></h3>
                             <div class="netmi-post__meta">
                                 <span class="netmi-post__date"><svg xmlns="http://www.w3.org/2000/svg"
@@ -209,7 +209,7 @@
         <div class="popup-container" style="transform: translate(0%, 0%);">
             <div class="in">
                 <div class="close" onclick="popup_close('#271');"><span class="flaticon-close"></span></div>
-                <h4 style="margin-top: 0px; padding-right: 40px">Dazzlex token trading</h4>
+                <h4 style="margin-top: 0px; padding-right: 40px">{{siteName()}} token trading</h4>
                 <div class="netmi-post__meta"
                     style="border-bottom: 1px dashed #2f3349; padding-bottom: 10px;margin-bottom: 20px; height: 40px;">
                     <span class="netmi-post__date"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -227,22 +227,22 @@
                     a number of important goals.<span class="Apple-converted-space">&nbsp; </span>We have successfully
                     conducted several promotions, where we gave investors the opportunity to make a profit at increased
                     interest rates. All active investors were rewarded with additional bonuses and extra income.</p>
-                <p style="margin-bottom: 15px;">Over the past year, our Dazzlex token has increased in price by
+                <p style="margin-bottom: 15px;">Over the past year, our {{siteName()}} token has increased in price by
                     <strong><span style="color: #aa72ce;">425%</span></strong>, due to the growth of company
                     liquidity.<span class="Apple-converted-space">&nbsp;</span></p>
                 <p style="margin-bottom: 15px;">But we are not going to settle at that. We are looking to attract more
                     attention of the crypto community. Therefore, we have added a number of new features:</p>
-                <p><span style="color: #aa72ce;"><strong>-</strong></span> <strong>Dazzlex swap</strong>.<span
+                <p><span style="color: #aa72ce;"><strong>-</strong></span> <strong>{{siteName()}} swap</strong>.<span
                         class="Apple-converted-space">&nbsp;</span></p>
-                <p>Now each participant will be able to buy or sell Dazzlex tokens at any time.<span
+                <p>Now each participant will be able to buy or sell {{siteName()}} tokens at any time.<span
                         class="Apple-converted-space">&nbsp;</span></p>
                 <p>Moreover, starting today, the token will rise in price on a daily basis, with guaranteed to growth
                     rate of at least <strong><span style="color: #aa72ce;">0.5% per day</span></strong>.<span
                         class="Apple-converted-space">&nbsp;</span></p>
-                <p>In addition, the Dazzlex system was upgraded with<span class="Apple-converted-space">&nbsp; </span>a
+                <p>In addition, the {{siteName()}} system was upgraded with<span class="Apple-converted-space">&nbsp; </span>a
                     Mini-Pump function - once a month, on a random day, the token will sharply rise in price by tens of
                     percent, and stay at its peak for several hours, then return to the current base price.</p>
-                <p style="margin-bottom: 15px;">Dazzlex holders will be guaranteed to earn <strong><span
+                <p style="margin-bottom: 15px;">{{siteName()}} holders will be guaranteed to earn <strong><span
                             style="color: #aa72ce;">0.5% profit</span></strong> every day from the growth of the
                     exchange rate, and will be able to sell tokens at any time. Moreover the lucky ones will be able to
                     earn huge profits if they catch a Mini-Pump monthly event.</p>
@@ -254,19 +254,19 @@
                         the activation of the accelerator and will be available for sale after this period.</strong></p>
                 <p style="margin-bottom: 15px;">Coming up next:</p>
                 <p style="margin-bottom: 15px;"><span style="color: #aa72ce;"><strong>-</strong></span> <strong>New
-                        Staking plans with deposits and accrual of interest in Dazzlex tokens on the most favorable
+                        Staking plans with deposits and accrual of interest in {{siteName()}} tokens on the most favorable
                         terms.</strong></p>
                 <p style="margin-bottom: 15px;"><span style="color: #aa72ce;"><strong>-</strong></span>
-                    <strong>Click-to-earn telegram application to receive free Dazzlex tokens.</strong></p>
+                    <strong>Click-to-earn telegram application to receive free {{siteName()}} tokens.</strong></p>
                 <p style="margin-bottom: 15px;"><span style="color: #aa72ce;"><strong>-</strong></span> <strong>Free
                         accelerator giveaways&nbsp; to random users every week.</strong></p>
                 <p style="margin-bottom: 15px;"><span style="color: #aa72ce;"><strong>-</strong></span> <strong>P2P
                         token sales.</strong></p>
                 <p style="margin-bottom: 15px;"><span style="color: #aa72ce;"><strong>-</strong></span> <strong>Referral
-                        accruals in Dazzlex from the purchase of tokens.</strong>&nbsp;</p>
+                        accruals in {{siteName()}} from the purchase of tokens.</strong>&nbsp;</p>
                 <p style="margin-bottom: 15px;"><span style="color: #aa72ce;"><strong>-</strong></span> <strong>Token
                         listings on decentralized exchanges, and much more.</strong></p>
-                <p style="margin-bottom: 15px;">We are ready to take new heights in the development of the Dazzlex
+                <p style="margin-bottom: 15px;">We are ready to take new heights in the development of the {{siteName()}}
                     ecosystem, and we are embarking on a more active phase of project promotion.</p>
                 <p>Stay tuned! Follow the news!&nbsp; Let's work and prosper together!</p>
             </div>
@@ -288,21 +288,21 @@
                     <a href="https://t.me/netmi_news/26" target="_blank" class="netmi-post__category"><span
                             class="flaticon-soc-tg netmi-tg netmi-eas"></span> TELEGRAM</a>
                 </div>
-                <p style="margin-bottom: 15px;">The price of our custom Dazzlex token has increased by <strong><span
+                <p style="margin-bottom: 15px;">The price of our custom {{siteName()}} token has increased by <strong><span
                             style="color: #aa72ce;">+90.63%</span> </strong>today! <br />And it has gained in value
                     <span style="color: #aa72ce;"><strong>+114.29%</strong></span> for the past week!</p>
                 <p style="margin-bottom: 15px;">Congratulations to those&nbsp; of you who purchased accelerators and
-                    took possession of our custom Dazzlex token!&nbsp;</p>
+                    took possession of our custom {{siteName()}} token!&nbsp;</p>
                 <p style="margin-bottom: 15px;">Since the launch of the Accelerator system, in addition to earning an
                     increased interest rate on Stacking plans and receiving various bonuses, you were able to make
-                    +231.75% from the sale of <span style="color: #aa72ce;"><strong>Dazzlex tokens</strong></span>.</p>
+                    +231.75% from the sale of <span style="color: #aa72ce;"><strong>{{siteName()}} tokens</strong></span>.</p>
                 <p>We would like to inform you that we are going to take another step in the development of our project:
                 </p>
                 <p style="margin-bottom: 15px;"><span style="color: #aa72ce;"><strong>-</strong></span> Accrual of
                     interest on Staking plans will be credited in internal tokens.<br /><span
                         style="color: #aa72ce;"><strong>-</strong></span>&nbsp; The token holders will be remunerated
                     with additional dividends.<br /><span style="color: #aa72ce;"><strong>-</strong></span>&nbsp; There
-                    will be an opportunity to buy Dazzlex token directly or via p2p exchange.</p>
+                    will be an opportunity to buy {{siteName()}} token directly or via p2p exchange.</p>
                 <p style="margin-bottom: 15px;">Moreover, after reaching the targeted number of holders and sufficient
                     liquidity, the token will be placed on blockchain with the possibility of trading on decentralized
                     exchanges.</p>
@@ -341,7 +341,7 @@
                 <p style="margin-bottom: 15px;">We are back to our regular investment plans and continue developing our
                     business with a long-term prospective. There are many plans for future upgrades, and we are working
                     on new cool features, that will make your investments even more secure and profitable.</p>
-                <p>Stay tuned and follow the news for the prosperous future with Dazzlex!</p>
+                <p>Stay tuned and follow the news for the prosperous future with {{siteName()}}!</p>
             </div>
         </div>
         <div class="popup-overlay"></div>
@@ -366,7 +366,7 @@
                     developed a new PDF presentation of our company.</p>
                 <p style="margin-bottom: 15px;">It is available for download at <br /><a
                         href="{{ asset('') }}assets/upload/Presentation.pdf"
-                        target="_blank">https://Dazzlex.org/upload/Presentation.pdf</a></p>
+                        target="_blank">https://{{siteName()}}.org/upload/Presentation.pdf</a></p>
                 <p style="margin-bottom: 15px;">Use it as a handy reference material, email it or print it out and
                     distribute between your contacts and associates as part of your promotion efforts.</p>
                 <p style="margin-bottom: 15px;">We are working hard to develop our platform to provide you with the best
@@ -415,8 +415,8 @@
                 </div>
                 <p style="margin-bottom: 15px;">Dear friends, investors and partners!</p>
                 <p style="margin-bottom: 15px;">First of all let us thank each and everyone of you for your kind
-                    cooperation and support during these 220+ days of Dazzlex online operation. We have made a great
-                    progress and learned much together, and it is owing to our joint efforts that Dazzlex has become a
+                    cooperation and support during these 220+ days of {{siteName()}} online operation. We have made a great
+                    progress and learned much together, and it is owing to our joint efforts that {{siteName()}} has become a
                     success and is enjoying great following.</p>
                 <p style="margin-bottom: 15px;">Our investment team has gained lots of experience, we have experimented
                     with different types of digital assets, tried several incredible trading concepts and made a great
@@ -425,7 +425,7 @@
                 <p style="margin-bottom: 15px;">From this day forward we are introducing new dynamic and advantageous
                     Staking plans to replace early introductory options.</p>
                 <p style="margin-bottom: 15px;">Please, visit <a href="staking.html"
-                        target="_blank">https://Dazzlex.org/en/staking</a>&nbsp;to review our new Staking plans and
+                        target="_blank">https://{{siteName()}}.org/en/staking</a>&nbsp;to review our new Staking plans and
                     terms.</p>
                 <p style="margin-bottom: 15px;">We are sure you will find one to your liking and start or proceed with
                     your investment journey with us!</p>
@@ -443,7 +443,7 @@
         <div class="popup-container" style="transform: translate(0%, 0%);">
             <div class="in">
                 <div class="close" onclick="popup_close('#252');"><span class="flaticon-close"></span></div>
-                <h4 style="margin-top: 0px; padding-right: 40px">Introducing Dazzlex Accelerators!</h4>
+                <h4 style="margin-top: 0px; padding-right: 40px">Introducing {{siteName()}} Accelerators!</h4>
                 <div class="netmi-post__meta"
                     style="border-bottom: 1px dashed #2f3349; padding-bottom: 10px;margin-bottom: 20px; height: 40px;">
                     <span class="netmi-post__date"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -457,10 +457,10 @@
                 <p style="margin-bottom: 15px;">Dear investors!</p>
                 <p style="margin-bottom: 15px;">We are pleased to announce a new website update!</p>
                 <p style="margin-bottom: 15px;">We have added a number of new features that will allow you to increase
-                    your returns from staking, and earn additional income from the sale of our internal Dazzlex tokens!
+                    your returns from staking, and earn additional income from the sale of our internal {{siteName()}} tokens!
                 </p>
                 <p style="margin-bottom: 15px;">Now you can purchase accelerators with different kind of bonuses and
-                    obtain Dazzlex tokens. Immediately after activating the accelerators, you will be able to reimburse
+                    obtain {{siteName()}} tokens. Immediately after activating the accelerators, you will be able to reimburse
                     the costs of their purchase by selling the tokens and make an additional profit on top of it!</p>
                 <p>For more information about how the accelerator system works, please refer to the following section of
                     our website &ldquo;<a href="../accelerators.html">Accelerators</a>&rdquo;.</p>
@@ -484,7 +484,7 @@
                             class="flaticon-soc-tg netmi-tg netmi-eas"></span> TELEGRAM</a>
                 </div>
                 <p style="margin-bottom: 15px;">Dear friends and partners,</p>
-                <p style="margin-bottom: 15px;">The Dazzlex online investment platform has been successfully launched
+                <p style="margin-bottom: 15px;">The {{siteName()}} online investment platform has been successfully launched
                     and has been operating online for 7 days. During this relatively short period, lots of investors
                     from all over the world have joined our investment opportunity, and we have managed to raise a fair
                     amount in investment capital.</p>
@@ -496,7 +496,7 @@
                     accounts. It lets us operate with increased leverage and gain more revenue for our business as well
                     as for you, our precious members and partners.</p>
                 <p style="margin-bottom: 15px;">We thank all of our early birds for trust , support, and valuable input.
-                    Dazzlex platform is meant to be a safe haven for crypto investors and network marketing leaders, it
+                    {{siteName()}} platform is meant to be a safe haven for crypto investors and network marketing leaders, it
                     will be constantly developing and enhanced with cool new features and money making opportunities.
                 </p>
                 <p style="margin-bottom: 15px;">Don't be left behind as it is only the beginning and we are in for a
@@ -510,7 +510,7 @@
         <div class="popup-container" style="transform: translate(0%, 0%);">
             <div class="in">
                 <div class="close" onclick="popup_close('#248');"><span class="flaticon-close"></span></div>
-                <h4 style="margin-top: 0px; padding-right: 40px">Dazzlex Grand Opening!</h4>
+                <h4 style="margin-top: 0px; padding-right: 40px">{{siteName()}} Grand Opening!</h4>
                 <div class="netmi-post__meta"
                     style="border-bottom: 1px dashed #2f3349; padding-bottom: 10px;margin-bottom: 20px; height: 40px;">
                     <span class="netmi-post__date"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -522,8 +522,8 @@
                             class="flaticon-soc-tg netmi-tg netmi-eas"></span> TELEGRAM</a>
                 </div>
                 <p style="margin-bottom: 15px;">Dear friends and partners!</p>
-                <p style="margin-bottom: 15px;">We are pleased to inform you that Dazzlex.org, the newest crypto
-                    metaverse project of Dazzlex LIMITED, has gone live today.</p>
+                <p style="margin-bottom: 15px;">We are pleased to inform you that {{siteName()}}.org, the newest crypto
+                    metaverse project of {{siteName()}} LIMITED, has gone live today.</p>
                 <p style="margin-bottom: 15px;">The project features a one-of-a-kind marketing and investment concept
                     that has been rigorously tested and confirmed to perform in every market situation. We are confident
                     that the platform we are launching today will be a life-changing experience for everyone
