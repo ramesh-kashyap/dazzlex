@@ -2,11 +2,11 @@
 
 @font-face {
 	font-family: "flaticon";
-	src: url("https://cdn.netmi.org/assets/tpl/fonts/flaticon.ttf?b9d2573b6da9a6b6827a95665f2e8155") format("truetype"),
-	url("https://cdn.netmi.org/assets/tpl/fonts/flaticon.woff?b9d2573b6da9a6b6827a95665f2e8155") format("woff"),
-	url("https://cdn.netmi.org/assets/tpl/fonts/flaticon.woff2?b9d2573b6da9a6b6827a95665f2e8155") format("woff2"),
-	url("https://cdn.netmi.org/assets/tpl/fonts/flaticon.eot?b9d2573b6da9a6b6827a95665f2e8155#iefix") format("embedded-opentype"),
-	url("https://cdn.netmi.org/assets/tpl/fonts/flaticon.svg?b9d2573b6da9a6b6827a95665f2e8155#flaticon") format("svg");
+	src: url("../fonts/flaticon.ttf?b9d2573b6da9a6b6827a95665f2e8155") format("truetype"),
+	url("../fonts/flaticon.woff?b9d2573b6da9a6b6827a95665f2e8155") format("woff"),
+	url("../fonts/flaticon.woff2?b9d2573b6da9a6b6827a95665f2e8155") format("woff2"),
+	url("../fonts/flaticon.eot?b9d2573b6da9a6b6827a95665f2e8155#iefix") format("embedded-opentype"),
+	url("../fonts/flaticon.svg?b9d2573b6da9a6b6827a95665f2e8155#flaticon") format("svg");
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before {
@@ -618,7 +618,7 @@ input:-webkit-autofill {
 }
 
 .netmi-loader {
-  background: rgba(255,255,255,0.9) url(https://cdn.netmi.org/assets/tpl/images/loader-blue.svg) no-repeat center center;
+  background: rgba(255,255,255,0.9) url(../images/loader-blue.svg) no-repeat center center;
   background-size: 36px;
   position: absolute;
   width: 100%;
@@ -633,7 +633,7 @@ input:-webkit-autofill {
   cursor: wait;
 }
 .netmi-loader.netmi-white {
-  background-image: url(https://cdn.netmi.org/assets/tpl/images/loader-white.svg);
+  background-image: url(../images/loader-white.svg);
 }
 
 .netmi-table {
@@ -1133,8 +1133,8 @@ input:-webkit-autofill {
 
 .netmi-header-middle .netmi-logo {
 	float: left;
-  position: relative;
-  top: 27px;
+	position: relative;
+	/* top: 27px; */
 }
 .netmi-header-middle .netmi-notifier {
   float: right;
@@ -1183,7 +1183,7 @@ input:-webkit-autofill {
 }
 
 .netmi-header-middle .netmi-logo img {
-  width: 113px;
+  width: 83px;
 }
 
 .netmi-header-middle .netmi-logo img.netmi-full-logo {
@@ -4328,7 +4328,7 @@ filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#8162ad', en
   }
   .netmi-header-middle .netmi-logo {
     z-index: 1;
-    top: 22px;
+    top: 1px;
   }
   .netmi-header-top {
     height: 40px;
@@ -4420,7 +4420,7 @@ filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#8162ad', en
   }
 
   .netmi-header-middle .netmi-logo img {
-    width: 45px;
+    width: 69px;
   }
 
   .netmi-header-middle .netmi-logo img.netmi-full-logo {
@@ -6107,7 +6107,7 @@ filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#8162ad', en
 }
 
 .netmi-loader-popup {
-    background: url(https://cdn.netmi.org/assets/tpl/images/popup-loader.svg) center center no-repeat #0c071ad4;
+    background: url(../images/popup-loader.svg) center center no-repeat #0c071ad4;
     background-size: 50px;
     z-index: 9;
     border-radius: 15px;
@@ -6173,7 +6173,7 @@ filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#8162ad', en
   height: 490px;
   margin-top: 20px;
   margin-bottom: 60px;
-  background: url(https://cdn.netmi.org/assets/tpl/img/bg-give-lb.svg) no-repeat left bottom -105px/174px auto,linear-gradient(90deg,#59c173,#a17fe0 51%,#5d26c1)
+  background: url(../img/bg-give-lb.svg) no-repeat left bottom -105px/174px auto,linear-gradient(90deg,#59c173,#a17fe0 51%,#5d26c1)
 }
 
 
@@ -6197,7 +6197,7 @@ filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#8162ad', en
   bottom: 0;
   left: 0;
   margin: auto;
-  background: #201330 url(https://cdn.netmi.org/assets/tpl/images/arr-double-right.svg) no-repeat 50%/18px 18px;
+  background: #201330 url(../images/arr-double-right.svg) no-repeat 50%/18px 18px;
   border-radius: 100px
 }
 
@@ -6267,7 +6267,7 @@ filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#8162ad', en
 
 
 .gw-header {
-  background: url(https://cdn.netmi.org/assets/tpl/images/bg-ntm-lb.svg) no-repeat left bottom -105px / 174px auto, linear-gradient(94.07deg, #8664a2, #5c6f95);
+  background: url(../images/bg-ntm-lb.svg) no-repeat left bottom -105px / 174px auto, linear-gradient(94.07deg, #8664a2, #5c6f95);
   border-radius: 15px;
     -moz-border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -6317,7 +6317,7 @@ filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#8162ad', en
   width: 240px;
   height: 86px;
   padding-top: 16px;
-  background: url(https://cdn.netmi.org/assets/tpl/img/bg-btn-stars.svg) no-repeat top/160px 86px
+  background: url(../img/bg-btn-stars.svg) no-repeat top/160px 86px
 }
 
 .gw-header__btn .btn {
@@ -6363,7 +6363,7 @@ filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#8162ad', en
   content: "";
   width: 800px;
   height: 800px;
-  background: url(https://cdn.netmi.org/assets/tpl/images/bg-ntm-0.svg) no-repeat top -245px left/contain;
+  background: url(../images/bg-ntm-0.svg) no-repeat top -245px left/contain;
   position: absolute;
   top: -29px;
   bottom: 0;

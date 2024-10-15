@@ -11,13 +11,13 @@
 <div >
 <div class="netmi-static">
 <div class="netmi-inner">
-<h1>What is Dazzlex?</h1>
+<h1>What is {{siteName()}}?</h1>
 <div class="netmi-page-box">
 <div class="netmi-about">
 <div class="netmi-about-content" style="padding-top: 0px;">
 <div class="netmi-row">
 <div class="netmi-col netmi-col-2">
-<p>Dazzlex is a platform that provides access to high-yield crypto investment tool mix. It is available to everyone, regardless of skills, experience, and the size of the start-up capital. Dazzlex has been developed since 2022 by professional programmers and experts in the field of finance, marketing and investments.</p>
+<p>{{siteName()}} is a platform that provides access to high-yield crypto investment tool mix. It is available to everyone, regardless of skills, experience, and the size of the start-up capital. {{siteName()}} has been developed since 2022 by professional programmers and experts in the field of finance, marketing and investments.</p>
 <p>A team of experienced specialists makes your earnings simple, perceivable, with minimal risks. Multiply your available capital right now without taking courses and expensive educational programs. Invest under the guidance of professionals and get a stable residual income.</p>
 </div>
 </div>

@@ -17,7 +17,6 @@
     <meta name="keywords"
         content="Netmi, netmi.org, Netmi Limited, Netmi Company, Netmi Investments, Staking Crypto, Affiliate Program, Bonus Tasks, Monthly prize draw, Bonus coupons, Business packages, Loyalty Program, High-tech business, Netmi Pays, Crypto investments">
     <meta name="format-detection" content="telephone=no">
-    <base href="https://panel.netmi.org/">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="apple-touch-icon" sizes="57x57"
@@ -275,9 +274,9 @@
                         <rect y="30" width="100" height="20" fill="currentColor"></rect>
                         <rect y="60" width="100" height="20" fill="currentColor"></rect>
                       </svg></div>
-                    <div class="logo"><a href="https://netmi.org/en/">
+                    <div class="logo"><a href="{{asset('')}}">
                             <img src="{{ asset('') }}assets/logo.png" class="full-logo" alt="Netmi">
-                            <img src="{{ asset('') }}assets/logo.png" style="width:137px;" class="mobile-logo" alt="Netmi">
+                            <img src="{{ asset('') }}assets/logo.png"  class="mobile-logo" alt="Netmi">
                         </a>
                     </div>
 
@@ -308,20 +307,20 @@
                         <li class="close eas"><img
                                 src="{{ asset('') }}assets/theme/images/menu-close.svg?v=3.22.1726217824"
                                 alt="" style="position: relative;width: 32px;top: -17px;right: -5px;"></li>
-                        <li class="eas eas mob-hidden "><a href="https://netmi.org/en/" class="main-menu first">Home</a>
+                        <li class="eas eas mob-hidden "><a href="{{asset('')}}" class="main-menu first">Home</a>
                         </li>
-                        <li class="eas eas mob-hidden "><a href="https://netmi.org/en/about" class="main-menu">About
+                        <li class="eas eas mob-hidden "><a href="{{asset('')}}about" class="main-menu">About
                                 Us</a></li>
-                        <li class="eas eas mob-hidden "><a href="https://netmi.org/en/how-it-works"
+                        <li class="eas eas mob-hidden "><a href="{{asset('')}}how-it-works"
                                 class="main-menu">How it works?</a></li>
-                        <li class="eas eas mob-hidden "><a href="https://netmi.org/en/faq" class="main-menu">FAQ</a>
+                        <li class="eas eas mob-hidden "><a href="{{asset('')}}faq" class="main-menu">FAQ</a>
                         </li>
-                        <li class="eas eas mob-hidden "><a href="https://netmi.org/en/news" class="main-menu">News <img
+                        <li class="eas eas mob-hidden "><a href="{{asset('')}}news" class="main-menu">News <img
                                     src="{{ asset('') }}assets/theme/images/netmi/dot-main-menu.svg?v=3.22.1726217824"
                                     alt=""
                                     style="position: relative;width: 10px; top: -7px;left: -2px;margin-right:-12px"></a>
                         </li>
-                        <li class="eas eas mob-hidden "><a href="https://netmi.org/en/contact"
+                        <li class="eas eas mob-hidden "><a href="{{asset('')}}contact"
                                 class="main-menu last">Contacts</a></li>
                         <li class="eas">
                             <a href="#"
@@ -369,16 +368,16 @@
                     </div>
                     <div class="in-items">
                         <h5>Active</h5>
-                        <a href="https://netmi.org/en/staking"><span class="in-item eas"><img
+                        <a href="{{asset('')}}staking"><span class="in-item eas"><img
                                     src="{{ asset('') }}assets/theme/images/netmi/popup-staking-active.svg?v=3.22.1726217824"
                                     alt=""> Staking</span></a>
-                        <a href="https://netmi.org/en/accelerators"><span class="in-item eas"><img
+                        <a href="{{asset('')}}accelerators"><span class="in-item eas"><img
                                     src="{{ asset('') }}assets/theme/images/netmi/popup-accelerators.svg?v=3.22.1726217824"
                                     alt=""> Accelerators</span></a>
-                        <a href="https://netmi.org/en/partners"><span class="in-item eas"><img
+                        <a href="{{asset('')}}partners"><span class="in-item eas"><img
                                     src="{{ asset('') }}assets/theme/images/netmi/popup-affiliates-active.svg?v=3.22.1726217824"
                                     alt=""> Affiliates</span></a>
-                        <a href="https://netmi.org/en/tasks"><span class="in-item eas"><img
+                        <a href="{{asset('')}}tasks"><span class="in-item eas"><img
                                     src="{{ asset('') }}assets/theme/images/netmi/popup-tasks-active.svg?v=3.22.1726217824"
                                     alt=""> Tasks</span></a>
                         <h5 style="margin-top: 8px;">Coming soon</h5>

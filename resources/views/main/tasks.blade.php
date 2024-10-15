@@ -31,7 +31,7 @@
             </div>
             <div class="netmi-row-4">
                 <div class="netmi-subdesc" >
-                Premium Program is an opportunity to fast start your business at Dazzlex platform if you are either low on funds and  wish to try the platform for free, without any initial investments, or if you wish to supplement your earnings with some extra income by participating in a community life and spreading the word about   Dazzlex investment services. All you need to do is to perform some simple paid tasks, collect the bonuses at your Premium balance and invest them into Premium Staking plans, which pay real returns direct to your Account balance. Thrilled with a chance of getting some free cash? Let’s get started!                </div>
+                Premium Program is an opportunity to fast start your business at {{siteName()}} platform if you are either low on funds and  wish to try the platform for free, without any initial investments, or if you wish to supplement your earnings with some extra income by participating in a community life and spreading the word about   {{siteName()}} investment services. All you need to do is to perform some simple paid tasks, collect the bonuses at your Premium balance and invest them into Premium Staking plans, which pay real returns direct to your Account balance. Thrilled with a chance of getting some free cash? Let’s get started!                </div>
                 <div class="netmi-buttons">
                 <a href="javascript: goTo('.block-2');" class="netmi-btn netmi-purple">Earn some cash</a>
                 <a href="javascript: goTo('.block-3');" class="netmi-link">Have a Question?</a>
@@ -305,7 +305,7 @@
                 <div class="r" >
                 <div class="question">
                         <h5 ><span class="flaticon-sign-help icon" ></span><span>Where to find my Telegram ID?</span></h5>
-                        <div class="answer">Telegram ID is your unique user identifier. In order to find it, please, open Telegram bot <a href="#" target="_blank"><b>@MyDazzlexBot</b></a> and click on <b>/start</b>.</div>
+                        <div class="answer">Telegram ID is your unique user identifier. In order to find it, please, open Telegram bot <a href="#" target="_blank"><b>@My{{siteName()}}Bot</b></a> and click on <b>/start</b>.</div>
                     </div>
                     <div class="question">
                         <h5 ><span class="flaticon-sign-help icon" ></span><span>What is the minimum amount to invest into Premium Staking plan?</span></h5>

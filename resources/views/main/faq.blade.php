@@ -17,25 +17,25 @@
 <div class="netmi-faq-content">
 <div class="netmi-section netmi-section-general netmi-active">
 <div class="netmi-row">
-<div class="netmi-t">What is Dazzlex?</div>
+<div class="netmi-t">What is {{siteName()}}?</div>
 <div class="netmi-d">
-<p>NetMi is a high-tech online platform designed specifically to provide wide and direct access to modern high-yield digital investment instruments. It is owned and operated by Dazzlex LIMITED, the company is incorporated in the UK, registered <strong>№14815179</strong>, with headquarters at <strong>106 Thingwall Road, Liverpool, England, L15 7LB</strong>.</p>
+<p>NetMi is a high-tech online platform designed specifically to provide wide and direct access to modern high-yield digital investment instruments. It is owned and operated by {{siteName()}} LIMITED, the company is incorporated in the UK, registered <strong>№14815179</strong>, with headquarters at <strong>106 Thingwall Road, Liverpool, England, L15 7LB</strong>.</p>
 </div>
 </div>
 <div class="netmi-row">
-<div class="netmi-t">How does the Dazzlex platform work?</div>
+<div class="netmi-t">How does the {{siteName()}} platform work?</div>
 <div class="netmi-d">
 <p>The Netmi platform takes under management the digital assets of corporate clients and private investors. These funds are placed on trading, reserve, investment accounts of the company, and then used in trading operations on crypto exchanges, provided to ensure the liquidity of digital financial instruments, invested in promising blockchain startups. The assets are managed by qualified specialists whose work is aimed at preservation and growth of the capital entrusted by our clients and partners.</p>
 </div>
 </div>
 <div class="netmi-row">
-<div class="netmi-t">What are the requirements for investors, who can become a Dazzlex client?</div>
+<div class="netmi-t">What are the requirements for investors, who can become a {{siteName()}} client?</div>
 <div class="netmi-d">
-<p>Any person who has reached the age of 18 can invest, regardless of the country of residence and citizenship. To become a Dazzlex partner, you don't need a special education and your social status is not relevant. The only requirement is your compliance with the rules for use of the investment tools provided by the platform.</p>
+<p>Any person who has reached the age of 18 can invest, regardless of the country of residence and citizenship. To become a {{siteName()}} partner, you don't need a special education and your social status is not relevant. The only requirement is your compliance with the rules for use of the investment tools provided by the platform.</p>
 </div>
 </div>
 <div class="netmi-row">
-<div class="netmi-t">How do I register with Dazzlex?</div>
+<div class="netmi-t">How do I register with {{siteName()}}?</div>
 <div class="netmi-d">
 <p>The registration process is simple and totally free. You just need to click at a "<strong>Sign Up</strong>" button and fill in the form that opens. Make sure to study and accept our Terms of Service and Privacy Policy. It is recommended to save or memorize your login and password. Once your sign up application is submitted, follow the instructions to confirm and activate your user account.</p>
 </div>
@@ -205,7 +205,7 @@
 <div class="netmi-row">
 <div class="netmi-t">Does the platform have an affiliate program?</div>
 <div class="netmi-d">
-<p>The Dazzlex investment platform offers all registered users to receive additional income for attracting new clients and partners. Our multi-level Affiliate program allows you to create a referral network to get extra profits and bonuses. Affiliate revenue comes from investments attracted by joint efforts of you and your partners. You can get familiar with the terms of the affiliate program and the partner remuneration system at the "<a href="partners/index.html" target="_blank">Affiliate</a>" page of the platform.</p>
+<p>The {{siteName()}} investment platform offers all registered users to receive additional income for attracting new clients and partners. Our multi-level Affiliate program allows you to create a referral network to get extra profits and bonuses. Affiliate revenue comes from investments attracted by joint efforts of you and your partners. You can get familiar with the terms of the affiliate program and the partner remuneration system at the "<a href="partners/index.html" target="_blank">Affiliate</a>" page of the platform.</p>
 </div>
 </div>
 <div class="netmi-row">

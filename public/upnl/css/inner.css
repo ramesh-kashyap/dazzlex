@@ -409,8 +409,7 @@ $container-max-widths: (sm: 1200px, md: 1200px, lg: 1200px, xl: 1200px);
 
 .header-middle .logo {
 	float: left;
-  position: relative;
-  top: 27px;
+	position: relative;
 }
 .header-middle .notifier {
   float: right;
@@ -459,7 +458,7 @@ $container-max-widths: (sm: 1200px, md: 1200px, lg: 1200px, xl: 1200px);
 }
 
 .header-middle .logo img {
-  width: 113px;
+  width: 80px;
 }
 
 .header-middle .logo img.full-logo {
@@ -693,8 +692,8 @@ transition: all ease-out 0.1s;
 	  }
 	  .header-middle .logo {
 		z-index: 1;
-		top: 22px;
-	  }
+		top: 6px;
+		}
 	  .header-top {
 		height: 40px;
 		font-size: 12px;
@@ -788,8 +787,8 @@ transition: all ease-out 0.1s;
 	  }
 	
 	  .header-middle .logo img {
-		width: 45px;
-	  }
+		width: 66px;
+		}
 	
 	  .header-middle .logo img.full-logo {
 		display: none;

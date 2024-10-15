@@ -13,7 +13,7 @@
 <div class="netmi-inner"><h1>Affiliate <span>Program</span></h1>
 <div class="netmi-hiw-header netmi-page-box">
 <div class="netmi-row netmi-row-1">
-<div class="netmi-subdesc" >Dazzlex Affiliate Program is a great opportunity for active marketers to earn extra income and build a leadership career with our platform. Get generous multi-level referral income from the partners you attract up to 6 levels deep.</div>
+<div class="netmi-subdesc" >{{siteName()}} Affiliate Program is a great opportunity for active marketers to earn extra income and build a leadership career with our platform. Get generous multi-level referral income from the partners you attract up to 6 levels deep.</div>
 <div class="netmi-buttons">
 <a href="javascript: goTo('.netmi-block-2');" class="netmi-btn netmi-purple">Statuses</a>
 <a href="javascript: goTo('.block-3');" class="netmi-link">Have a Question?</a>
