@@ -77,12 +77,12 @@ class="netmi-header netmi-header-inner">
 				</div>
 				<ul class="netmi-nav">
 					<li class="netmi-close netmi-eas"><img src="{{asset('')}}assets/tpl/images/menu-close.svg?v=3.10.1726217824" alt="" style="position: relative;width: 32px;top: -4px;right: 6px;"></li>
-					<li class="netmi-eas netmi-mob-hidden "><a href="index.html" class="netmi-main-menu netmi-first">Home</a></li>
-					<li class="netmi-eas netmi-mob-hidden "><a href="about.html" class="netmi-main-menu">About Us</a></li>
-					<li class="netmi-eas netmi-mob-hidden "><a href="how-it-works.html" class="netmi-main-menu">How it works?</a></li>
-					<li class="netmi-eas netmi-mob-hidden netmi-active"><a href="faq.html" class="netmi-main-menu">FAQ</a></li>
-					<li class="netmi-eas netmi-mob-hidden "><a href="news.html" class="netmi-main-menu">News				    <img src="{{asset('')}}assets/tpl/images/icons/dot-main-menu.svg?v=3.10.1726217824" alt="" style="position: relative;width: 10px; top: 0px;left: -2px;margin-right:-12px"></a></li>
-					<li class="netmi-eas netmi-mob-hidden "><a href="contact.html" class="netmi-main-menu">Contacts</a></li>
+					<li class="netmi-eas netmi-mob-hidden "><a href="{{route('Index')}}" class="netmi-main-menu netmi-first">Home</a></li>
+					<li class="netmi-eas netmi-mob-hidden "><a href="{{route('about')}}" class="netmi-main-menu">About Us</a></li>
+					<li class="netmi-eas netmi-mob-hidden "><a href="{{route('work')}}" class="netmi-main-menu">How it works?</a></li>
+					<li class="netmi-eas netmi-mob-hidden netmi-active"><a href="{{route('faq')}}" class="netmi-main-menu">FAQ</a></li>
+					<li class="netmi-eas netmi-mob-hidden "><a href="{{route('news')}}" class="netmi-main-menu">News				    <img src="{{asset('')}}assets/tpl/images/icons/dot-main-menu.svg?v=3.10.1726217824" alt="" style="position: relative;width: 10px; top: 0px;left: -2px;margin-right:-12px"></a></li>
+					<li class="netmi-eas netmi-mob-hidden "><a href="{{route('contacts')}}" class="netmi-main-menu">Contacts</a></li>
 					<li class="netmi-eas">
 						<a href="#" onclick="$('.netmi-income-options-popup').fadeIn(50);$('body').css('overflow', 'hidden');return false;" class="netmi-earn">Income Options						<span class="netmi-icon-bubble netmi-eas">4</span>
 				        </a>
